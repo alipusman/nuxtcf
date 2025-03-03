@@ -1,0 +1,38 @@
+# START nuxt-simple-robots (indexable)
+# Block bots that don't benefit us.
+User-agent: Nuclei
+User-agent: WikiDo
+User-agent: Riddler
+User-agent: PetalBot
+User-agent: Zoominfobot
+User-agent: Go-http-client
+User-agent: Node/simplecrawler
+User-agent: CazoodleBot
+User-agent: dotbot/1.0
+User-agent: Gigabot
+User-agent: Barkrowler
+User-agent: BLEXBot
+User-agent: magpie-crawler
+User-agent: MJ12bot
+User-agent: AspiegelBot
+User-agent: Bytespider
+User-agent: DotBot
+User-agent: MojeekBot
+User-agent: Sogou web spider
+Disallow: /
+
+# Allow all good bots but restrict sensitive pages
+User-agent: *
+Allow: /
+Disallow: /secret
+Disallow: /admin
+Disallow: /login
+Disallow: /checkout
+Disallow: /user-data
+
+User-agent: *
+Allow: /gtag/js
+Allow: /gtm.js
+
+Sitemap: https://www.perkasaracking.co.id/sitemap.xml
+# END nuxt-simple-robots

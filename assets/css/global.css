@@ -1,0 +1,6 @@
+.v-img__img--cover,
+.fade-transition-enter-active {
+  animation: none !important;
+  transition: none !important;
+  opacity: 1 !important;
+}

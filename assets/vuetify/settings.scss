@@ -1,0 +1,53 @@
+// Vuetify Variables
+$utilities: false !default;
+$color-pack: false !default;
+
+// Include only used components
+$vuetify: (
+  VApp: true,
+  VAppBar: true,
+  VBtn: true,
+  VCard: true,
+  VContainer: true,
+  VDialog: true,
+  VIcon: true,
+  VImg: true,
+  VLayout: true,
+  VList: true,
+  VMain: true,
+  VMenu: true,
+  VNavigationDrawer: true,
+  VRow: true,
+  VCol: true,
+  VSheet: true,
+  VTextField: true,
+  VToolbar: true,
+  VFooter: true,
+  VParallax: true,
+  VDivider: true,
+);
+
+// Theme configuration
+$theme: (
+  primary: #1976d2,
+  secondary: #424242,
+  accent: #82B1FF,
+  error: #FF5252,
+  info: #2196F3,
+  success: #4CAF50,
+  warning: #FFC107
+);
+
+$barlow-font: "Barlow Semi Condensed", sans-serif;
+
+.barlow {
+  font-family: $barlow-font;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.barlow2 {
+  font-family: $barlow-font;
+  font-style: normal;
+  overflow-wrap: break-word;
+}
