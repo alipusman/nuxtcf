@@ -1,6 +1,19 @@
 <template>
   <loading-tap />
   <v-container>
+    <!-- <v-dialog v-model="showDialog" max-width="400px" persistent>
+      <v-card>
+        <v-card-title>Batas Klik Tercapai</v-card-title>
+        <v-card-text>
+          Anda hanya bisa mengecek harga sebanyak 3 kali. Silakan hubungi
+          marketing kami untuk informasi lebih lanjut.
+        </v-card-text>
+        <v-card-actions>
+          <v-btn color="primary" @click="tutupdialog">OK</v-btn>
+        </v-card-actions>
+      </v-card>
+    </v-dialog> -->
+
     <v-dialog
       v-model="data.dialogresult"
       scrollable
@@ -171,8 +184,8 @@
       <v-col cols="12" sm="6" class="mb-4">
         <v-img
           cover
-          src="/images/pallet-TAP_1.webp"
-          lazy-src="/images/pallet-TAP_2.webp"
+          src="https://cdn.aresa-digital.com/images/pallet-TAP_1.webp"
+          lazy-src="https://cdn.aresa-digital.com/images/pallet-TAP_2.webp"
           alt="Pallet Dimensi TAP"
         />
       </v-col>
@@ -304,6 +317,7 @@
                   </p>
 
                   <v-text-field
+                    disabled
                     v-model.number="data.tinggipallet"
                     clearable
                     placeholder="0"
@@ -456,9 +470,17 @@
                     aria-label="cek Harga"
                     color="#FF3A3A"
                     class="barlow"
-                    @click="validate"
+                    :disabled="isButtonDisabled"
+                    @click="handleClick"
                     >CEK HARGA</v-btn
                   >
+
+                  <div v-if="clickCount >= 3">
+                    <p class="barlow mt-2 text-red">
+                      *Anda hanya bisa mengecek harga sebanyak 3 kali. Silakan
+                      hubungi marketing kami untuk informasi lebih lanjut.
+                    </p>
+                  </div>
                 </v-col>
                 <!-- <v-col>
                   <v-btn block color="#FF3A3A" class="barlow" @click="validateai()"
@@ -519,43 +541,43 @@ const data = reactive({
     // {
     //   nama: "Amanda Khoirunnisa",
     //   jabatan: "Sales 1",
-    //   img: "/images/live-chat/1.png",
+    //   img: "https://cdn.aresa-digital.com/images/live-chat/1.webp",
     //   phone: "6281511769507",
     // },
     {
       nama: "Aria Wardana",
       jabatan: "Sales 2",
-      img: "/images/live-chat/2.png",
+      img: "https://cdn.aresa-digital.com/images/live-chat/2.webp",
       phone: "6287775434777",
     },
     {
       nama: "Ahmad Fathoni",
       jabatan: "Sales 3",
-      img: "/images/live-chat/3.png",
+      img: "https://cdn.aresa-digital.com/images/live-chat/3.webp",
       phone: "628999967932",
     },
     {
       nama: "Dwi Purnanto Jati",
       jabatan: "Sales 4",
-      img: "/images/live-chat/4.png",
+      img: "https://cdn.aresa-digital.com/images/live-chat/4.webp",
       phone: "628561510011",
     },
     {
       nama: "Sigit Djuhartono",
       jabatan: "Sales 5",
-      img: "/images/live-chat/5.png",
+      img: "https://cdn.aresa-digital.com/images/live-chat/5.webp",
       phone: "6281295966673",
     },
     {
       nama: "Anggoro Widyatmoko",
       jabatan: "Sales 6",
-      img: "/images/live-chat/6.png",
+      img: "https://cdn.aresa-digital.com/images/live-chat/6.webp",
       phone: "6281932226292",
     },
     {
       nama: "Sutarti",
       jabatan: "Sales 7",
-      img: "/images/live-chat/7.png",
+      img: "https://cdn.aresa-digital.com/images/live-chat/7.webp",
       phone: "6285892600347",
     },
   ],
@@ -566,17 +588,55 @@ function getRandomNumber() {
   return Math.floor(Math.random() * 7);
 }
 
+import { ref, onMounted } from "vue";
+const clickCount = ref(0);
+const isButtonDisabled = ref(false);
+const showDialog = ref(false);
+onMounted(() => {
+  // Ambil jumlah klik dari sessionStorage saat halaman dimuat
+  const savedClicks = sessionStorage.getItem("clickCount");
+  if (savedClicks) {
+    clickCount.value = parseInt(savedClicks, 10);
+  }
+  checkButtonState();
+});
+
+const handleClick = async () => {
+  if (clickCount.value >= 3) {
+    showDialog.value = true; // Tampilkan dialog saat klik ke-4
+    return;
+  }
+  const isValid = await validate(); // Validasi data sebelum menambah klik
+  if (isValid) {
+    clickCount.value++;
+    sessionStorage.setItem("clickCount", clickCount.value); // Simpan ke sessionStorage hanya jika valid
+    checkButtonState();
+  }
+};
+
+const checkButtonState = () => {
+  if (clickCount.value >= 3) {
+    isButtonDisabled.value = true;
+    showDialog.value = true; // Tampilkan dialog jika sudah mencapai batas
+  }
+};
+
+function tutupdialog(){
+  showDialog.value = false
+}
 async function validate() {
   const { valid } = await myform.value.validate();
 
   if (valid) {
-    calculator();
+    await calculator();
+    return true; // Hanya kembalikan `true` jika valid
   }
+  return false; // Jangan hitung klik jika tidak valid
 }
 
 async function validateai() {
   const { valid } = await myform.value.validate();
-  console.log('valid')
+  console.log("valid");
   if (valid) {
     calculatorai();
   }
@@ -604,7 +664,14 @@ const calculator = async () => {
     let lebargudang = data.lebar;
     const panjanggudang = data.panjang;
     // lebargudang = roundDownToMultiple(lebargudang);
-  const b = await hitungPalletDanHarga( data.lebarpalet,data.panjangpalet,data.tinggipallet,lebargudang,panjanggudang,tinggigudang)
+    const b = await hitungPalletDanHarga(
+      data.lebarpalet,
+      data.panjangpalet,
+      data.tinggipallet,
+      lebargudang,
+      panjanggudang,
+      tinggigudang
+    );
     // const b = calculateStorage(
     //   data.panjangpalet,
     //   data.lebarpalet,
@@ -618,11 +685,18 @@ const calculator = async () => {
     // const b = await hitunggudang(data.panjangpalet, data.lebarpalet,data.tinggipallet,lebargudang,panjanggudang,tinggigudang)
     // return console.log({ b });
     result.value = b;
-    const c = _.assign({Nama: data.nama_customer, NamaPerusahaan : data.nama_perusahaan, NomorCustomer : data.wa_customer}, b);
+    const c = _.assign(
+      {
+        Nama: data.nama_customer,
+        NamaPerusahaan: data.nama_perusahaan,
+        NomorCustomer: data.wa_customer,
+      },
+      b
+    );
     const madown = await jsonToMarkdown(c);
     console.log({ madown });
     const encodedMessage = encodeURIComponent(
-      `Hallo saya, mau cek harga seputar Rack Gudang, boleh dibantu informasinya dari aresa-digital.com?\n\n# Estimasi Harga Rak SPR di web dengan informasi sbb : \n\n# ${madown} `
+      `Hallo saya, mau cek harga seputar Rack Gudang, boleh dibantu informasinya dari perkasaracking.co.id?\n\n# Estimasi Harga Rak SPR di web dengan informasi sbb : \n\n# ${madown} `
     );
     // console.log({c})
     // data.dialogresult = true;
@@ -650,7 +724,7 @@ async function jsonToMarkdown(data: any) {
 
 const calculatorai = async () => {
   try {
-    console.log('kalkulaksdf ai')
+    console.log("kalkulaksdf ai");
     useloadingStore().setLoading(true);
     const md = new MarkdownIt();
     useloadingStore().setLoading(true);
@@ -675,7 +749,7 @@ const calculatorai = async () => {
     data.aistatus = true;
 
     const encodedMessage = encodeURIComponent(
-      `Hallo saya, mau cek harga seputar Rack Gudang, boleh dibantu informasinya dari aresa-digital.com?\n\n${madown}`
+      `Hallo saya, mau cek harga seputar Rack Gudang, boleh dibantu informasinya dari perkasaracking.co.id?\n\n${madown}`
     );
     // data.dialogresult = true;
     const chatUrl = `https://api.whatsapp.com/send?phone=${

@@ -6,8 +6,8 @@
     <v-row>
       <v-col cols="12" md="6" class="px-4">
         <v-img
-          src="/images/produk/pallet/stacking/stacking-system_1.webp"
-          lazy-src="/images/produk/pallet/stacking/stacking-system_2.webp"
+          src="https://cdn.aresa-digital.com/images/produk/pallet/stacking/stacking-system_1.webp"
+          lazy-src="https://cdn.aresa-digital.com/images/produk/pallet/stacking/stacking-system_2.webp"
           alt="Stacking System"
           class="rounded-lg"
           height="100%"
@@ -174,12 +174,12 @@ useSeoMeta({
   keywords:
     "rak gudang, pallet stacking system, rak stacking, rak penyimpanan pallet, rak bertingkat, heavy duty rack, industrial storage",
   ogImage:
-    "/images/produk/pallet/stacking/stacking-system_og.webp",
+    "https://cdn.aresa-digital.com/images/produk/pallet/stacking/stacking-system_og.webp",
   twitterCard: "summary_large_image",
   ogType: "product",
-  ogUrl: "https://www.aresa-digital.com/produk/pallet/stacking-system",
+  ogUrl: "https://www.perkasaracking.co.id/produk/pallet/stacking-system",
   robots: "index, follow",
-  canonical: "https://www.aresa-digital.com/produk/pallet/stacking-system",
+  canonical: "https://www.perkasaracking.co.id/produk/pallet/stacking-system",
 });
 </script>
 

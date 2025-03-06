@@ -48,8 +48,8 @@
 
           <v-col cols="12" sm="6" md="6" class="px-7">
             <v-img
-              src="/images/layanan-dukungan/material/material_1.webp"
-              lazy-src="/images/layanan-dukungan/material/material_1.webp"
+              src="https://cdn.aresa-digital.com/images/layanan-dukungan/material/material_1.webp"
+              lazy-src="https://cdn.aresa-digital.com/images/layanan-dukungan/material/material_1.webp"
               alt="Material Spesifikasi Rak Gudang TAP"
               class="rounded-lg"
               cover

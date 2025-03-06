@@ -6,8 +6,8 @@
     <v-row>
       <v-col cols="12" md="6">
         <v-img
-          src="/images/produk/heavy-duty/drive-in/drive-in-racking-TAP_3.webp"
-          lazy-img="/images/produk/heavy-duty/drive-in/drive-in-racking-TAP_4.webp"
+          src="https://cdn.aresa-digital.com/images/produk/heavy-duty/drive-in/drive-in-racking-TAP_3.webp"
+          lazy-img="https://cdn.aresa-digital.com/images/produk/heavy-duty/drive-in/drive-in-racking-TAP_4.webp"
           alt="Rak Drive In"
           class="rounded-lg"
           cover
@@ -169,12 +169,12 @@ useSeoMeta({
   keywords:
     "rak gudang, heavy duty rack, drive in rack, rak penyimpanan, rak industri, warehouse shelving, storage rack, pallet rack",
   ogImage:
-    "/images/produk/heavy-duty/drive-in/drive-in-racking-TAP_og.webp",
+    "https://cdn.aresa-digital.com/images/produk/heavy-duty/drive-in/drive-in-racking-TAP_og.webp",
   twitterCard: "summary_large_image",
   ogType: "product",
-  ogUrl: "https://www.aresa-digital.com/produk/heavy-duty/drive-in",
+  ogUrl: "https://www.perkasaracking.co.id/produk/heavy-duty/drive-in",
   robots: "index, follow",
-  canonical: "https://www.aresa-digital.com/produk/heavy-duty/drive-in",
+  canonical: "https://www.perkasaracking.co.id/produk/heavy-duty/drive-in",
 });
 </script>
 

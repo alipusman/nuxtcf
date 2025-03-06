@@ -5,7 +5,7 @@
 
       <p class="barlow2 text-justify">
         <span style="color: #ff3a3a; font-weight: bold">
-          Aresa Digital
+          PT. Tangguh Adi Perkasa
         </span>
         menyediakan berbagai jenis rak dengan spesifikasi yang bisa disesuaikan
         menurut kebutuhan Anda, baik untuk pabrik, gudang, maupun toko. PT.
@@ -63,7 +63,7 @@
         </v-col>
 
         <v-col cols="9" sm="10">
-          <p>: marketing@aresa-digital.com</p>
+          <p>: marketing@perkasaracking.co.id</p>
           <p>
             : Summarecon Bekasi. Ruby Commercial TB10 • Sinpasa. <br />Jl.
             Bulevar Selatan, RT.003/RW.005, Marga Mulya, <br />Kec. Bekasi

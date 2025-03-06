@@ -15,7 +15,7 @@
 
           <v-icon color="white">mdi-email-outline</v-icon>
           <span class="barlow2 text-white ml-3">
-            marketing@aresa-digital.com
+            marketing@perkasaracking.co.id
           </span>
           <br />
 
@@ -127,7 +127,7 @@
             <v-col cols="12" sm="5">
               <v-img
                 width="100"
-                src="/images/logo/TAP3.webp"
+                src="https://cdn.aresa-digital.com/images/logo/TAP3.webp"
                 />
               
               <p class="text-h3 barlow mt-9">

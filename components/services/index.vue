@@ -87,9 +87,9 @@ const items = [
     description:
       "Temukan berbagai pilihan rak industri dengan spesifikasi lengkap dan sesuai kebutuhan Anda.",
     image:
-      "/images/layanan-dukungan/katalog/katalog_1.webp",
+      "https://cdn.aresa-digital.com/images/layanan-dukungan/katalog/katalog_1.webp",
     lazy_img:
-      "/images/layanan-dukungan/katalog/katalog_2.webp",
+      "https://cdn.aresa-digital.com/images/layanan-dukungan/katalog/katalog_2.webp",
     icon: "mdi-view-grid-outline",
     to: "/produk",
     alttext: "Heavy Duty TAP",
@@ -100,9 +100,9 @@ const items = [
     description:
       "Dapatkan estimasi harga cepat dan akurat untuk solusi penyimpanan industri yang efisien.",
     image:
-      "/images/layanan-dukungan/penawaran/penawaran_1.webp",
+      "https://cdn.aresa-digital.com/images/layanan-dukungan/penawaran/penawaran_1.webp",
     lazy_img:
-      "/images/layanan-dukungan/penawaran/penawaran_2.webp",
+      "https://cdn.aresa-digital.com/images/layanan-dukungan/penawaran/penawaran_2.webp",
     icon: "mdi-file-document-outline",
     to: "/contact",
     alttext: "Heavy Duty TAP",
@@ -113,9 +113,9 @@ const items = [
     description:
       "Pesan rak yang disesuaikan dengan kebutuhan spesifik industri untuk penyimpanan optimal.",
     image:
-      "/images/layanan-dukungan/rak-custom/kustom_1.webp",
+      "https://cdn.aresa-digital.com/images/layanan-dukungan/rak-custom/kustom_1.webp",
     lazy_img:
-      "/images/layanan-dukungan/rak-custom/kustom_1.webp",
+      "https://cdn.aresa-digital.com/images/layanan-dukungan/rak-custom/kustom_1.webp",
     icon: "mdi-pencil-ruler",
     to: "/contact",
     alttext: "Heavy Duty TAP",

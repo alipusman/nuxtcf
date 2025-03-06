@@ -41,7 +41,7 @@
                 <v-img
                   :src="data.images[0]"
                   alt="Sertifikat BPPT/2018"
-                  lazy-src="/images/tentang-kami/sertifikat/bppt-2018/Report-Racking-Testing-BPPT-2018_page-1_10x10.webp"
+                  lazy-src="https://cdn.aresa-digital.com/images/tentang-kami/sertifikat/bppt-2018/Report-Racking-Testing-BPPT-2018_page-1_10x10.webp"
                   class="rounded-lg image"
                   height="350"
                 >
@@ -93,21 +93,21 @@ const data = reactive({
   dialogfoto: false,
   currentIndex: 0,
   images: [
-    "/images/tentang-kami/sertifikat/bppt-2018/Report-Racking-Testing-BPPT-2018_page-1.webp",
-    "/images/tentang-kami/sertifikat/bppt-2018/Report-Racking-Testing-BPPT-2018_page-2.webp",
-    "/images/tentang-kami/sertifikat/bppt-2018/Report-Racking-Testing-BPPT-2018_page-3.webp",
-    "/images/tentang-kami/sertifikat/bppt-2018/Report-Racking-Testing-BPPT-2018_page-4.webp",
-    "/images/tentang-kami/sertifikat/bppt-2018/Report-Racking-Testing-BPPT-2018_page-5.webp",
-    "/images/tentang-kami/sertifikat/bppt-2018/Report-Racking-Testing-BPPT-2018_page-6.webp",
-    "/images/tentang-kami/sertifikat/bppt-2018/Report-Racking-Testing-BPPT-2018_page-7.webp",
-    "/images/tentang-kami/sertifikat/bppt-2018/Report-Racking-Testing-BPPT-2018_page-8.webp",
-    "/images/tentang-kami/sertifikat/bppt-2018/Report-Racking-Testing-BPPT-2018_page-9.webp",
-    "/images/tentang-kami/sertifikat/bppt-2018/Report-Racking-Testing-BPPT-2018_page-10.webp",
-    "/images/tentang-kami/sertifikat/bppt-2018/Report-Racking-Testing-BPPT-2018_page-11.webp",
-    "/images/tentang-kami/sertifikat/bppt-2018/Report-Racking-Testing-BPPT-2018_page-12.webp",
-    "/images/tentang-kami/sertifikat/bppt-2018/Report-Racking-Testing-BPPT-2018_page-13.webp",
-    "/images/tentang-kami/sertifikat/bppt-2018/Report-Racking-Testing-BPPT-2018_page-14.webp",
-    "/images/tentang-kami/sertifikat/bppt-2018/Report-Racking-Testing-BPPT-2018_page-15.webp",
+    "https://cdn.aresa-digital.com/images/tentang-kami/sertifikat/bppt-2018/Report-Racking-Testing-BPPT-2018_page-1.webp",
+    "https://cdn.aresa-digital.com/images/tentang-kami/sertifikat/bppt-2018/Report-Racking-Testing-BPPT-2018_page-2.webp",
+    "https://cdn.aresa-digital.com/images/tentang-kami/sertifikat/bppt-2018/Report-Racking-Testing-BPPT-2018_page-3.webp",
+    "https://cdn.aresa-digital.com/images/tentang-kami/sertifikat/bppt-2018/Report-Racking-Testing-BPPT-2018_page-4.webp",
+    "https://cdn.aresa-digital.com/images/tentang-kami/sertifikat/bppt-2018/Report-Racking-Testing-BPPT-2018_page-5.webp",
+    "https://cdn.aresa-digital.com/images/tentang-kami/sertifikat/bppt-2018/Report-Racking-Testing-BPPT-2018_page-6.webp",
+    "https://cdn.aresa-digital.com/images/tentang-kami/sertifikat/bppt-2018/Report-Racking-Testing-BPPT-2018_page-7.webp",
+    "https://cdn.aresa-digital.com/images/tentang-kami/sertifikat/bppt-2018/Report-Racking-Testing-BPPT-2018_page-8.webp",
+    "https://cdn.aresa-digital.com/images/tentang-kami/sertifikat/bppt-2018/Report-Racking-Testing-BPPT-2018_page-9.webp",
+    "https://cdn.aresa-digital.com/images/tentang-kami/sertifikat/bppt-2018/Report-Racking-Testing-BPPT-2018_page-10.webp",
+    "https://cdn.aresa-digital.com/images/tentang-kami/sertifikat/bppt-2018/Report-Racking-Testing-BPPT-2018_page-11.webp",
+    "https://cdn.aresa-digital.com/images/tentang-kami/sertifikat/bppt-2018/Report-Racking-Testing-BPPT-2018_page-12.webp",
+    "https://cdn.aresa-digital.com/images/tentang-kami/sertifikat/bppt-2018/Report-Racking-Testing-BPPT-2018_page-13.webp",
+    "https://cdn.aresa-digital.com/images/tentang-kami/sertifikat/bppt-2018/Report-Racking-Testing-BPPT-2018_page-14.webp",
+    "https://cdn.aresa-digital.com/images/tentang-kami/sertifikat/bppt-2018/Report-Racking-Testing-BPPT-2018_page-15.webp",
   ],
 });
 

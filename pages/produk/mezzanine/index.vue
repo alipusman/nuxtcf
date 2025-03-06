@@ -52,8 +52,8 @@
         <br />
 
         <v-img
-          src="/images/produk/mezzanine/rak-gudang-mezzanine_TAP_1.webp"
-          lazy-img="/images/produk/mezzanine/rak-gudang-mezzanine_TAP_2.webp"
+          src="https://cdn.aresa-digital.com/images/produk/mezzanine/rak-gudang-mezzanine_TAP_1.webp"
+          lazy-img="https://cdn.aresa-digital.com/images/produk/mezzanine/rak-gudang-mezzanine_TAP_2.webp"
           alt="Rak Gudang Heavy Duty"
           width="100%"
           height="700px"
@@ -269,14 +269,14 @@ useSeoMeta({
   ogDescription:
     "Temukan rak gudang mezzanine terbaik untuk meningkatkan kapasitas penyimpanan dengan efisiensi tinggi. Cocok untuk gudang industri dan bisnis.",
   ogImage:
-    "/images/produk/mezzanine/rak-gudang-mezzanine_TAP_og.webp",
+    "https://cdn.aresa-digital.com/images/produk/mezzanine/rak-gudang-mezzanine_TAP_og.webp",
   twitterCard: "summary_large_image",
-  canonical: "https://www.aresa-digital.com/produk/mezzanine",
+  canonical: "https://www.perkasaracking.co.id/produk/mezzanine",
   keywords:
     "rak gudang mezzanine, rak mezzanine, gudang mezzanine, rak industri, rak penyimpanan, solusi penyimpanan, rak besi mezzanine",
-  ogurl: "https://www.aresa-digital.com/produk/mezzanine",
+  ogurl: "https://www.perkasaracking.co.id/produk/mezzanine",
   robots: "index, follow",
-  canonical: "https://www.aresa-digital.com/produk/mezzanine",
+  canonical: "https://www.perkasaracking.co.id/produk/mezzanine",
 });
 </script>
 

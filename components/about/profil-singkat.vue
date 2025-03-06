@@ -5,8 +5,8 @@
         <v-row align="center">
           <v-col cols="12" sm="6" md="6" class="px-7">
             <v-img
-              src="/images/tentang-kami/profile_singkat-TAP_1.webp"
-              lazy-src="/images/tentang-kami/profile_singkat-TAP_2.webp"
+              src="https://cdn.aresa-digital.com/images/tentang-kami/profile_singkat-TAP_1.webp"
+              lazy-src="https://cdn.aresa-digital.com/images/tentang-kami/profile_singkat-TAP_2.webp"
               alt="Profil Singkat Rak Gudang TAP"
               class="rounded-lg"
               height="100%"

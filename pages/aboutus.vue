@@ -20,25 +20,25 @@ const banner = {
 };
 
 useSeoMeta({
-  title: "Tentang Kami - Aresa Digital",
+  title: "Tentang Kami - PT. Tangguh Adi Perkasa",
   description:
-    "Aresa Digital adalah perusahaan yang bergerak di bidang pembuatan rack gudang berkualitas tinggi untuk kebutuhan industri dan pergudangan.",
-  ogTitle: "Tentang Kami - Aresa Digital",
+    "PT. Tangguh Adi Perkasa adalah perusahaan yang bergerak di bidang pembuatan rack gudang berkualitas tinggi untuk kebutuhan industri dan pergudangan.",
+  ogTitle: "Tentang Kami - PT. Tangguh Adi Perkasa",
   ogDescription:
-    "Pelajari lebih lanjut tentang Aresa Digital, spesialis pembuatan rack gudang yang kuat dan efisien.",
+    "Pelajari lebih lanjut tentang PT. Tangguh Adi Perkasa, spesialis pembuatan rack gudang yang kuat dan efisien.",
   ogImage:
-    "/images/tentang-kami/profile_singkat-TAP_og.webp",
+    "https://cdn.aresa-digital.com/images/tentang-kami/profile_singkat-TAP_og.webp",
   ogType: "website",
   twitterCard: "summary_large_image",
-  twitterTitle: "Tentang Kami - Aresa Digital",
+  twitterTitle: "Tentang Kami - PT. Tangguh Adi Perkasa",
   twitterDescription:
-    "Solusi terbaik untuk penyimpanan dengan rack gudang berkualitas tinggi dari Aresa Digital.",
+    "Solusi terbaik untuk penyimpanan dengan rack gudang berkualitas tinggi dari PT. Tangguh Adi Perkasa.",
   twitterImage:
-    "/images/tentang-kami/profile_singkat-TAP_og.webp",
+    "https://cdn.aresa-digital.com/images/tentang-kami/profile_singkat-TAP_og.webp",
   robots: "index, follow",
   keywords:
-    "rack gudang, rak besi, penyimpanan gudang, perusahaan Racking, sistem rak industri, rak heavy duty, Aresa Digital, rak warehouse, shelving system, rak baja",
-  canonical: "https://www.aresa-digital.com/aboutus",
-  ogurl: "https://www.aresa-digital.com/aboutus",
+    "rack gudang, rak besi, penyimpanan gudang, perusahaan Racking, sistem rak industri, rak heavy duty, PT. Tangguh Adi Perkasa, rak warehouse, shelving system, rak baja",
+  canonical: "https://www.perkasaracking.co.id/aboutus",
+  ogurl: "https://www.perkasaracking.co.id/aboutus",
 });
 </script>

@@ -5,8 +5,8 @@
     <v-row>
       <v-col cols="12" md="6" class="px-4">
         <v-img
-          src="/images/produk/heavy-duty/asrs/asrs-racking-system-TAP_3.webp"
-          lazy-img="/images/produk/heavy-duty/asrs/asrs-racking-system-TAP_4.webp"
+          src="https://cdn.aresa-digital.com/images/produk/heavy-duty/asrs/asrs-racking-system-TAP_3.webp"
+          lazy-img="https://cdn.aresa-digital.com/images/produk/heavy-duty/asrs/asrs-racking-system-TAP_4.webp"
           alt="Rak ASRS"
           class="rounded-lg"
           cover
@@ -204,12 +204,12 @@ useSeoMeta({
   keywords:
     "rak gudang, heavy duty rack, AS/RS, automated storage, automated retrieval, rak penyimpanan otomatis, rak industri, warehouse shelving, storage rack",
   ogImage:
-    "/images/produk/heavy-duty/asrs/asrs-racking-system-TAP_og.webp",
+    "https://cdn.aresa-digital.com/images/produk/heavy-duty/asrs/asrs-racking-system-TAP_og.webp",
   twitterCard: "summary_large_image",
   ogType: "product",
-  ogUrl: "https://www.aresa-digital.com/produk/heavy-duty/as-rs",
+  ogUrl: "https://www.perkasaracking.co.id/produk/heavy-duty/as-rs",
   robots: "index, follow",
-  canonical: "https://www.aresa-digital.com/produk/heavy-duty/as-rs",
+  canonical: "https://www.perkasaracking.co.id/produk/heavy-duty/as-rs",
 });
 </script>
 

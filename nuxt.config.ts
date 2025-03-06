@@ -8,7 +8,11 @@ import Inspect from 'vite-plugin-inspect'
 
 export default defineNuxtConfig({
   compatibilityDate: '2025-02-21',
-  
+  router: {
+    options: {
+      strict: false
+    }
+  },
   modules: [
     'vuetify-nuxt-module',
     '@nuxtjs/seo',
@@ -117,24 +121,24 @@ export default defineNuxtConfig({
   nitro: {
     preset: "cloudflare-pages",
     prerender: {
-      routes: [
-        '/produk/heavy-duty/double-deep',
-        '/produk/pallet/wooden',
-        '/produk/heavy-duty',
-        '/produk/medium-duty',
-        '/produk/light-duty'
-      ],
+      // routes: [
+      //   '/produk/heavy-duty/double-deep',
+      //   '/produk/pallet/wooden',
+      //   '/produk/heavy-duty',
+      //   '/produk/medium-duty',
+      //   '/produk/light-duty'
+      // ],
       autoSubfolderIndex: true,
       failOnError: true
     },
 
-    // routeRules: {
-    //   '/sw.js': { headers: { 'Cache-Control': 'no-cache, no-store, must-revalidate' } },
-    //   '/workbook-*.js': { headers: { 'Cache-Control': 'no-cache, no-store, must-revalidate' } },
-    //   '/_nuxt/**': { headers: { 'Cache-Control': 'public, max-age=864000, s-maxage=31536000, immutable' } },
-    //   '/_payload.json': { headers: { 'Cache-Control': 'public, max-age=864000, s-maxage=31536000, immutable' } },
+    routeRules: {
+      '/sw.js': { headers: { 'Cache-Control': 'no-cache, no-store, must-revalidate' } },
+      '/workbook-*.js': { headers: { 'Cache-Control': 'no-cache, no-store, must-revalidate' } },
+      '/_nuxt/**': { headers: { 'Cache-Control': 'public, max-age=864000, s-maxage=31536000, immutable' } },
+      '/_payload.json': { headers: { 'Cache-Control': 'public, max-age=864000, s-maxage=31536000, immutable' } },
 
-    // },
+    },
 
     compressPublicAssets: true
   },

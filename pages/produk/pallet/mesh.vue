@@ -6,9 +6,9 @@
     <v-row>
       <v-col cols="12" md="6" class="px-4">
         <v-img
-          src="/images/produk/pallet/mesh/pallet-mesh_1.webp"
+          src="https://cdn.aresa-digital.com/images/produk/pallet/mesh/pallet-mesh_1.webp"
           alt="Pallet Mesh"
-          lazy-src="/images/produk/pallet/mesh/pallet-mesh_2.webp"
+          lazy-src="https://cdn.aresa-digital.com/images/produk/pallet/mesh/pallet-mesh_2.webp"
           class="rounded-lg"
           height="100%"
           width="100%"
@@ -178,12 +178,12 @@ useSeoMeta({
   keywords:
     "rak gudang, pallet mesh, rak pallet, pallet storage, penyimpanan pallet, mesh rack system, heavy duty storage",
   ogImage:
-    "/images/produk/pallet/mesh/pallet-mesh_og.webp",
+    "https://cdn.aresa-digital.com/images/produk/pallet/mesh/pallet-mesh_og.webp",
   twitterCard: "summary_large_image",
   ogType: "product",
-  ogUrl: "https://www.aresa-digital.com/produk/pallet/mesh",
+  ogUrl: "https://www.perkasaracking.co.id/produk/pallet/mesh",
   robots: "index, follow",
-  canonical: "https://www.aresa-digital.com/produk/pallet/mesh",
+  canonical: "https://www.perkasaracking.co.id/produk/pallet/mesh",
 });
 </script>
 

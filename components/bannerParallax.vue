@@ -1,7 +1,7 @@
 <template>
   <v-parallax
-    lazy-src="/images/penawaran-parallax-TAP_2.webp"
-    src="/images/penawaran-parallax-TAP_1.webp"
+    lazy-src="https://cdn.aresa-digital.com/images/penawaran-parallax-TAP_2.webp"
+    src="https://cdn.aresa-digital.com/images/penawaran-parallax-TAP_1.webp"
     height="250"
     class="opacity"
     alt="Rak Heavy Duty Dengan Penawaran Terbaik"

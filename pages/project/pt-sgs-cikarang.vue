@@ -6,8 +6,8 @@
     <v-row>
       <v-col cols="12" md="6" class="px-4">
         <v-img
-          src="/images/projek/dies-racking/pt-sgs-cikarang/PT-SGS-Cikarang-project-TAP_1.webp"
-          lazy-src="/images/projek/dies-racking/pt-sgs-cikarang/PT-SGS-Cikarang-project-TAP_2.webp"
+          src="https://cdn.aresa-digital.com/images/projek/dies-racking/pt-sgs-cikarang/PT-SGS-Cikarang-project-TAP_1.webp"
+          lazy-src="https://cdn.aresa-digital.com/images/projek/dies-racking/pt-sgs-cikarang/PT-SGS-Cikarang-project-TAP_2.webp"
           alt="TAP-Project-PT SGS - Cikarang"
           class="rounded-lg"
           height="550px"
@@ -93,11 +93,11 @@ useSeoMeta({
   keywords:
     "projek PT SGS, Cikarang, solusi racking, sistem penyimpanan, pallet rack, logistik, distribusi barang",
   ogImage:
-    "/images/projek/dies-racking/pt-sgs-cikarang/PT-SGS-Cikarang-project-TAP_og.webp",
+    "https://cdn.aresa-digital.com/images/projek/dies-racking/pt-sgs-cikarang/PT-SGS-Cikarang-project-TAP_og.webp",
   twitterCard: "summary_large_image",
-  ogUrl: "https://www.aresa-digital.com/project/pt-sgs-cikarang",
+  ogUrl: "https://www.perkasaracking.co.id/project/pt-sgs-cikarang",
   robots: "index, follow",
-  canonical: "https://www.aresa-digital.com/project/pt-sgs-cikarang",
+  canonical: "https://www.perkasaracking.co.id/project/pt-sgs-cikarang",
 });
 </script>
 

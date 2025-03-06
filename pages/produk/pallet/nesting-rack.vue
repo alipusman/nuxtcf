@@ -6,8 +6,8 @@
     <v-row>
       <v-col cols="12" md="6" class="px-4">
         <v-img
-          src="/images/produk/pallet/nesting/nesting-rack_1.webp"
-          lazy-src="/images/produk/pallet/nesting/nesting-rak_2.webp"
+          src="https://cdn.aresa-digital.com/images/produk/pallet/nesting/nesting-rack_1.webp"
+          lazy-src="https://cdn.aresa-digital.com/images/produk/pallet/nesting/nesting-rak_2.webp"
           alt="Nesting Rack System"
           class="rounded-lg"
           height="100%"
@@ -173,12 +173,12 @@ useSeoMeta({
   keywords:
     "nesting rack, nesting rack system, rak penyimpanan, sistem penyimpanan pallet, rak fleksibel, storage solution",
   ogImage:
-    "/images/produk/pallet/nesting/nesting-rack_og.webp",
+    "https://cdn.aresa-digital.com/images/produk/pallet/nesting/nesting-rack_og.webp",
   twitterCard: "summary_large_image",
   ogType: "product",
-  ogUrl: "https://www.aresa-digital.com/produk/pallet/nesting-rack",
+  ogUrl: "https://www.perkasaracking.co.id/produk/pallet/nesting-rack",
   robots: "index, follow",
-  canonical: "https://www.aresa-digital.com/produk/pallet/nesting-rack",
+  canonical: "https://www.perkasaracking.co.id/produk/pallet/nesting-rack",
 });
 </script>
 

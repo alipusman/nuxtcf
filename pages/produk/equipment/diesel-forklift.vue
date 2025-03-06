@@ -6,8 +6,8 @@
     <v-row>
       <v-col cols="12" md="6">
         <v-img
-          src="/images/produk/equipment/forklift-diesel/forklift-diesel_1.webp"
-          lazy-src="/images/produk/equipment/forklift-diesel/forklift-diesel_2.webp"
+          src="https://cdn.aresa-digital.com/images/produk/equipment/forklift-diesel/forklift-diesel_1.webp"
+          lazy-src="https://cdn.aresa-digital.com/images/produk/equipment/forklift-diesel/forklift-diesel_2.webp"
           alt="Diesel Forklift - Solusi Efisien untuk Angkat Barang di Gudang"
           class="rounded-lg"
           height="100%"
@@ -215,13 +215,13 @@ useSeoMeta({
   keywords:
     "rak gudang, diesel forklift, forklift diesel, alat angkut barang, material handling, peralatan gudang, solusi gudang",
   ogImage:
-    "/images/produk/equipment/forklift-diesel/forklift-diesel_og.webp",
+    "https://cdn.aresa-digital.com/images/produk/equipment/forklift-diesel/forklift-diesel_og.webp",
   twitterCard: "summary_large_image",
   ogType: "product",
-  ogUrl: "https://www.aresa-digital.com/produk/equipment/diesel-forklift",
+  ogUrl: "https://www.perkasaracking.co.id/produk/equipment/diesel-forklift",
   robots: "index, follow",
   chanoical:
-    "https://www.aresa-digital.com/produk/equipment/diesel-forklift",
+    "https://www.perkasaracking.co.id/produk/equipment/diesel-forklift",
 });
 </script>
 

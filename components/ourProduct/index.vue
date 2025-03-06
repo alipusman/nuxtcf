@@ -81,40 +81,40 @@ import { reactive } from "vue";
 const data = reactive({
   images: [
     {
-      src: "/images/produk/heavy-duty/Rak-Gudang-Heavy-Duty_TAP_1.webp",
+      src: "https://cdn.aresa-digital.com/images/produk/heavy-duty/Rak-Gudang-Heavy-Duty_TAP_1.webp",
       judul: "HEAVY DUTY",
       to: "/produk/heavy-duty",
       alttext: "Rak Heavy Duty untuk beban berat",
       desc: "Rak kokoh dengan daya tahan tinggi, ideal untuk menyimpan beban berat di lingkungan industri.",
       lazysrc:
-        "/images/produk/heavy-duty/Rak-Gudang-Heavy-Duty_TAP_2.webp",
+        "https://cdn.aresa-digital.com/images/produk/heavy-duty/Rak-Gudang-Heavy-Duty_TAP_2.webp",
     },
     {
-      src: "/images/produk/medium-duty/Rak-Gudang-Medium-Duty_TAP_1.webp",
+      src: "https://cdn.aresa-digital.com/images/produk/medium-duty/Rak-Gudang-Medium-Duty_TAP_1.webp",
       judul: "MEDIUM DUTY",
       to: "/produk/medium-duty",
       alttext: "Rak Medium Duty untuk beban sedang",
       desc: "Rak fleksibel dengan keseimbangan daya tahan dan kapasitas penyimpanan yang optimal.",
       lazysrc:
-        "/images/produk/medium-duty/Rak-Gudang-Medium-Duty_TAP_2.webp",
+        "https://cdn.aresa-digital.com/images/produk/medium-duty/Rak-Gudang-Medium-Duty_TAP_2.webp",
     },
     {
-      src: "/images/produk/light-duty/Rak-Gudang-Light-Duty_TAP_1.webp",
+      src: "https://cdn.aresa-digital.com/images/produk/light-duty/Rak-Gudang-Light-Duty_TAP_1.webp",
       judul: "LIGHT DUTY",
       to: "/produk/light-duty",
       alttext: "Rak Light Duty untuk beban ringan",
       desc: "Rak ringan yang praktis dan efisien, cocok untuk penyimpanan barang kecil dan menengah.",
       lazysrc:
-        "/images/produk/light-duty/Rak-Gudang-Light-Duty_TAP_2.webp",
+        "https://cdn.aresa-digital.com/images/produk/light-duty/Rak-Gudang-Light-Duty_TAP_2.webp",
     },
     {
-      src: "/images/produk/mezzanine/rak-gudang-mezzanine_TAP_1.webp",
+      src: "https://cdn.aresa-digital.com/images/produk/mezzanine/rak-gudang-mezzanine_TAP_1.webp",
       judul: "MEZZANINE",
       to: "/produk/mezzanine",
       alttext: "Rak Mezzanine sebagai tambahan lantai",
       desc: "Rak Gudang Mezzanine adalah struktur tambahan dalam gudang yang menambah lantai di atas area utama.",
       lazysrc:
-        "/images/produk/mezzanine/rak-gudang-mezzanine_TAP_2.webp",
+        "https://cdn.aresa-digital.com/images/produk/mezzanine/rak-gudang-mezzanine_TAP_2.webp",
     },
   ],
 });

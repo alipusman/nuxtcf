@@ -5,8 +5,8 @@
     <v-row>
       <v-col cols="12" md="6">
         <v-img
-          src="/images/produk/medium-duty/plywood/plywood-shelving.webp"
-          lazy-img="/images/produk/medium-duty/plywood/plywood-shelving-lz.webp"
+          src="https://cdn.aresa-digital.com/images/produk/medium-duty/plywood/plywood-shelving.webp"
+          lazy-img="https://cdn.aresa-digital.com/images/produk/medium-duty/plywood/plywood-shelving-lz.webp"
           alt="Plywood Shelving"
           class="rounded-lg"
           cover
@@ -199,13 +199,13 @@ useSeoMeta({
   keywords:
     "rak gudang, medium duty rack, plywood shelving, rak penyimpanan, rak industri, rak kayu, storage rack, shelving unit",
   ogImage:
-    "/images/produk/medium-duty/plywood/plywood-shelving-og.webp",
+    "https://cdn.aresa-digital.com/images/produk/medium-duty/plywood/plywood-shelving-og.webp",
   twitterCard: "summary_large_image",
   ogType: "product",
-  ogUrl: "https://www.aresa-digital.com/produk/medium-duty/plywood-shelving",
+  ogUrl: "https://www.perkasaracking.co.id/produk/medium-duty/plywood-shelving",
   robots: "index, follow",
   canonical:
-    "https://www.aresa-digital.com/produk/medium-duty/plywood-shelving",
+    "https://www.perkasaracking.co.id/produk/medium-duty/plywood-shelving",
 });
 </script>
 

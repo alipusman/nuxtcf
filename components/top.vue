@@ -1,6 +1,6 @@
 <template>
   <v-img
-    src="/images/banner-detail-top.webp"
+    src="https://cdn.aresa-digital.com/images/banner-detail-top.webp"
     alt="Banner Top Rak Gudang TAP"
     height="350"
     width="100%"

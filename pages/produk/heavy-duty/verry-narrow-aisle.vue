@@ -7,8 +7,8 @@
     <v-row>
       <v-col cols="12" md="6">
         <v-img
-          src="/images/produk/heavy-duty/vna/vna-racking-system-TAP_3.webp"
-          lazy-img="/images/produk/heavy-duty/vna/vna-racking-system-TAP_4.webp"
+          src="https://cdn.aresa-digital.com/images/produk/heavy-duty/vna/vna-racking-system-TAP_3.webp"
+          lazy-img="https://cdn.aresa-digital.com/images/produk/heavy-duty/vna/vna-racking-system-TAP_4.webp"
           alt="Rak VNA"
           class="rounded-lg"
           cover
@@ -177,14 +177,14 @@ useSeoMeta({
   keywords:
     "rak gudang, heavy duty rack, very narrow aisle rack, rak penyimpanan, rak industri, warehouse shelving, storage rack, pallet rack, rack sempit",
   ogImage:
-    "/images/produk/heavy-duty/vna/vna-racking-system-TAP_og.webp",
+    "https://cdn.aresa-digital.com/images/produk/heavy-duty/vna/vna-racking-system-TAP_og.webp",
   twitterCard: "summary_large_image",
   ogType: "product",
   ogUrl:
-    "https://www.aresa-digital.com/produk/heavy-duty/verry-narrow-aisle",
+    "https://www.perkasaracking.co.id/produk/heavy-duty/verry-narrow-aisle",
   robots: "index, follow",
   canonical:
-    "https://www.aresa-digital.com/produk/heavy-duty/verry-narrow-aisle",
+    "https://www.perkasaracking.co.id/produk/heavy-duty/verry-narrow-aisle",
 });
 </script>
 

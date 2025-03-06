@@ -40,77 +40,77 @@ import { computed } from "vue";
 
 const logos = [
   {
-    img: "/images/customer/mayora.png",
+    img: "https://cdn.aresa-digital.com/images/customer/mayora.png",
     alttext: "Logo Mayora",
   },
 
   {
-    img: "/images/customer/toyota.png",
+    img: "https://cdn.aresa-digital.com/images/customer/toyota.png",
     alttext: "Logo Toyota",
   },
 
   {
-    img: "/images/customer/suzuki.png",
+    img: "https://cdn.aresa-digital.com/images/customer/suzuki.png",
     alttext: "Logo Suzuki",
   },
 
   {
-    img: "/images/customer/lazada.png",
+    img: "https://cdn.aresa-digital.com/images/customer/lazada.png",
     alttext: "Logo Lazada",
   },
 
   {
-    img: "/images/customer/LG.png",
+    img: "https://cdn.aresa-digital.com/images/customer/LG.png",
     alttext: "Logo LG",
   },
 
   {
-    img: "/images/customer/shopee.png",
+    img: "https://cdn.aresa-digital.com/images/customer/shopee.png",
     alttext: "Logo Shopee",
   },
 
   {
-    img: "/images/customer/panasonic.png",
+    img: "https://cdn.aresa-digital.com/images/customer/panasonic.png",
     alttext: "Logo Panasonic",
   },
 
   {
-    img: "/images/customer/air-asia.jpg",
+    img: "https://cdn.aresa-digital.com/images/customer/air-asia.jpg",
     alttext: "Logo Air Asia",
   },
 
   {
-    img: "/images/customer/tokopedia.png",
+    img: "https://cdn.aresa-digital.com/images/customer/tokopedia.png",
     alttext: "Logo Tokopedia",
   },
 
   {
-    img: "/images/customer/lotte.png",
+    img: "https://cdn.aresa-digital.com/images/customer/lotte.png",
     alttext: "Logo Lotte",
   },
 
   {
-    img: "/images/customer/sharp.webp",
+    img: "https://cdn.aresa-digital.com/images/customer/sharp.webp",
     alttext: "Logo Sharp",
   },
 
   {
-    img: "/images/customer/unicharm.webp",
+    img: "https://cdn.aresa-digital.com/images/customer/unicharm.webp",
     alttext: "Logo Unicharm",
   },
 
   {
-    img: "/images/customer/mrdiy.png",
+    img: "https://cdn.aresa-digital.com/images/customer/mrdiy.png",
     alttext: "Logo MR DIY",
   },
 
   {
-    img: "/images/customer/hyundai.png",
+    img: "https://cdn.aresa-digital.com/images/customer/hyundai.png",
     alttext: "Logo Hyundai",
   },
 
   {
-    img: "/images/customer/gojek.png",
+    img: "https://cdn.aresa-digital.com/images/customer/gojek.png",
     alttext: "Logo Gojek",
   },
 ];

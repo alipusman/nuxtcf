@@ -12,10 +12,10 @@
     <v-carousel-item>
       <div class="carousel-wrapper">
         <v-img
-          src="/images/banner.webp"
+          src="https://cdn.aresa-digital.com/images/banner.webp"
           alt="Jual Rak Gudang Heavy Duty"
           class="cover-image"
-          lazy-src="/images/banner-small.webp"
+          eager
           cover
         />
 
@@ -92,20 +92,21 @@
 <script setup>
 const loading = ref(true);
 
-onMounted(() => {
-  setTimeout(() => {
-    loading.value = false;
-  }, 10);
-});
+// onMounted(() => {
+//   setTimeout(() => {
+//     loading.value = false;
+//   }, 10);
+// });
 
 useHead({
   link: [
     {
       rel: "preload",
+      href: "https://cdn.aresa-digital.com/images/banner.webp",
       as: "image",
-      href: "/images/banner.webp"
-    }
-  ]
+      type: "image/webp",
+    },
+  ],
 });
 </script>
 

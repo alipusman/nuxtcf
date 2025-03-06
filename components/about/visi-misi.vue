@@ -47,8 +47,8 @@
 
           <v-col cols="12" sm="6" md="6" class="px-7">
             <v-img
-              src="/images/tentang-kami/visi-misi-TAP_1.webp"
-              lazy-src="/images/tentang-kami/visi-misi-TAP_2.webp"
+              src="https://cdn.aresa-digital.com/images/tentang-kami/visi-misi-TAP_1.webp"
+              lazy-src="https://cdn.aresa-digital.com/images/tentang-kami/visi-misi-TAP_2.webp"
               alt="Visi Dan Misi TAP"
               class="rounded-lg"
               height="100%"

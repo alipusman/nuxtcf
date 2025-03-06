@@ -5,8 +5,8 @@
     <v-row>
       <v-col cols="12" md="6">
         <v-img
-          src="/images/produk/medium-duty/steel/steel-shelving.webp"
-          lazy-img="/images/produk/medium-duty/steel/steel-shelving-lz.webp"
+          src="https://cdn.aresa-digital.com/images/produk/medium-duty/steel/steel-shelving.webp"
+          lazy-img="https://cdn.aresa-digital.com/images/produk/medium-duty/steel/steel-shelving-lz.webp"
           alt="Steel Shelving"
           class="rounded-lg"
           cover
@@ -248,13 +248,13 @@ useSeoMeta({
   keywords:
     "rak gudang, medium duty rack, steel shelving, rak penyimpanan, rak industri, rak baja, storage rack, shelving unit",
   ogImage:
-    "/images/produk/medium-duty/steel/steel-shelving-og.webp",
+    "https://cdn.aresa-digital.com/images/produk/medium-duty/steel/steel-shelving-og.webp",
   twitterCard: "summary_large_image",
   ogType: "product",
-  ogUrl: "https://www.aresa-digital.com/produk/medium-duty/steel-shelving",
+  ogUrl: "https://www.perkasaracking.co.id/produk/medium-duty/steel-shelving",
   robots: "index, follow",
   canonical:
-    "https://www.aresa-digital.com/produk/medium-duty/steel-shelving",
+    "https://www.perkasaracking.co.id/produk/medium-duty/steel-shelving",
 });
 </script>
 

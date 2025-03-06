@@ -41,7 +41,7 @@
                 <v-img
                   :src="data.images[0]"
                   alt="Sertifikat BPPT/2011"
-                  lazy-src="/images/tentang-kami/sertifikat/bppt-2011/Report-Racking-Testing-BPPT-2011_page-01_10x10.webp"
+                  lazy-src="https://cdn.aresa-digital.com/images/tentang-kami/sertifikat/bppt-2011/Report-Racking-Testing-BPPT-2011_page-01_10x10.webp"
                   class="rounded-lg image"
                   height="350"
                 >
@@ -94,11 +94,11 @@ const data = reactive({
   dialogfoto: false,
   currentIndex: 0,
   images: [
-    "/images/tentang-kami/sertifikat/bppt-2011/Report-Racking-Testing-BPPT-2011_page-1.webp",
-    "/images/tentang-kami/sertifikat/bppt-2011/Report-Racking-Testing-BPPT-2011_page-2.webp",
-    "/images/tentang-kami/sertifikat/bppt-2011/Report-Racking-Testing-BPPT-2011_page-3.webp",
-    "/images/tentang-kami/sertifikat/bppt-2011/Report-Racking-Testing-BPPT-2011_page-4.webp",
-    "/images/tentang-kami/sertifikat/bppt-2011/Report-Racking-Testing-BPPT-2011_page-5.webp",
+    "https://cdn.aresa-digital.com/images/tentang-kami/sertifikat/bppt-2011/Report-Racking-Testing-BPPT-2011_page-1.webp",
+    "https://cdn.aresa-digital.com/images/tentang-kami/sertifikat/bppt-2011/Report-Racking-Testing-BPPT-2011_page-2.webp",
+    "https://cdn.aresa-digital.com/images/tentang-kami/sertifikat/bppt-2011/Report-Racking-Testing-BPPT-2011_page-3.webp",
+    "https://cdn.aresa-digital.com/images/tentang-kami/sertifikat/bppt-2011/Report-Racking-Testing-BPPT-2011_page-4.webp",
+    "https://cdn.aresa-digital.com/images/tentang-kami/sertifikat/bppt-2011/Report-Racking-Testing-BPPT-2011_page-5.webp",
   ],
 });
 

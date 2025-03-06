@@ -3,7 +3,7 @@
     <v-dialog v-model="data.dialogfoto" width="35%">
       <v-card>
         <v-img
-          src="/images/tentang-kami/sertifikat/iso/sertifikat-pt-tangguh-adi-perkasa-iso-9001-2015_260126_page-1.webp"
+          src="https://cdn.aresa-digital.com/images/tentang-kami/sertifikat/iso/sertifikat-pt-tangguh-adi-perkasa-iso-9001-2015_260126_page-1.webp"
           alt="Sertifikat ISO 9001:2015"
           cover
         />
@@ -36,8 +36,8 @@
             <v-card class="custom-card" flat>
               <div class="card-border">
                 <v-img
-                  src="/images/tentang-kami/sertifikat/iso/sertifikat-pt-tangguh-adi-perkasa-iso-9001-2015_260126_page-1.webp"
-                  lazy-src="/images/tentang-kami/sertifikat/iso/sertifikat-pt-tangguh-adi-perkasa-iso-9001-2015_260126_page-2.webp"
+                  src="https://cdn.aresa-digital.com/images/tentang-kami/sertifikat/iso/sertifikat-pt-tangguh-adi-perkasa-iso-9001-2015_260126_page-1.webp"
+                  lazy-src="https://cdn.aresa-digital.com/images/tentang-kami/sertifikat/iso/sertifikat-pt-tangguh-adi-perkasa-iso-9001-2015_260126_page-2.webp"
                   alt="Sertifikat ISO 9001:2015"
                   class="rounded-lg styled-image"
                   height="350"

@@ -28,12 +28,12 @@ useSeoMeta({
   keywords:
     "pallet kayu, pallet gudang, penyimpanan kayu, transportasi logistik, pallet industri, pallet murah",
   ogImage:
-    "/images/produk/pallet/kayu/pallet-kayu_og.webp",
+    "https://cdn.aresa-digital.com/images/produk/pallet/kayu/pallet-kayu_og.webp",
   twitterCard: "summary_large_image",
   ogType: "product",
-  ogurl: "https://www.aresa-digital.com/produk/pallet/wooden",
+  ogurl: "https://www.perkasaracking.co.id/produk/pallet/wooden",
   robots: "index, follow",
-  canonical: "https://www.aresa-digital.com/produk/pallet/wooden",
+  canonical: "https://www.perkasaracking.co.id/produk/pallet/wooden",
 });
 </script>
 

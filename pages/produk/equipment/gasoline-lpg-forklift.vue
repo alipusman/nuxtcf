@@ -5,8 +5,8 @@
     <v-row>
       <v-col cols="12" md="6">
         <v-img
-          src="/images/produk/equipment/gasoline-lpg-forklift/gasoline-lpg-forklift_1.webp"
-          lazy-src="/images/produk/equipment/gasoline-lpg-forklift/gasoline-lpg-forklift_2.webp"
+          src="https://cdn.aresa-digital.com/images/produk/equipment/gasoline-lpg-forklift/gasoline-lpg-forklift_1.webp"
+          lazy-src="https://cdn.aresa-digital.com/images/produk/equipment/gasoline-lpg-forklift/gasoline-lpg-forklift_2.webp"
           alt="Gasoline/LPG Forklift - Solusi Efisien untuk Angkat Barang di Gudang"
           class="rounded-lg"
           height="100%"
@@ -195,14 +195,14 @@ useSeoMeta({
   keywords:
     "rak gudang, gasoline forklift, lpg forklift, forklift bensin, alat angkut barang, material handling, peralatan gudang, solusi gudang",
   ogImage:
-    "/images/produk/equipment/gasoline-lpg-forklift/gasoline-lpg-forklift_og.webp",
+    "https://cdn.aresa-digital.com/images/produk/equipment/gasoline-lpg-forklift/gasoline-lpg-forklift_og.webp",
   twitterCard: "summary_large_image",
   ogType: "product",
   ogUrl:
-    "https://www.aresa-digital.com/produk/equipment/gasoline-lpg-forklift",
+    "https://www.perkasaracking.co.id/produk/equipment/gasoline-lpg-forklift",
   robots: "index, follow",
   canonical:
-    "https://www.aresa-digital.com/produk/equipment/gasoline-lpg-forklift",
+    "https://www.perkasaracking.co.id/produk/equipment/gasoline-lpg-forklift",
 });
 </script>
 

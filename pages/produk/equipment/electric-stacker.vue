@@ -6,8 +6,8 @@
     <v-row>
       <v-col cols="12" md="6" class="px-4">
         <v-img
-          src="/images/produk/equipment/electric-stracker/electric-stacker_1.webp"
-          lazy-src="/images/produk/equipment/electric-stracker/electric-stacker_2.webp"
+          src="https://cdn.aresa-digital.com/images/produk/equipment/electric-stracker/electric-stacker_1.webp"
+          lazy-src="https://cdn.aresa-digital.com/images/produk/equipment/electric-stracker/electric-stacker_2.webp"
           alt="Electric Stacker - Solusi Efisien untuk Penumpukan Barang di Gudang"
           height="100%"
           width="100%"
@@ -184,14 +184,14 @@ useSeoMeta({
     "Electric Stacker untuk rak gudang, solusi efisien untuk mengangkat dan memindahkan pallet dengan mudah dan aman.",
   keywords:
     "rak gudang, electric stacker, alat angkut pallet, material handling, peralatan gudang, forklift, solusi gudang",
-  ogImage: "/images/produk/equipment/electric-stracker/electric-stacker_og.webp",
+  ogImage: "https://cdn.aresa-digital.com/images/produk/equipment/electric-stracker/electric-stacker_og.webp",
   twitterCard: "summary_large_image",
   ogType: "product",
   ogUrl:
-    "https://www.aresa-digital.com/produk/equipment/electric-stacker",
+    "https://www.perkasaracking.co.id/produk/equipment/electric-stacker",
   robots: "index, follow",
   canonical:
-    "https://www.aresa-digital.com/produk/equipment/electric-stacker",
+    "https://www.perkasaracking.co.id/produk/equipment/electric-stacker",
 });
 </script>
 

@@ -1,9 +1,9 @@
 <template>
   <v-card>
     <v-img
-      src="/images/dukungan-TAP_1.webp"
+      src="https://cdn.aresa-digital.com/images/dukungan-TAP_1.webp"
       alt="Layanan & Dukungan"
-      lazy-src="/images/dukungan-TAP_2.webp"
+      lazy-src="https://cdn.aresa-digital.com/images/dukungan-TAP_2.webp"
       height="500"
       cover
     >

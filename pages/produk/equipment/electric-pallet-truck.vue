@@ -6,9 +6,9 @@
     <v-row>
       <v-col cols="12" md="6" class="px-4">
         <v-img
-          src="/images/produk/equipment/electric-pallet-truck/electric-pallet-truck_1.webp"
+          src="https://cdn.aresa-digital.com/images/produk/equipment/electric-pallet-truck/electric-pallet-truck_1.webp"
           alt="Electric Pallet Truck - Solusi Efisien untuk Pengangkutan Barang di Gudang"
-          lazy-src="/images/produk/equipment/electric-pallet-truck/electric-pallet-truck_2.webp"
+          lazy-src="https://cdn.aresa-digital.com/images/produk/equipment/electric-pallet-truck/electric-pallet-truck_2.webp"
           class="rounded-lg"
           cover
           width="100%"
@@ -188,14 +188,14 @@ useSeoMeta({
   keywords:
     "rak gudang, electric pallet truck, pallet truck, alat angkut pallet, peralatan gudang, solusi gudang, material handling",
   ogImage:
-    "/images/produk/equipment/electric-pallet-truck/electric-pallet-truck_og.webp",
+    "https://cdn.aresa-digital.com/images/produk/equipment/electric-pallet-truck/electric-pallet-truck_og.webp",
   twitterCard: "summary_large_image",
   ogType: "product",
   ogUrl:
-    "https://www.aresa-digital.com/produk/equipment/electric-pallet-truck",
+    "https://www.perkasaracking.co.id/produk/equipment/electric-pallet-truck",
   robots: "index, follow",
   canonical:
-    "https://www.aresa-digital.com/produk/equipment/electric-pallet-truck",
+    "https://www.perkasaracking.co.id/produk/equipment/electric-pallet-truck",
 });
 </script>
 

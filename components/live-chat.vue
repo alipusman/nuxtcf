@@ -128,37 +128,37 @@ const data = reactive({
     {
       nama: "Aria Wardana",
       jabatan: "Sales 2",
-      img: "/images/live-chat/2.png",
+      img: "https://cdn.aresa-digital.com/images/live-chat/2.png",
       phone: "6287775434777",
     },
     {
       nama: "Ahmad Fathoni",
       jabatan: "Sales 3",
-      img: "/images/live-chat/3.png",
+      img: "https://cdn.aresa-digital.com/images/live-chat/3.png",
       phone: "628999967932",
     },
     {
       nama: "Dwi Purnanto Jati",
       jabatan: "Sales 4",
-      img: "/images/live-chat/4.png",
+      img: "https://cdn.aresa-digital.com/images/live-chat/4.png",
       phone: "628561510011",
     },
     {
       nama: "Sigit Djuhartono",
       jabatan: "Sales 5",
-      img: "/images/live-chat/5.png",
+      img: "https://cdn.aresa-digital.com/images/live-chat/5.png",
       phone: "6281295966673",
     },
     {
       nama: "Anggoro Widyatmoko",
       jabatan: "Sales 6",
-      img: "/images/live-chat/6.png",
+      img: "https://cdn.aresa-digital.com/images/live-chat/6.png",
       phone: "6281932226292",
     },
     {
       nama: "Sutarti",
       jabatan: "Sales 7",
-      img: "/images/live-chat/7.png",
+      img: "https://cdn.aresa-digital.com/images/live-chat/7.png",
       phone: "6285892600347",
     },
   ],
@@ -176,7 +176,7 @@ const selectSales = async (sales: salesM) => {
 
     const chatUrl = `https://api.whatsapp.com/send?phone=${
       data.safelist[getRandomNumber()].phone
-    }&text=Hallo saya mau tanya seputar Rackgudang, boleh dibantu informasinya dari aresa-digital.com?`;
+    }&text=Hallo saya mau tanya seputar Rackgudang, boleh dibantu informasinya dari perkasaracking.co.id?`;
     window.open(chatUrl, "_blank");
 
     customerData.nama_customer = "";
@@ -210,7 +210,7 @@ async function saveChat() {
     await cekwa();
     customerData.created_at = moment().unix();
 
-    const chatUrl = `https://api.whatsapp.com/send?phone=${selectedSales.value.phone}&text=Hallo saya ${customerData.nama_customer}, mau tanya seputar Rackgudang, boleh dibantu informasinya dari aresa-digital.com?`;
+    const chatUrl = `https://api.whatsapp.com/send?phone=${selectedSales.value.phone}&text=Hallo saya ${customerData.nama_customer}, mau tanya seputar Rackgudang, boleh dibantu informasinya dari perkasaracking.co.id?`;
     window.open(chatUrl, "_blank");
 
     customerData.nama_customer = "";

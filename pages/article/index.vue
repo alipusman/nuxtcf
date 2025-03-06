@@ -66,9 +66,9 @@ const articles = [
     description:
       "Jakarta sebagai pusat bisnis dan industri membutuhkan sistem penyimpanan yang...",
     image:
-      "/images/projek/mezzanine-racking-steel-shelving/PT-HWASEUNG-JEPARA-Project-TAP.webp",
+      "https://cdn.aresa-digital.com/images/projek/mezzanine-racking-steel-shelving/PT-HWASEUNG-JEPARA-Project-TAP.webp",
     lazy_image:
-      "/images/projek/mezzanine-racking-steel-shelving/PT-HWASEUNG-JEPARA-project-TAP_2.webp",
+      "https://cdn.aresa-digital.com/images/projek/mezzanine-racking-steel-shelving/PT-HWASEUNG-JEPARA-project-TAP_2.webp",
     link: "/article/rak-gudang-jakarta",
   },
 
@@ -79,9 +79,9 @@ const articles = [
     description:
       "Pengelolaan gudang yang efisien menjadi kunci sukses dalam menjalankan bisnis distribusi...",
     image:
-      "/images/artikel/rak-gudang-murah/rak-gudang-murah-berkualitas-TAP_1.webp",
+      "https://cdn.aresa-digital.com/images/artikel/rak-gudang-murah/rak-gudang-murah-berkualitas-TAP_1.webp",
     lazy_image:
-      "/images/artikel/rak-gudang-murah/rak-gudang-murah-berkualitas-TAP_2.webp",
+      "https://cdn.aresa-digital.com/images/artikel/rak-gudang-murah/rak-gudang-murah-berkualitas-TAP_2.webp",
     link: "/article/rak-gudang-murah-berkualitas",
   },
 
@@ -92,9 +92,9 @@ const articles = [
     description:
       "Pengelolaan gudang yang efisien menjadi kunci sukses dalam menjalankan bisnis distribusi...",
     image:
-      "/images/produk/heavy-duty/Rak-Gudang-Heavy-Duty_TAP_1.webp",
+      "https://cdn.aresa-digital.com/images/produk/heavy-duty/Rak-Gudang-Heavy-Duty_TAP_1.webp",
     lazy_image:
-      "/images/produk/heavy-duty/Rak-Gudang-Heavy-Duty_TAP_2.webp",
+      "https://cdn.aresa-digital.com/images/produk/heavy-duty/Rak-Gudang-Heavy-Duty_TAP_2.webp",
     link: "/article/keunggulan-sistem-rak-gudang",
   },
 
@@ -105,9 +105,9 @@ const articles = [
     description:
       "Merawat rak besi dengan baik adalah langkah krusial untuk memastikan ketahanannya...",
     image:
-      "/images/artikel/tips-merawat-besi/Artikel-6-Tips-Merawat-Rak-Besi-Agar-Lebih-Awet_1.webp",
+      "https://cdn.aresa-digital.com/images/artikel/tips-merawat-besi/Artikel-6-Tips-Merawat-Rak-Besi-Agar-Lebih-Awet_1.webp",
     lazy_image:
-      "/images/artikel/tips-merawat-besi/Artikel-6-Tips-Merawat-Rak-Besi-Agar-Lebih-Awet_2.webp",
+      "https://cdn.aresa-digital.com/images/artikel/tips-merawat-besi/Artikel-6-Tips-Merawat-Rak-Besi-Agar-Lebih-Awet_2.webp",
     link: "/article/6-Tips-Merawat-Rak-Besi",
   },
 
@@ -118,9 +118,9 @@ const articles = [
     description:
       "Rak gudang merupakan elemen penting dalam sistem penyimpanan yang efisien, terutama...",
     image:
-      "/images/projek/dies-racking/pt-sgs-cikarang/PT-SGS-Cikarang-project-TAP_1.webp",
+      "https://cdn.aresa-digital.com/images/projek/dies-racking/pt-sgs-cikarang/PT-SGS-Cikarang-project-TAP_1.webp",
     lazy_image:
-      "/images/projek/dies-racking/pt-sgs-cikarang/PT-SGS-Cikarang-project-TAP_2.webp",
+      "https://cdn.aresa-digital.com/images/projek/dies-racking/pt-sgs-cikarang/PT-SGS-Cikarang-project-TAP_2.webp",
     link: "/article/Mengenal-Komponen-Utama-Rak-Gudang-Berkualitas",
   },
 
@@ -131,9 +131,9 @@ const articles = [
     description:
       "Dalam dunia logistik dan pergudangan, rak gudang merupakan salah satu komponen penting yang tidak bisa diabaikan...",
     image:
-      "/images/artikel/rak-gudang/rak-gudang.webp",
+      "https://cdn.aresa-digital.com/images/artikel/rak-gudang/rak-gudang.webp",
     lazy_image:
-      "/images/artikel/rak-gudang/rak-gudang-lz.webp",
+      "https://cdn.aresa-digital.com/images/artikel/rak-gudang/rak-gudang-lz.webp",
     link: "/article/rak-gudang",
   },
 ];
@@ -146,7 +146,7 @@ useSeoMeta({
   ogDescription:
     "Temukan berbagai jenis rak gudang berkualitas untuk kebutuhan industri dan penyimpanan dengan harga terbaik.",
   ogImage:
-    "/images/projek/mezzanine-racking-steel-shelving/PT-HWASEUNG-JEPARA-Project-TAP-og.webp",
+    "https://cdn.aresa-digital.com/images/projek/mezzanine-racking-steel-shelving/PT-HWASEUNG-JEPARA-Project-TAP-og.webp",
   twitterCard: "summary_large_image",
   robots: "index, follow",
 });

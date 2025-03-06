@@ -67,9 +67,9 @@ const lastprojects = [
     title: "PT HWASEUNG, JEPARA",
     description: "Mezzanine Racking Steel Shelving",
     image:
-      "/images/projek/mezzanine-racking-steel-shelving/PT-HWASEUNG-JEPARA-Project-TAP.webp",
+      "https://cdn.aresa-digital.com/images/projek/mezzanine-racking-steel-shelving/PT-HWASEUNG-JEPARA-Project-TAP.webp",
     lazy_img:
-      "/images/projek/mezzanine-racking-steel-shelving/PT-HWASEUNG-JEPARA-project-TAP_2.webp",
+      "https://cdn.aresa-digital.com/images/projek/mezzanine-racking-steel-shelving/PT-HWASEUNG-JEPARA-project-TAP_2.webp",
     to: "/project/pt-hwaseung-Jepara",
     alttext: "TAP-Project-PT.HWASEUNG,JEPARA",
   },
@@ -78,9 +78,9 @@ const lastprojects = [
     title: "PT.ASKI, Citeureup",
     description: "Dies Racking",
     image:
-      "/images/projek/dies-racking/pt-aski-citeureup/PT-ASKI-Citeureup-project-TAP_1.webp",
+      "https://cdn.aresa-digital.com/images/projek/dies-racking/pt-aski-citeureup/PT-ASKI-Citeureup-project-TAP_1.webp",
     lazy_img:
-      "/images/projek/dies-racking/pt-aski-citeureup/PT-ASKI-Citeureup-project-TAP_2.webp",
+      "https://cdn.aresa-digital.com/images/projek/dies-racking/pt-aski-citeureup/PT-ASKI-Citeureup-project-TAP_2.webp",
     alttext: "TAP-Project-PT.ASKI–Citeureup",
     to: "/project/pt-ask-citeureup",
   },
@@ -89,9 +89,9 @@ const lastprojects = [
     title: "PT SGS, Cikarang",
     description: "Dies Racking",
     image:
-      "/images/projek/dies-racking/pt-sgs-cikarang/PT-SGS-Cikarang-project-TAP_1.webp",
+      "https://cdn.aresa-digital.com/images/projek/dies-racking/pt-sgs-cikarang/PT-SGS-Cikarang-project-TAP_1.webp",
     lazy_img:
-      "/images/projek/dies-racking/pt-sgs-cikarang/PT-SGS-Cikarang-project-TAP_2.webp",
+      "https://cdn.aresa-digital.com/images/projek/dies-racking/pt-sgs-cikarang/PT-SGS-Cikarang-project-TAP_2.webp",
       alttext: "TAP-Project-PT. SGS, Cikarang",
       to: "/project/pt-sgs-cikarang",
   },

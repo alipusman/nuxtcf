@@ -6,8 +6,8 @@
     <v-row>
       <v-col cols="12" md="6" class="px-4">
         <v-img
-          src="/images/produk/equipment/four-wheel-electric-forklift/four-wheel-electric-forklift_1.webp"
-          lazy-src="/images/produk/equipment/four-wheel-electric-forklift/four-wheel-electric-forklift_2.webp"
+          src="https://cdn.aresa-digital.com/images/produk/equipment/four-wheel-electric-forklift/four-wheel-electric-forklift_1.webp"
+          lazy-src="https://cdn.aresa-digital.com/images/produk/equipment/four-wheel-electric-forklift/four-wheel-electric-forklift_2.webp"
           alt="Four-Wheel Electric Forklift - Solusi Efisien untuk Angkat Barang di Gudang"
           class="rounded-lg"
           height="100%"
@@ -190,14 +190,14 @@ useSeoMeta({
   keywords:
     "rak gudang, fourwheel electric forklift, forklift listrik, alat angkut barang, material handling, peralatan gudang, solusi gudang",
   ogImage:
-    "/images/produk/equipment/four-wheel-electric-forklift/four-wheel-electric-forklift_og.webp",
+    "https://cdn.aresa-digital.com/images/produk/equipment/four-wheel-electric-forklift/four-wheel-electric-forklift_og.webp",
   twitterCard: "summary_large_image",
   ogType: "product",
   ogUrl:
-    "https://www.aresa-digital.com/produk/equipment/four-wheel-electric-forklift",
+    "https://www.perkasaracking.co.id/produk/equipment/four-wheel-electric-forklift",
   robots: "index, follow",
   canonical:
-    "https://www.aresa-digital.com/produk/equipment/four-wheel-electric-forklift",
+    "https://www.perkasaracking.co.id/produk/equipment/four-wheel-electric-forklift",
 });
 </script>
 

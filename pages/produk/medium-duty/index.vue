@@ -43,8 +43,8 @@
         </p>
 
         <v-img
-          src="/images/produk/medium-duty/Rak-Gudang-Medium-Duty_TAP_1.webp"
-          lazy-img="/images/produk/medium-duty/Rak-Gudang-Medium-Duty_TAP_2.webp"
+          src="https://cdn.aresa-digital.com/images/produk/medium-duty/Rak-Gudang-Medium-Duty_TAP_1.webp"
+          lazy-img="https://cdn.aresa-digital.com/images/produk/medium-duty/Rak-Gudang-Medium-Duty_TAP_2.webp"
           alt="Rak Gudang Medium Duty"
           width="100%"
           height="700px"
@@ -273,12 +273,12 @@ useSeoMeta({
   keywords:
     "rak gudang medium duty, jual rak gudang, harga rak gudang, rak besi medium duty, rak penyimpanan gudang, rak industri medium duty, rak gudang kapasitas 500kg, supplier rak gudang, rak gudang berkualitas",
   ogImage:
-    "/images/produk/medium-duty/Rak-Gudang-Medium-Duty_TAP_og.webp",
+    "https://cdn.aresa-digital.com/images/produk/medium-duty/Rak-Gudang-Medium-Duty_TAP_og.webp",
   twitterCard: "summary_large_image",
   ogType: "product",
-  ogUrl: "https://www.aresa-digital.com/produk/medium-duty",
+  ogUrl: "https://www.perkasaracking.co.id/produk/medium-duty",
   robots: "index, follow",
-  canonical: "https://www.aresa-digital.com/produk/medium-duty",
+  canonical: "https://www.perkasaracking.co.id/produk/medium-duty",
 });
 </script>
 

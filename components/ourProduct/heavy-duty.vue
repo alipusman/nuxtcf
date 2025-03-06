@@ -36,9 +36,9 @@ const products = [
     to: "/produk/heavy-duty/selective-pallet-rack",
     alttext: "Rak Selective",
     image:
-      "/images/produk/heavy-duty/selective/selective-pallet-rack-TAP_1.webp",
+      "https://cdn.aresa-digital.com/images/produk/heavy-duty/selective/selective-pallet-rack-TAP_1.webp",
     lazySrc:
-      "/images/produk/heavy-duty/selective/selective-pallet-rack-TAP_2.webp",
+      "https://cdn.aresa-digital.com/images/produk/heavy-duty/selective/selective-pallet-rack-TAP_2.webp",
   },
 
   {
@@ -46,9 +46,9 @@ const products = [
     to: "/produk/heavy-duty/double-deep",
     alttext: "Rak Double Deep",
     image:
-      "/images/produk/heavy-duty/double-deep/double-deep-pallet-racking-TAP_1.webp",
+      "https://cdn.aresa-digital.com/images/produk/heavy-duty/double-deep/double-deep-pallet-racking-TAP_1.webp",
     lazySrc:
-      "/images/produk/heavy-duty/double-deep/double-deep-pallet-racking-TAP_2.webp",
+      "https://cdn.aresa-digital.com/images/produk/heavy-duty/double-deep/double-deep-pallet-racking-TAP_2.webp",
   },
 
   {
@@ -56,9 +56,9 @@ const products = [
     to: "/produk/heavy-duty/drive-in",
     alttext: "Rak Drive in",
     image:
-      "/images/produk/heavy-duty/drive-in/drive-in-racking-TAP_1.webp",
+      "https://cdn.aresa-digital.com/images/produk/heavy-duty/drive-in/drive-in-racking-TAP_1.webp",
     lazySrc:
-      "/images/produk/heavy-duty/drive-in/drive-in-racking-TAP_1.webp",
+      "https://cdn.aresa-digital.com/images/produk/heavy-duty/drive-in/drive-in-racking-TAP_1.webp",
   },
 
   {
@@ -66,9 +66,9 @@ const products = [
     to: "/produk/heavy-duty/verry-narrow-aisle",
     alttext: "Rak VNA",
     image:
-      "/images/produk/heavy-duty/vna/vna-racking-system-TAP_1.webp",
+      "https://cdn.aresa-digital.com/images/produk/heavy-duty/vna/vna-racking-system-TAP_1.webp",
     lazySrc:
-      "/images/produk/heavy-duty/vna/vna-racking-system-TAP_2.webp",
+      "https://cdn.aresa-digital.com/images/produk/heavy-duty/vna/vna-racking-system-TAP_2.webp",
   },
 
   {
@@ -76,9 +76,9 @@ const products = [
     to: "/produk/heavy-duty/pushback",
     alttext: "Rak Pushback",
     image:
-      "/images/produk/heavy-duty/pushback/pushback-racking-system-TAP_1.webp",
+      "https://cdn.aresa-digital.com/images/produk/heavy-duty/pushback/pushback-racking-system-TAP_1.webp",
     lazySrc:
-      "/images/produk/heavy-duty/pushback/pushback-racking-system-TAP_2.webp",
+      "https://cdn.aresa-digital.com/images/produk/heavy-duty/pushback/pushback-racking-system-TAP_2.webp",
   },
 
   {
@@ -86,9 +86,9 @@ const products = [
     to: "/produk/heavy-duty/flow-racking",
     alttext: "Rak Gravity Roller",
     image:
-      "/images/produk/heavy-duty/gravity-roller-racking/gravity-roller-racking-TAP_1.webp",
+      "https://cdn.aresa-digital.com/images/produk/heavy-duty/gravity-roller-racking/gravity-roller-racking-TAP_1.webp",
     lazySrc:
-      "/images/produk/heavy-duty/gravity-roller-racking/gravity-roller-racking-TAP_1.webp",
+      "https://cdn.aresa-digital.com/images/produk/heavy-duty/gravity-roller-racking/gravity-roller-racking-TAP_1.webp",
   },
 
   {
@@ -96,9 +96,9 @@ const products = [
     to: "/produk/heavy-duty/pallet-runner",
     alttext: "Pallet Runner",
     image:
-      "/images/produk/heavy-duty/pallet-runner/pallet-runner-TAP_1.webp",
+      "https://cdn.aresa-digital.com/images/produk/heavy-duty/pallet-runner/pallet-runner-TAP_1.webp",
     lazySrc:
-      "/images/produk/heavy-duty/pallet-runner/pallet-runner-TAP_2.webp",
+      "https://cdn.aresa-digital.com/images/produk/heavy-duty/pallet-runner/pallet-runner-TAP_2.webp",
   },
 
   {
@@ -106,9 +106,9 @@ const products = [
     to: "/produk/heavy-duty/as-rs",
     alttext: "ASRS Racking System",
     image:
-      "/images/produk/heavy-duty/asrs/asrs-racking-system-TAP_1.webp",
+      "https://cdn.aresa-digital.com/images/produk/heavy-duty/asrs/asrs-racking-system-TAP_1.webp",
     lazySrc:
-      "/images/produk/heavy-duty/asrs/asrs-racking-system-TAP_2.webp",
+      "https://cdn.aresa-digital.com/images/produk/heavy-duty/asrs/asrs-racking-system-TAP_2.webp",
   },
 ];
 </script>

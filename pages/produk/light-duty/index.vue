@@ -36,7 +36,7 @@
         </p>
 
         <v-img
-          src="/images/produk/light-duty/Rak-Gudang-Light-Duty_TAP_1.webp"
+          src="https://cdn.aresa-digital.com/images/produk/light-duty/Rak-Gudang-Light-Duty_TAP_1.webp"
           alt="Rak Gudang Medium Duty"
           width="100%"
           height="700px"
@@ -293,14 +293,14 @@ useSeoMeta({
   keywords:
     "jual rak gudang murah, rak light duty berkualitas, rak besi ringan, rak gudang kantor, rak toko retail, rak penyimpanan ekonomis, supplier rak gudang jakarta, harga rak gudang light duty",
   ogImage:
-    "/images/produk/light-duty/Rak-Gudang-Light-Duty_TAP_og.webp",
+    "https://cdn.aresa-digital.com/images/produk/light-duty/Rak-Gudang-Light-Duty_TAP_og.webp",
   twitterCard: "summary_large_image",
   ogType: "product",
-  ogUrl: "https://www.aresa-digital.com/produk/light-duty",
+  ogUrl: "https://www.perkasaracking.co.id/produk/light-duty",
   robots: "index, follow",
   author: "TAP Racking System",
   language: "id-ID",
-  canonical: "https://www.aresa-digital.com/produk/light-duty",
+  canonical: "https://www.perkasaracking.co.id/produk/light-duty",
 });
 </script>
 

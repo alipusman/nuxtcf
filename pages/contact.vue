@@ -31,26 +31,26 @@ const banner = {
 };
 
 useSeoMeta({
-  title: "Kontak Aresa Digital - Pembuatan Rack Gudang",
+  title: "Kontak PT. Tangguh Adi Perkasa - Pembuatan Rack Gudang",
   description:
-    "Hubungi Aresa Digital untuk informasi lebih lanjut tentang pembuatan dan penjualan rak gudang berkualitas tinggi untuk kebutuhan industri Anda.",
+    "Hubungi PT. Tangguh Adi Perkasa untuk informasi lebih lanjut tentang pembuatan dan penjualan rak gudang berkualitas tinggi untuk kebutuhan industri Anda.",
   keywords:
-    "kontak Aresa Digital, hubungi kami, informasi rak gudang, pembuatan rak gudang, supplier rak besi, jual rak gudang, rak penyimpanan industri, harga rak gudang",
-  ogTitle: "Kontak Aresa Digital - Pembuatan Rack Gudang",
+    "kontak PT. Tangguh Adi Perkasa, hubungi kami, informasi rak gudang, pembuatan rak gudang, supplier rak besi, jual rak gudang, rak penyimpanan industri, harga rak gudang",
+  ogTitle: "Kontak PT. Tangguh Adi Perkasa - Pembuatan Rack Gudang",
   ogDescription:
-    "Dapatkan informasi dan konsultasi mengenai pembuatan rak gudang terbaik dari Aresa Digital. Hubungi kami untuk solusi penyimpanan industri.",
+    "Dapatkan informasi dan konsultasi mengenai pembuatan rak gudang terbaik dari PT. Tangguh Adi Perkasa. Hubungi kami untuk solusi penyimpanan industri.",
   ogImage:
-    "/images/produk/heavy-duty/Rak-Gudang-Heavy-Duty_TAP_og.webp",
+    "https://cdn.aresa-digital.com/images/produk/heavy-duty/Rak-Gudang-Heavy-Duty_TAP_og.webp",
   ogType: "website",
-  twitterTitle: "Kontak Aresa Digital - Pembuatan Rack Gudang",
+  twitterTitle: "Kontak PT. Tangguh Adi Perkasa - Pembuatan Rack Gudang",
   twitterDescription:
-    "Hubungi Aresa Digital untuk mendapatkan rak gudang berkualitas tinggi sesuai kebutuhan industri Anda.",
+    "Hubungi PT. Tangguh Adi Perkasa untuk mendapatkan rak gudang berkualitas tinggi sesuai kebutuhan industri Anda.",
   twitterImage:
-    "/images/produk/heavy-duty/Rak-Gudang-Heavy-Duty_TAP_og.webp",
+    "https://cdn.aresa-digital.com/images/produk/heavy-duty/Rak-Gudang-Heavy-Duty_TAP_og.webp",
   twitterCard: "summary_large_image",
   robots: "index, follow",
-  canonical: "https://www.aresa-digital.com/contact",
-  ogUrl: "https://www.aresa-digital.com/contact",
+  canonical: "https://www.perkasaracking.co.id/contact",
+  ogUrl: "https://www.perkasaracking.co.id/contact",
 });
 </script>
 

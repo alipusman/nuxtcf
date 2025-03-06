@@ -9,21 +9,21 @@
       <v-img
         max-height="30"
         aspect-ratio="16/9"
-        src="/images/logo/TAP2.webp"
+        src="https://cdn.aresa-digital.com/images/logo/TAP2.webp"
         alt="Logo TAP"
       />
 
       <v-img
         max-height="40"
         aspect-ratio="16/9"
-        src="/images/logo/iso.webp"
+        src="https://cdn.aresa-digital.com/images/logo/iso.webp"
         alt="Sertifikat-ISO-TAP"
       />
 
       <v-img
         max-height="40"
         aspect-ratio="16/9"
-        src="/images/logo/bppt.webp"
+        src="https://cdn.aresa-digital.com/images/logo/bppt.webp"
         alt="Sertifikat-BPPT-TAP"
       />
     </div>
@@ -75,21 +75,21 @@
           aspect-ratio="16/9"
           :src="
             isScrolled
-              ? '/images/logo/TAP2.webp'
-              : '/images/logo/TAP.webp'
+              ? 'https://cdn.aresa-digital.com/images/logo/TAP2.webp'
+              : 'https://cdn.aresa-digital.com/images/logo/TAP.webp'
           "
           alt="TAP-LOGO"
         />
 
         <v-img
-          src="/images/logo/iso.webp"
+          src="https://cdn.aresa-digital.com/images/logo/iso.webp"
           alt="Sertifikat-ISO-TAP"
           class="mx-3"
           width="30"
         />
 
         <v-img
-          src="/images/logo/bppt.webp"
+          src="https://cdn.aresa-digital.com/images/logo/bppt.webp"
           alt="Sertifikat-BPPT-TAP"
           width="40"
         />
@@ -117,22 +117,22 @@
         <v-img
           :src="
             isScrolled
-              ? '/images/logo/TAP2.webp '
-              : '/images/logo/TAP.webp'
+              ? 'https://cdn.aresa-digital.com/images/logo/TAP2.webp '
+              : 'https://cdn.aresa-digital.com/images/logo/TAP.webp'
           "
           alt="TAP-LOGO"
           height="50"
         />
 
         <v-img
-          src="/images/logo/iso.webp"
+          src="https://cdn.aresa-digital.com/images/logo/iso.webp"
           alt="Sertifikat-ISO-TAP"
           height="50"
           style="margin-left: -25%"
         />
 
         <v-img
-          src="/images/logo/bppt.webp"
+          src="https://cdn.aresa-digital.com/images/logo/bppt.webp"
           alt="Sertifikat-BPPT-TAP"
           height="40"
           style="margin-left: -35%"
@@ -270,7 +270,7 @@
                     <v-img
                       rounded="small"
                       width="270"
-                      src="/images/layanan-dukungan/support-gudang/support-gudang-TAP_1.webp"
+                      src="https://cdn.aresa-digital.com/images/layanan-dukungan/support-gudang/support-gudang-TAP_1.webp"
                       alt="Dukungan Racking Gudang TAP"
                     />
 
@@ -354,7 +354,7 @@ const data = reactive({
   drawer: false,
   menuOpen: false,
   listmenu: [
-    { title: "BERANDA1", status: true, to: "/" },
+    { title: "BERANDA", status: true, to: "/" },
     { title: "PRODUK", status: false, to: "/produk" },
     { title: "TENTANG KAMI", status: false, to: "/aboutus" },
     { title: "LAYANAN", status: false, to: "/services-support" },

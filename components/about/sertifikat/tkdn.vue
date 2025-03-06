@@ -69,7 +69,7 @@
                 <v-img
                   :src="data.images[0]"
                   alt="Sertifikat TKDN"
-                  lazy-src="/images/produk/heavy-duty/sertifikat-tkdn-heavy-duty-racking-TAP_2.webp"
+                  lazy-src="https://cdn.aresa-digital.com/images/produk/heavy-duty/sertifikat-tkdn-heavy-duty-racking-TAP_2.webp"
                   class="rounded-lg image"
                   height="350"
                 >
@@ -100,9 +100,9 @@ const data = reactive({
   dialogfoto: false,
   currentIndex: 0,
   images: [
-    "/images/produk/medium-duty/sertifikat-tkdn-medium-duty-racking-TAP_1.webp",
-    "/images/produk/heavy-duty/gravity-roller-racking/sertifikat-tkdn-gravity-roller-racking-TAP_1.webp",
-    "/images/produk/heavy-duty/sertifikat-tkdn-heavy-duty-racking-TAP_1.webp",
+    "https://cdn.aresa-digital.com/images/produk/medium-duty/sertifikat-tkdn-medium-duty-racking-TAP_1.webp",
+    "https://cdn.aresa-digital.com/images/produk/heavy-duty/gravity-roller-racking/sertifikat-tkdn-gravity-roller-racking-TAP_1.webp",
+    "https://cdn.aresa-digital.com/images/produk/heavy-duty/sertifikat-tkdn-heavy-duty-racking-TAP_1.webp",
   ],
 });
 

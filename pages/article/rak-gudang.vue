@@ -5,8 +5,8 @@
     <v-row>
       <v-col cols="12" md="6">
         <v-img
-          src="/images/artikel/rak-gudang/rak-gudang.webp"
-          lazy-src="/images/artikel/rak-gudang/rak-gudang-lz.webp"
+          src="https://cdn.aresa-digital.com/images/artikel/rak-gudang/rak-gudang.webp"
+          lazy-src="https://cdn.aresa-digital.com/images/artikel/rak-gudang/rak-gudang-lz.webp"
           alt="Artikel - Rak Gudang"
           class="rounded-lg"
           cover
@@ -27,7 +27,7 @@
           Dalam dunia logistik dan pergudangan, rak gudang merupakan salah satu
           komponen penting yang tidak bisa diabaikan. Rak gudang tidak hanya
           membantu mengoptimalkan ruang penyimpanan, tetapi juga meningkatkan
-          efisiensi operasional gudang. Di aresa-digital.com, kami
+          efisiensi operasional gudang. Di perkasaracking.co.id, kami
           menyediakan berbagai jenis rak gudang berkualitas tinggi dengan harga
           kompetitif. Mari kita bahas lebih lanjut tentang fungsi, kegunaan,
           harga, spesifikasi, dan varian rak gudang yang kami tawarkan.
@@ -81,7 +81,7 @@
         <p class="barlow2">
           Harga rak gudang bervariasi tergantung pada jenis, material, dan
           kapasitasnya. Di
-          <a href="https://www.aresa-digital.com/">aresa-digital.com</a>,
+          <a href="https://www.perkasaracking.co.id/">perkasaracking.co.id</a>,
           kami menawarkan harga yang kompetitif dengan kualitas terbaik. Berikut
           perkiraan harga rak gudang:
         </p>
@@ -153,7 +153,7 @@
 
         <p class="barlow2">
           Di
-          <a href="https://www.aresa-digital.com/">aresa-digital.com</a>,
+          <a href="https://www.perkasaracking.co.id/">perkasaracking.co.id</a>,
           kami menyediakan berbagai varian rak gudang untuk memenuhi kebutuhan
           bisnis Anda. Berikut beberapa jenis rak gudang yang bisa Anda pilih:
         </p>
@@ -203,7 +203,7 @@
 
         <p class="barlow2">
           Di
-          <a href="https://www.aresa-digital.com/">aresa-digital.com</a>,
+          <a href="https://www.perkasaracking.co.id/">perkasaracking.co.id</a>,
           kami berkomitmen untuk menyediakan produk rak gudang berkualitas
           tinggi. Untuk memastikan kualitas dan keandalan produk kami, kami
           telah memperoleh:
@@ -253,8 +253,8 @@
 
         <h1 class="barlow mt-7">
           Menagapa Harus Memilih
-          <a href="https://www.aresa-digital.com/" style="color: red">
-            aresa-digital.com
+          <a href="https://www.perkasaracking.co.id/" style="color: red">
+            perkasaracking.co.id
           </a>
           ?
         </h1>
@@ -292,7 +292,7 @@
         <h2 class="barlow">Hubungi Kami Sekarang!</h2>
 
         <p class="barlow2 text-body-1 text-justify">
-          Jangan ragu untuk menghubungi aresa-digital.com untuk mendapatkan
+          Jangan ragu untuk menghubungi perkasaracking.co.id untuk mendapatkan
           solusi rak gudang terbaik. Dengan pengalaman bertahun-tahun di
           industri ini, kami siap membantu Anda mengoptimalkan ruang gudang dan
           meningkatkan efisiensi operasional bisnis Anda.
@@ -307,7 +307,7 @@
       </v-col>
 
       <v-col cols="9" sm="10">
-        <p>: marketing@aresa-digital.com</p>
+        <p>: marketing@perkasaracking.co.id</p>
         <p>
           : Summarecon Bekasi. Ruby Commercial TB10 • Sinpasa. <br />Jl. Bulevar
           Selatan, RT.003/RW.005, Marga Mulya, <br />Kec. Bekasi Utara, Kota
@@ -331,7 +331,7 @@ useHead({
   link: [
     {
       rel: "preload",
-      href: "/images/artikel/rak-gudang/rak-gudang.webp",
+      href: "https://cdn.aresa-digital.com/images/artikel/rak-gudang/rak-gudang.webp",
       as: "image",
       type: "image/webp",
     },
@@ -342,18 +342,18 @@ useSeoMeta({
   title: "Rak Gudang: Efisiensi dan Keamanan Barang",
   ogTitle: "Rak Gudang: Efisiensi dan Keamanan Barang",
   description:
-    "Dapatkan rak gudang berkualitas dengan harga bersaing di aresa-digital.com. Solusi tepat untuk efisiensi gudang Anda.",
+    "Dapatkan rak gudang berkualitas dengan harga bersaing di perkasaracking.co.id. Solusi tepat untuk efisiensi gudang Anda.",
   ogDescription:
-    "Dapatkan rak gudang berkualitas dengan harga bersaing di aresa-digital.com. Solusi tepat untuk efisiensi gudang Anda.",
+    "Dapatkan rak gudang berkualitas dengan harga bersaing di perkasaracking.co.id. Solusi tepat untuk efisiensi gudang Anda.",
   keywords:
     "rak gudang heavy duty, rak gudang rumah, rak gudang besi, rak gudang cantilever, rak gudang surabaya, rak gudang bekas, rak gudang murah",
   ogImage:
-    "/images/artikel/rak-gudang/rak-gudang-og.webp",
+    "https://cdn.aresa-digital.com/images/artikel/rak-gudang/rak-gudang-og.webp",
   twitterCard: "summary_large_image",
   ogType: "product",
-  ogUrl: "https://www.aresa-digital.com/article/rak-gudang",
+  ogUrl: "https://www.perkasaracking.co.id/article/rak-gudang",
   robots: "index, follow",
-  canonical: "https://www.aresa-digital.com/article/rak-gudang",
+  canonical: "https://www.perkasaracking.co.id/article/rak-gudang",
 });
 </script>
 

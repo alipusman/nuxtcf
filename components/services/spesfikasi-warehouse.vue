@@ -5,8 +5,8 @@
         <v-row align="center">
           <v-col cols="12" sm="6" md="6" class="px-7">
             <v-img
-              src="/images/layanan-dukungan/gudang/gudang_1.webp"
-              lazy-src="/images/layanan-dukungan/gudang/gudang_1.webp"
+              src="https://cdn.aresa-digital.com/images/layanan-dukungan/gudang/gudang_1.webp"
+              lazy-src="https://cdn.aresa-digital.com/images/layanan-dukungan/gudang/gudang_1.webp"
               alt="Spesifikasi Rack Gudang - TAP"
               class="rounded-lg"
               height="280"

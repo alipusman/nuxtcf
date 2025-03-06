@@ -54,8 +54,8 @@
         <br />
 
         <v-img
-          src="/images/artikel/rak-gudang-murah/rak-gudang-murah-berkualitas-TAP_1.webp"
-          lazy-src="/images/artikel/rak-gudang-murah/rak-gudang-murah-berkualitas-TAP_2.webp"
+          src="https://cdn.aresa-digital.com/images/artikel/rak-gudang-murah/rak-gudang-murah-berkualitas-TAP_1.webp"
+          lazy-src="https://cdn.aresa-digital.com/images/artikel/rak-gudang-murah/rak-gudang-murah-berkualitas-TAP_2.webp"
           alt="Rak Gudang Murah Berkualitas"
           height="450"
         />
@@ -124,14 +124,14 @@ useSeoMeta({
   ogDescription:
     "Temukan berbagai jenis rak gudang di Jakarta dengan kualitas terbaik dan harga bersaing.",
   ogImage:
-    "/images/artikel/rak-gudang-murah/rak-gudang-murah-berkualitas-TAP_og.webp",
+    "https://cdn.aresa-digital.com/images/artikel/rak-gudang-murah/rak-gudang-murah-berkualitas-TAP_og.webp",
   twitterCard: "summary_large_image",
   keywords:
     "rak gudang murah, rak gudang berkualitas, harga rak gudang, rak gudang heavy duty",
   canonical:
-    "https://www.aresa-digital.com/article/rak-gudang-murah-berkualitas",
+    "https://www.perkasaracking.co.id/article/rak-gudang-murah-berkualitas",
   ogurl:
-    "https://www.aresa-digital.com/article/rak-gudang-murah-berkualitas",
+    "https://www.perkasaracking.co.id/article/rak-gudang-murah-berkualitas",
 });
 </script>
 

@@ -7,8 +7,8 @@
     <v-row>
       <v-col cols="12" sm="6">
         <v-img
-          src="/images/produk/heavy-duty/selective/selective-pallet-rack-TAP_3.webp"
-          lazy-src="/images/produk/heavy-duty/selective/selective-pallet-rack-TAP_4.webp"
+          src="https://cdn.aresa-digital.com/images/produk/heavy-duty/selective/selective-pallet-rack-TAP_3.webp"
+          lazy-src="https://cdn.aresa-digital.com/images/produk/heavy-duty/selective/selective-pallet-rack-TAP_4.webp"
           alt="Rak Gudang - TAP - Heavy Duty - Selective Pallet Rack"
           class="rounded-lg"
           cover
@@ -164,14 +164,14 @@ useSeoMeta({
   keywords:
     "rak gudang, heavy duty rack, selective pallet rack, penyimpanan industri, gudang logistik",
   ogImage:
-    "/images/produk/heavy-duty/selective/selective-pallet-rack-TAP_og.webp",
+    "https://cdn.aresa-digital.com/images/produk/heavy-duty/selective/selective-pallet-rack-TAP_og.webp",
   twitterCard: "summary_large_image",
   ogType: "product",
   ogUrl:
-    "https://www.aresa-digital.com/produk/heavy-duty/selective-pallet-rack",
+    "https://www.perkasaracking.co.id/produk/heavy-duty/selective-pallet-rack",
   robots: "index, follow",
   canonical:
-    "https://www.aresa-digital.com/produk/heavy-duty/selective-pallet-rack",
+    "https://www.perkasaracking.co.id/produk/heavy-duty/selective-pallet-rack",
 });
 </script>
 

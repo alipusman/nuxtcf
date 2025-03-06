@@ -6,9 +6,9 @@
     <v-row>
       <v-col cols="12" md="6" class="px-4">
         <v-img
-          src="/images/produk/pallet/plastik/pallet-plastik_1.webp"
+          src="https://cdn.aresa-digital.com/images/produk/pallet/plastik/pallet-plastik_1.webp"
           alt="Pallet Plastic"
-          lazy-src="/images/produk/pallet/plastik/pallet-plastik_2.webp"
+          lazy-src="https://cdn.aresa-digital.com/images/produk/pallet/plastik/pallet-plastik_2.webp"
           class="rounded-lg"
           height="65%"
           width="100%"
@@ -172,11 +172,11 @@ useSeoMeta({
   keywords:
     "pallet plastik, pallet gudang, pallet tahan lama, penyimpanan plastik, transportasi logistik, pallet industri, pallet higienis",
   ogImage:
-    "/images/produk/pallet/plastik/pallet-plastik_og.webp",
+    "https://cdn.aresa-digital.com/images/produk/pallet/plastik/pallet-plastik_og.webp",
   ogType: "product",
-  ogUrl: "https://www.aresa-digital.com/produk/pallet/plastic",
+  ogUrl: "https://www.perkasaracking.co.id/produk/pallet/plastic",
   twitterCard: "summary_large_image",
-  canonical: "https://www.aresa-digital.com/produk/pallet/plastic",
+  canonical: "https://www.perkasaracking.co.id/produk/pallet/plastic",
 });
 </script>
 

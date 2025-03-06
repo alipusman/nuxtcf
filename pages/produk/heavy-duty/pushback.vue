@@ -5,8 +5,8 @@
     <v-row>
       <v-col cols="12" md="6">
         <v-img
-          src="/images/produk/heavy-duty/pushback/pushback-racking-system-TAP_3.webp"
-          lazy-img="/images/produk/heavy-duty/pushback/pushback-racking-system-TAP_4.webp"
+          src="https://cdn.aresa-digital.com/images/produk/heavy-duty/pushback/pushback-racking-system-TAP_3.webp"
+          lazy-img="https://cdn.aresa-digital.com/images/produk/heavy-duty/pushback/pushback-racking-system-TAP_4.webp"
           alt="Rak Pushback"
           class="rounded-lg"
           cover
@@ -176,12 +176,12 @@ useSeoMeta({
   keywords:
     "rak gudang, heavy duty rack, pushback rack, rak penyimpanan, rak industri, warehouse shelving, storage rack, pallet rack, sistem pushback",
   ogImage:
-    "/images/produk/heavy-duty/pushback/pushback-racking-system-TAP_og.webp",
+    "https://cdn.aresa-digital.com/images/produk/heavy-duty/pushback/pushback-racking-system-TAP_og.webp",
   twitterCard: "summary_large_image",
   ogType: "product",
-  ogUrl: "https://www.aresa-digital.com/produk/heavy-duty/pushback",
+  ogUrl: "https://www.perkasaracking.co.id/produk/heavy-duty/pushback",
   robots: "index, follow",
-  canonical: "https://www.aresa-digital.com/produk/heavy-duty/pushback",
+  canonical: "https://www.perkasaracking.co.id/produk/heavy-duty/pushback",
 });
 </script>
 

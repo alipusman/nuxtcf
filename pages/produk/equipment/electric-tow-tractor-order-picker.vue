@@ -6,8 +6,8 @@
     <v-row>
       <v-col cols="12" md="6" class="px-4">
         <v-img
-          src="/images/produk/equipment/electric-tow-tracktor/electric-tow-tractor_1.webp"
-          lazy-src="/images/produk/equipment/electric-tow-tracktor/electric-tow-tractor_2.webp"
+          src="https://cdn.aresa-digital.com/images/produk/equipment/electric-tow-tracktor/electric-tow-tractor_1.webp"
+          lazy-src="https://cdn.aresa-digital.com/images/produk/equipment/electric-tow-tracktor/electric-tow-tractor_2.webp"
           alt="Electric Tow Tractor - Solusi Efisien untuk Penarik Barang di Gudang"
           height="60%"
           width="100%"
@@ -189,14 +189,14 @@ useSeoMeta({
   keywords:
     "rak gudang, electric tow tractor, order picker, alat angkut barang, peralatan gudang, material handling, solusi gudang",
   ogImage:
-    "/images/produk/equipment/electric-tow-tracktor/electric-tow-tractor_og.webp",
+    "https://cdn.aresa-digital.com/images/produk/equipment/electric-tow-tracktor/electric-tow-tractor_og.webp",
   twitterCard: "summary_large_image",
   ogType: "product",
   ogUrl:
-    "https://www.aresa-digital.com/produk/equipment/electric-tow-tractor-order-picker",
+    "https://www.perkasaracking.co.id/produk/equipment/electric-tow-tractor-order-picker",
   robots: "index, follow",
   canonical:
-    "https://www.aresa-digital.com/produk/equipment/electric-tow-tractor-order-picker",
+    "https://www.perkasaracking.co.id/produk/equipment/electric-tow-tractor-order-picker",
 });
 </script>
 

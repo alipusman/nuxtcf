@@ -27,8 +27,8 @@
         <br />
 
         <v-img
-          src="/images/produk/heavy-duty/Rak-Gudang-Heavy-Duty_TAP_1.webp"
-          lazy-src="/images/produk/heavy-duty/Rak-Gudang-Heavy-Duty_TAP_2.webp"
+          src="https://cdn.aresa-digital.com/images/produk/heavy-duty/Rak-Gudang-Heavy-Duty_TAP_1.webp"
+          lazy-src="https://cdn.aresa-digital.com/images/produk/heavy-duty/Rak-Gudang-Heavy-Duty_TAP_2.webp"
           alt="Rak Heavy Duty - Sistem Penyimpanan Industri Beban Berat"
           width="100%"
           height="500px"
@@ -235,12 +235,12 @@ useSeoMeta({
   keywords:
     "rak heavy duty, jual rak heavy duty, harga rak heavy duty, rak gudang heavy duty, rak pallet heavy duty, rak industri berat, sistem rak warehouse, rak beban berat, rak selective pallet, rak drive in, double deep rack, rak gudang industri, rak penyimpanan berat",
   ogImage:
-    "/images/produk/heavy-duty/Rak-Gudang-Heavy-Duty_TAP_og.webp",
+    "https://cdn.aresa-digital.com/images/produk/heavy-duty/Rak-Gudang-Heavy-Duty_TAP_og.webp",
   twitterCard: "summary_large_image",
   ogType: "product",
-  ogUrl: "https://www.aresa-digital.com/produk/heavy-duty",
+  ogUrl: "https://www.perkasaracking.co.id/produk/heavy-duty",
   robots: "index, follow, max-image-preview:large, max-snippet:-1",
-  canonical: "https://www.aresa-digital.com/produk/heavy-duty",
+  canonical: "https://www.perkasaracking.co.id/produk/heavy-duty",
 });
 </script>
 

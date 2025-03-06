@@ -6,8 +6,8 @@
     <v-row>
       <v-col cols="12" md="6">
         <v-img
-          src="/images/produk/heavy-duty/gravity-roller-racking/flow-racking-TAP_3.webp"
-          lazy-src="/images/produk/heavy-duty/gravity-roller-racking/flow-racking-TAP_4.webp"
+          src="https://cdn.aresa-digital.com/images/produk/heavy-duty/gravity-roller-racking/flow-racking-TAP_3.webp"
+          lazy-src="https://cdn.aresa-digital.com/images/produk/heavy-duty/gravity-roller-racking/flow-racking-TAP_4.webp"
           alt="Rak Gravity Roller"
           class="rounded-lg"
           cover
@@ -96,8 +96,8 @@
 
       <v-col cols="12" sm="6">
         <v-img
-          src="/images/produk/heavy-duty/gravity-roller-racking/flow-racking-TAP_5.webp"
-          lazy-src="/images/produk/heavy-duty/gravity-roller-racking/flow-racking-TAP_6.webp"
+          src="https://cdn.aresa-digital.com/images/produk/heavy-duty/gravity-roller-racking/flow-racking-TAP_5.webp"
+          lazy-src="https://cdn.aresa-digital.com/images/produk/heavy-duty/gravity-roller-racking/flow-racking-TAP_6.webp"
           alt="Gravity Roller Racking | Flow Racking"
           width="100%"
           height="100%"
@@ -139,12 +139,12 @@ useSeoMeta({
   keywords:
     "rak gudang, gravity roller racking, flow racking, rak penyimpanan, rak industri, warehouse shelving, storage rack, pallet rack",
   ogImage:
-    "/images/produk/heavy-duty/gravity-roller-racking/flow-racking-TAP_og.webp",
+    "https://cdn.aresa-digital.com/images/produk/heavy-duty/gravity-roller-racking/flow-racking-TAP_og.webp",
   twitterCard: "summary_large_image",
   ogType: "product",
-  ogUrl: "https://www.aresa-digital.com/produk/heavy-duty/flow-racking",
+  ogUrl: "https://www.perkasaracking.co.id/produk/heavy-duty/flow-racking",
   robots: "index, follow",
-  canonical: "https://www.aresa-digital.com/produk/heavy-duty/flow-racking",
+  canonical: "https://www.perkasaracking.co.id/produk/heavy-duty/flow-racking",
 });
 </script>
 
