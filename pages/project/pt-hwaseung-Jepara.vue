@@ -6,8 +6,8 @@
     <v-row>
       <v-col cols="12" md="6" class="px-4">
         <v-img
-          src="https://cdn.perkasaracking.co.id/images/projek/mezzanine-racking-steel-shelving/PT-HWASEUNG-JEPARA-Project-TAP.webp"
-          lazy-src="https://cdn.perkasaracking.co.id/images/projek/mezzanine-racking-steel-shelving/PT-HWASEUNG-JEPARA-project-TAP_2.webp"
+          src="/images/projek/mezzanine-racking-steel-shelving/PT-HWASEUNG-JEPARA-Project-TAP.webp"
+          lazy-src="/images/projek/mezzanine-racking-steel-shelving/PT-HWASEUNG-JEPARA-project-TAP_2.webp"
           alt="TAP-Project-PT.HWASEUNG JEPARA"
           class="rounded-lg"
           height="100%"
@@ -68,7 +68,6 @@
 <script setup>
 const banner = {
   judul: "DETAIL PROJECT",
-  alttext: "Banner Project PT HWASEUNG JEPARA",
 };
 
 useSeoMeta({
@@ -81,12 +80,12 @@ useSeoMeta({
   keywords:
     "projek PT HWASEUNG, racking Jepara, sistem penyimpanan, solusi logistik, gudang modern, pallet rack",
   ogImage:
-    "https://cdn.perkasaracking.co.id/images/projek/mezzanine-racking-steel-shelving/PT-HWASEUNG-JEPARA-Project-TAP-og.webp",
+    "/images/projek/mezzanine-racking-steel-shelving/PT-HWASEUNG-JEPARA-Project-TAP-og.webp",
   twitterCard: "summary_large_image",
   ogType: "website",
-  ogUrl: "https://www.perkasaracking.co.id/project/pt-hwaseung-jepara",
+  ogUrl: "https://www.aresa-digital.com/project/pt-hwaseung-jepara",
   robots: "index, follow",
-  canonical: "https://www.perkasaracking.co.id/project/pt-hwaseung-jepara",
+  canonical: "https://www.aresa-digital.com/project/pt-hwaseung-jepara",
 });
 </script>
 

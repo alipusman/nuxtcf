@@ -45,30 +45,23 @@
         v-for="(image, index) in data.images"
         :key="index"
         cols="12"
-        sm="3"
+        sm="6"
+        md="3"
       >
-        <v-card rounded="lg" class="border card-hover">
+        <v-card class="card-hover" rounded="lg">
           <v-img
-            :lazy-src="image.lazysrc"
-            cover
             :src="image.src"
-            height="300"
-            width="100%"
+            :lazy-src="image.lazysrc"
             :alt="image.alttext"
+            height="300"
+            class="card-image"
+            cover
           />
-
-          <v-card-text class="ma-5">
-            <h1 class="barlow">
-              {{ image.judul }}
-            </h1>
-
-            <p class="text-body-1 mt-2 barlow2" style="color: #656565">
-              {{ image.desc }}
-            </p>
-            <br />
-
+          <v-card-text class="card-content">
+            <h3 class="card-title">{{ image.judul }}</h3>
+            <p class="card-desc">{{ image.desc }}</p>
             <tombol
-              aria-label="Rak Gudang"
+              aria-label="Lihat Selengkapnya"
               :operandata="{
                 teks: 'Lihat Selengkapnya',
                 variant: 'flat',
@@ -88,43 +81,40 @@ import { reactive } from "vue";
 const data = reactive({
   images: [
     {
-      src: "https://cdn.perkasaracking.co.id/images/produk/heavy-duty/Rak-Gudang-Heavy-Duty_TAP_1.webp",
+      src: "/images/produk/heavy-duty/Rak-Gudang-Heavy-Duty_TAP_1.webp",
       judul: "HEAVY DUTY",
       to: "/produk/heavy-duty",
-      alttext: "Rak Heavy Duty",
+      alttext: "Rak Heavy Duty untuk beban berat",
       desc: "Rak kokoh dengan daya tahan tinggi, ideal untuk menyimpan beban berat di lingkungan industri.",
       lazysrc:
-        "https://cdn.perkasaracking.co.id/images/produk/heavy-duty/Rak-Gudang-Heavy-Duty_TAP_2.webp",
+        "/images/produk/heavy-duty/Rak-Gudang-Heavy-Duty_TAP_2.webp",
     },
-
     {
-      src: "https://cdn.perkasaracking.co.id/images/produk/medium-duty/Rak-Gudang-Medium-Duty_TAP_1.webp",
+      src: "/images/produk/medium-duty/Rak-Gudang-Medium-Duty_TAP_1.webp",
       judul: "MEDIUM DUTY",
       to: "/produk/medium-duty",
-      alttext: "Rak Medium Duty",
+      alttext: "Rak Medium Duty untuk beban sedang",
       desc: "Rak fleksibel dengan keseimbangan daya tahan dan kapasitas penyimpanan yang optimal.",
       lazysrc:
-        "https://cdn.perkasaracking.co.id/images/produk/medium-duty/Rak-Gudang-Medium-Duty_TAP_2.webp",
+        "/images/produk/medium-duty/Rak-Gudang-Medium-Duty_TAP_2.webp",
     },
-
     {
-      src: "https://cdn.perkasaracking.co.id/images/produk/light-duty/Rak-Gudang-Light-Duty_TAP_1.webp",
+      src: "/images/produk/light-duty/Rak-Gudang-Light-Duty_TAP_1.webp",
       judul: "LIGHT DUTY",
       to: "/produk/light-duty",
-      alttext: "Rak Light Duty",
+      alttext: "Rak Light Duty untuk beban ringan",
       desc: "Rak ringan yang praktis dan efisien, cocok untuk penyimpanan barang kecil dan menengah.",
       lazysrc:
-        "https://cdn.perkasaracking.co.id/images/produk/light-duty/Rak-Gudang-Light-Duty_TAP_2.webp",
+        "/images/produk/light-duty/Rak-Gudang-Light-Duty_TAP_2.webp",
     },
-
     {
-      src: "https://cdn.perkasaracking.co.id/images/produk/mezzanine/rak-gudang-mezzanine_TAP_1.webp",
+      src: "/images/produk/mezzanine/rak-gudang-mezzanine_TAP_1.webp",
       judul: "MEZZANINE",
       to: "/produk/mezzanine",
-      alttext: "Rak Mezzanine",
+      alttext: "Rak Mezzanine sebagai tambahan lantai",
       desc: "Rak Gudang Mezzanine adalah struktur tambahan dalam gudang yang menambah lantai di atas area utama.",
       lazysrc:
-        "https://cdn.perkasaracking.co.id/images/produk/mezzanine/rak-gudang-mezzanine_TAP_2.webp",
+        "/images/produk/mezzanine/rak-gudang-mezzanine_TAP_2.webp",
     },
   ],
 });
@@ -132,23 +122,76 @@ const data = reactive({
 
 <style scoped>
 .barlow {
+  font-family: "Barlow Semi Condensed";
+  font-style: normal;
+}
+
+/* Typography */
+.title {
   font-family: "Barlow Semi Condensed", sans-serif;
   font-weight: 700;
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
 }
 
-.barlow2 {
+.subtitle {
   font-family: "Barlow Semi Condensed", sans-serif;
+  font-weight: 700;
+  font-size: 1.75rem;
+  margin-bottom: 1rem;
 }
 
+.description {
+  font-family: "Barlow Semi Condensed", sans-serif;
+  font-size: 1rem;
+  color: #656565;
+  line-height: 1.5;
+}
+
+/* Underline */
+.underline {
+  text-decoration: underline;
+}
+
+/* Divider */
+.my-divider {
+  width: 60%;
+  margin: 1rem auto;
+  border-top: 3px solid #ff3a3a;
+}
+
+/* Card styles */
 .card-hover {
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .card-hover:hover {
   transform: translateY(-10px);
-  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
 }
 
+.card-image {
+  width: 100%;
+}
+
+.card-content {
+  padding: 1rem;
+}
+
+.card-title {
+  font-family: "Barlow Semi Condensed", sans-serif;
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.card-desc {
+  font-family: "Barlow Semi Condensed", sans-serif;
+  color: #656565;
+  font-size: 0.9rem;
+  margin-bottom: 1rem;
+}
+
+/* Animated Text */
 .animated-text {
   opacity: 0;
   transform: translateY(20px);
@@ -159,6 +202,19 @@ const data = reactive({
   to {
     opacity: 1;
     transform: translateY(0);
+  }
+}
+
+/* Responsif */
+@media (max-width: 600px) {
+  .title {
+    font-size: 2rem;
+  }
+  .subtitle {
+    font-size: 1.25rem;
+  }
+  .my-divider {
+    width: 30%;
   }
 }
 </style>

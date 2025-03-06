@@ -40,77 +40,77 @@ import { computed } from "vue";
 
 const logos = [
   {
-    img: "https://cdn.perkasaracking.co.id/images/customer/mayora.png",
+    img: "/images/customer/mayora.png",
     alttext: "Logo Mayora",
   },
 
   {
-    img: "https://cdn.perkasaracking.co.id/images/customer/toyota.png",
+    img: "/images/customer/toyota.png",
     alttext: "Logo Toyota",
   },
 
   {
-    img: "https://cdn.perkasaracking.co.id/images/customer/suzuki.png",
+    img: "/images/customer/suzuki.png",
     alttext: "Logo Suzuki",
   },
 
   {
-    img: "https://cdn.perkasaracking.co.id/images/customer/lazada.png",
+    img: "/images/customer/lazada.png",
     alttext: "Logo Lazada",
   },
 
   {
-    img: "https://cdn.perkasaracking.co.id/images/customer/LG.png",
+    img: "/images/customer/LG.png",
     alttext: "Logo LG",
   },
 
   {
-    img: "https://cdn.perkasaracking.co.id/images/customer/shopee.png",
+    img: "/images/customer/shopee.png",
     alttext: "Logo Shopee",
   },
 
   {
-    img: "https://cdn.perkasaracking.co.id/images/customer/panasonic.png",
+    img: "/images/customer/panasonic.png",
     alttext: "Logo Panasonic",
   },
 
   {
-    img: "https://cdn.perkasaracking.co.id/images/customer/air-asia.jpg",
+    img: "/images/customer/air-asia.jpg",
     alttext: "Logo Air Asia",
   },
 
   {
-    img: "https://cdn.perkasaracking.co.id/images/customer/tokopedia.png",
+    img: "/images/customer/tokopedia.png",
     alttext: "Logo Tokopedia",
   },
 
   {
-    img: "https://cdn.perkasaracking.co.id/images/customer/lotte.png",
+    img: "/images/customer/lotte.png",
     alttext: "Logo Lotte",
   },
 
   {
-    img: "https://cdn.perkasaracking.co.id/images/customer/sharp.webp",
+    img: "/images/customer/sharp.webp",
     alttext: "Logo Sharp",
   },
 
   {
-    img: "https://cdn.perkasaracking.co.id/images/customer/unicharm.webp",
+    img: "/images/customer/unicharm.webp",
     alttext: "Logo Unicharm",
   },
 
   {
-    img: "https://cdn.perkasaracking.co.id/images/customer/mrdiy.png",
+    img: "/images/customer/mrdiy.png",
     alttext: "Logo MR DIY",
   },
 
   {
-    img: "https://cdn.perkasaracking.co.id/images/customer/hyundai.png",
+    img: "/images/customer/hyundai.png",
     alttext: "Logo Hyundai",
   },
 
   {
-    img: "https://cdn.perkasaracking.co.id/images/customer/gojek.png",
+    img: "/images/customer/gojek.png",
     alttext: "Logo Gojek",
   },
 ];

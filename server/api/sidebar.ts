@@ -29,9 +29,9 @@ export default defineEventHandler(() => {
           name: "SELECTIVE PALLET",
           description: "Rak penyimpanan fleksibel dan efisien.",
           image:
-            "https://cdn.perkasaracking.co.id/images/produk/heavy-duty/selective/selective-pallet-rack-TAP_3.webp",
+            "/images/produk/heavy-duty/selective/selective-pallet-rack-TAP_3.webp",
           lazy_image:
-            "https://cdn.perkasaracking.co.id/images/produk/heavy-duty/selective/selective-pallet-rack-TAP_4.webp",
+            "/images/produk/heavy-duty/selective/selective-pallet-rack-TAP_4.webp",
           alttext: "Selective Pallet Rack",
 
           href: "/produk/heavy-duty/selective-pallet-rack",
@@ -41,9 +41,9 @@ export default defineEventHandler(() => {
           name: "DOUBLE DEEP RACKING",
           description: "Rak ganda untuk kapasitas lebih besar.",
           image:
-            "https://cdn.perkasaracking.co.id/images/produk/heavy-duty/double-deep/double-deep-pallet-racking-TAP_3.webp",
+            "/images/produk/heavy-duty/double-deep/double-deep-pallet-racking-TAP_3.webp",
           lazy_image:
-            "https://cdn.perkasaracking.co.id/images/produk/heavy-duty/double-deep/double-deep-pallet-rack-TAP_4.webp",
+            "/images/produk/heavy-duty/double-deep/double-deep-pallet-rack-TAP_4.webp",
           alttext: "Double Deep Rack",
 
           href: "/produk/heavy-duty/double-deep",
@@ -53,9 +53,9 @@ export default defineEventHandler(() => {
           name: "DRIVE IN",
           description: "Rak penyimpanan tanpa gang untuk efisiensi ruang.",
           image:
-            "https://cdn.perkasaracking.co.id/images/produk/heavy-duty/drive-in/drive-in-racking-TAP_3.webp",
+            "/images/produk/heavy-duty/drive-in/drive-in-racking-TAP_3.webp",
           lazy_image:
-            "https://cdn.perkasaracking.co.id/images/produk/heavy-duty/drive-in/drive-in-racking-TAP_4.webp",
+            "/images/produk/heavy-duty/drive-in/drive-in-racking-TAP_4.webp",
           alttext: "Drive In Rack",
 
           href: "/produk/heavy-duty/drive-in",

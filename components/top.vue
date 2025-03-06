@@ -1,6 +1,6 @@
 <template>
   <v-img
-    src="https://cdn.perkasaracking.co.id/images/banner-detail-top.webp"
+    src="/images/banner-detail-top.webp"
     alt="Banner Top Rak Gudang TAP"
     height="350"
     width="100%"
@@ -35,7 +35,7 @@ defineProps<{ operandata: topM }>();
 
 .gradient-overlay {
   background: linear-gradient(to top, rgba(0, 0, 0, 5), rgba(0, 0, 0, 0));
-  height: 103%;
+  height: 104%;
 }
 
 .title-text {

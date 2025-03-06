@@ -5,14 +5,13 @@
     <v-row>
       <v-col cols="12" md="6" class="px-4">
         <v-img
-          src="https://cdn.perkasaracking.co.id/images/produk/heavy-duty/asrs/asrs-racking-system-TAP_3.webp"
-          lazy-img="https://cdn.perkasaracking.co.id/images/produk/heavy-duty/asrs/asrs-racking-system-TAP_4.webp"
+          src="/images/produk/heavy-duty/asrs/asrs-racking-system-TAP_3.webp"
+          lazy-img="/images/produk/heavy-duty/asrs/asrs-racking-system-TAP_4.webp"
           alt="Rak ASRS"
           class="rounded-lg"
           cover
           width="100%"
           height="100%"
-          style="aspect-ratio: 650 / 600"
         />
       </v-col>
 
@@ -193,7 +192,6 @@
 <script setup>
 const banner = {
   judul: "DETAIL PRODUK",
-  alttext: "ASRS Racking System",
 };
 
 useSeoMeta({
@@ -206,12 +204,12 @@ useSeoMeta({
   keywords:
     "rak gudang, heavy duty rack, AS/RS, automated storage, automated retrieval, rak penyimpanan otomatis, rak industri, warehouse shelving, storage rack",
   ogImage:
-    "https://cdn.perkasaracking.co.id/images/produk/heavy-duty/asrs/asrs-racking-system-TAP_og.webp",
+    "/images/produk/heavy-duty/asrs/asrs-racking-system-TAP_og.webp",
   twitterCard: "summary_large_image",
   ogType: "product",
-  ogUrl: "https://www.perkasaracking.co.id/produk/heavy-duty/as-rs",
+  ogUrl: "https://www.aresa-digital.com/produk/heavy-duty/as-rs",
   robots: "index, follow",
-  canonical: "https://www.perkasaracking.co.id/produk/heavy-duty/as-rs",
+  canonical: "https://www.aresa-digital.com/produk/heavy-duty/as-rs",
 });
 </script>
 

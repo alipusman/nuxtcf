@@ -1,13 +1,13 @@
 <template>
-  <v-btn 
-    :to="props.operandata.to" 
-    :variant="props.operandata.variant" 
-    color="#ff3a3a" 
+  <v-btn
+    :to="props.operandata.to"
+    :variant="props.operandata.variant"
+    color="#ff3a3a"
     class="hover-black"
     :aria-label="`Tombol navigasi ke ${props.operandata.teks}`"
     :aria-current="isActive ? 'page' : undefined"
   >
-    <p class="font-weight-bold barlow">
+    <p class="barlow">
       {{ props.operandata.teks }}
     </p>
   </v-btn>
@@ -17,17 +17,15 @@
 import { computed } from "vue";
 import { useRoute } from "vue-router";
 
+const props = defineProps<{ operandata: tombolM }>();
+const route = useRoute();
+const isActive = computed(() => route.path == props.operandata.to);
+
 interface tombolM {
   teks: string;
   to: string;
   variant: "flat" | "text" | "elevated" | "tonal" | "outlined" | "plain";
 }
-
-const props = defineProps<{ operandata: tombolM }>();
-
-// Cek apakah tombol mengarah ke halaman aktif
-const route = useRoute();
-const isActive = computed(() => route.path === props.operandata.to);
 </script>
 
 <style scoped>

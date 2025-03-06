@@ -40,7 +40,7 @@
     <v-row justify="center">
       <v-col cols="12" md="9">
         <v-row align="center">
-          <v-col cols="12" md="6" class="px-7 image-wrapper">
+          <v-col cols="12" sm="6" md="6" class="px-7 image-wrapper">
             <h2 class="barlow">Sertifikat TKDN</h2>
             <h3 class="barlow">
               (Medium Duty, Gravity Roller Racking, dan Heavy Duty)
@@ -63,13 +63,13 @@
             </p>
           </v-col>
 
-          <v-col cols="12" md="6" class="px-7 image-wrapper">
+          <v-col cols="12" sm="6" md="6" class="px-7 image-wrapper">
             <v-card class="custom-card" flat>
               <v-card-text class="card-border">
                 <v-img
                   :src="data.images[0]"
                   alt="Sertifikat TKDN"
-                  lazy-src="https://cdn.perkasaracking.co.id/images/produk/heavy-duty/sertifikat-tkdn-heavy-duty-racking-TAP_2.webp"
+                  lazy-src="/images/produk/heavy-duty/sertifikat-tkdn-heavy-duty-racking-TAP_2.webp"
                   class="rounded-lg image"
                   height="350"
                 >
@@ -100,9 +100,9 @@ const data = reactive({
   dialogfoto: false,
   currentIndex: 0,
   images: [
-    "https://cdn.perkasaracking.co.id/images/produk/medium-duty/sertifikat-tkdn-medium-duty-racking-TAP_1.webp",
-    "https://cdn.perkasaracking.co.id/images/produk/heavy-duty/gravity-roller-racking/sertifikat-tkdn-gravity-roller-racking-TAP_1.webp",
-    "https://cdn.perkasaracking.co.id/images/produk/heavy-duty/sertifikat-tkdn-heavy-duty-racking-TAP_1.webp",
+    "/images/produk/medium-duty/sertifikat-tkdn-medium-duty-racking-TAP_1.webp",
+    "/images/produk/heavy-duty/gravity-roller-racking/sertifikat-tkdn-gravity-roller-racking-TAP_1.webp",
+    "/images/produk/heavy-duty/sertifikat-tkdn-heavy-duty-racking-TAP_1.webp",
   ],
 });
 

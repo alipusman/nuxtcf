@@ -20,7 +20,6 @@
           color="#FF3A3A"
           class="opacity-100"
         />
-
         <br />
 
         <p class="text-body-1 barlow2 text-justify">
@@ -44,14 +43,13 @@
         </p>
 
         <v-img
-          src="https://cdn.perkasaracking.co.id/images/produk/medium-duty/Rak-Gudang-Medium-Duty_TAP_1.webp"
-          lazy-img="https://cdn.perkasaracking.co.id/images/produk/medium-duty/Rak-Gudang-Medium-Duty_TAP_2.webp"
+          src="/images/produk/medium-duty/Rak-Gudang-Medium-Duty_TAP_1.webp"
+          lazy-img="/images/produk/medium-duty/Rak-Gudang-Medium-Duty_TAP_2.webp"
           alt="Rak Gudang Medium Duty"
           width="100%"
           height="700px"
           class="my-5"
           cover
-          style="aspect-ratio: 650 / 400"
         />
 
         <v-row>
@@ -263,7 +261,6 @@ definePageMeta({
 
 const banner = {
   judul: "MEDIUM DUTY",
-  alttext: "Rak Gudang - Medium Duty - TAP",
 };
 
 useSeoMeta({
@@ -276,12 +273,12 @@ useSeoMeta({
   keywords:
     "rak gudang medium duty, jual rak gudang, harga rak gudang, rak besi medium duty, rak penyimpanan gudang, rak industri medium duty, rak gudang kapasitas 500kg, supplier rak gudang, rak gudang berkualitas",
   ogImage:
-    "https://cdn.perkasaracking.co.id/images/produk/medium-duty/Rak-Gudang-Medium-Duty_TAP_og.webp",
+    "/images/produk/medium-duty/Rak-Gudang-Medium-Duty_TAP_og.webp",
   twitterCard: "summary_large_image",
   ogType: "product",
-  ogUrl: "https://www.perkasaracking.co.id/produk/medium-duty",
+  ogUrl: "https://www.aresa-digital.com/produk/medium-duty",
   robots: "index, follow",
-  canonical: "https://www.perkasaracking.co.id/produk/medium-duty",
+  canonical: "https://www.aresa-digital.com/produk/medium-duty",
 });
 </script>
 

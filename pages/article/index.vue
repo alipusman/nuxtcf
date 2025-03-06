@@ -1,7 +1,7 @@
 <template>
   <top :operandata="banner" />
 
-  <v-container class="my-10">
+  <v-container class="mt-5">
     <v-row>
       <v-col
         v-for="(article, index) in articles"
@@ -12,8 +12,8 @@
       >
         <v-card rounded="small" class="custom-card hover-card">
           <v-img
-            height="200"
-            class="pa-16 position-relative"
+            height="200px"
+            width="100%"
             :src="article.image"
             :lazy-src="article.lazy_image"
             cover
@@ -48,6 +48,8 @@
       </v-col>
     </v-row>
   </v-container>
+
+  <banner-parallax />
 </template>
 
 <script setup>
@@ -64,74 +66,74 @@ const articles = [
     description:
       "Jakarta sebagai pusat bisnis dan industri membutuhkan sistem penyimpanan yang...",
     image:
-      "https://cdn.perkasaracking.co.id/images/projek/mezzanine-racking-steel-shelving/PT-HWASEUNG-JEPARA-Project-TAP.webp",
+      "/images/projek/mezzanine-racking-steel-shelving/PT-HWASEUNG-JEPARA-Project-TAP.webp",
     lazy_image:
-      "https://cdn.perkasaracking.co.id/images/projek/mezzanine-racking-steel-shelving/PT-HWASEUNG-JEPARA-project-TAP_2.webp",
+      "/images/projek/mezzanine-racking-steel-shelving/PT-HWASEUNG-JEPARA-project-TAP_2.webp",
     link: "/article/rak-gudang-jakarta",
   },
 
   {
     title: "Rak Gudang Murah Berkualitas",
     date: "09 / 12 / 2024",
-    views: 290,
+    views: 390,
     description:
       "Pengelolaan gudang yang efisien menjadi kunci sukses dalam menjalankan bisnis distribusi...",
     image:
-      "https://cdn.perkasaracking.co.id/images/artikel/rak-gudang-murah/rak-gudang-murah-berkualitas-TAP_1.webp",
+      "/images/artikel/rak-gudang-murah/rak-gudang-murah-berkualitas-TAP_1.webp",
     lazy_image:
-      "https://cdn.perkasaracking.co.id/images/artikel/rak-gudang-murah/rak-gudang-murah-berkualitas-TAP_2.webp",
+      "/images/artikel/rak-gudang-murah/rak-gudang-murah-berkualitas-TAP_2.webp",
     link: "/article/rak-gudang-murah-berkualitas",
   },
 
   {
     title: "Keunggulan Sistem Rak Gudang",
-    date: "22 / 02 / 2025",
-    views: 290,
+    date: "22 / 01 / 2025",
+    views: 450,
     description:
       "Pengelolaan gudang yang efisien menjadi kunci sukses dalam menjalankan bisnis distribusi...",
     image:
-      "https://cdn.perkasaracking.co.id/images/produk/heavy-duty/Rak-Gudang-Heavy-Duty_TAP_1.webp",
+      "/images/produk/heavy-duty/Rak-Gudang-Heavy-Duty_TAP_1.webp",
     lazy_image:
-      "https://cdn.perkasaracking.co.id/images/produk/heavy-duty/Rak-Gudang-Heavy-Duty_TAP_2.webp",
+      "/images/produk/heavy-duty/Rak-Gudang-Heavy-Duty_TAP_2.webp",
     link: "/article/keunggulan-sistem-rak-gudang",
   },
 
   {
-    title: "Mengenal Komponen Utama Rak Gudang Berkualitas",
-    date: "20 / 08 / 2023",
-    views: 176,
-    description:
-      "Rak gudang merupakan elemen penting dalam sistem penyimpanan yang efisien, terutama...",
-    image:
-      "https://cdn.perkasaracking.co.id/images/projek/dies-racking/pt-sgs-cikarang/PT-SGS-Cikarang-project-TAP_1.webp",
-    lazy_image:
-      "https://cdn.perkasaracking.co.id/images/projek/dies-racking/pt-sgs-cikarang/PT-SGS-Cikarang-project-TAP_2.webp",
-    link: "/article/Mengenal-Komponen-Utama-Rak-Gudang-Berkualitas",
-  },
-
-  {
     title: "6 Tips Merawat Rak Besi Agar Lebih Awet",
-    date: "20 / 01 / 2025",
-    views: 380,
+    date: "20 / 02 / 2025",
+    views: 180,
     description:
       "Merawat rak besi dengan baik adalah langkah krusial untuk memastikan ketahanannya...",
     image:
-      "https://cdn.perkasaracking.co.id/images/artikel/tips-merawat-besi/Artikel-6-Tips-Merawat-Rak-Besi-Agar-Lebih-Awet_1.webp",
+      "/images/artikel/tips-merawat-besi/Artikel-6-Tips-Merawat-Rak-Besi-Agar-Lebih-Awet_1.webp",
     lazy_image:
-      "https://cdn.perkasaracking.co.id/images/artikel/tips-merawat-besi/Artikel-6-Tips-Merawat-Rak-Besi-Agar-Lebih-Awet_2.webp",
+      "/images/artikel/tips-merawat-besi/Artikel-6-Tips-Merawat-Rak-Besi-Agar-Lebih-Awet_2.webp",
     link: "/article/6-Tips-Merawat-Rak-Besi",
   },
 
   {
+    title: "Mengenal Komponen Utama Rak Gudang Berkualitas",
+    date: "20 / 03 / 2025",
+    views: 356,
+    description:
+      "Rak gudang merupakan elemen penting dalam sistem penyimpanan yang efisien, terutama...",
+    image:
+      "/images/projek/dies-racking/pt-sgs-cikarang/PT-SGS-Cikarang-project-TAP_1.webp",
+    lazy_image:
+      "/images/projek/dies-racking/pt-sgs-cikarang/PT-SGS-Cikarang-project-TAP_2.webp",
+    link: "/article/Mengenal-Komponen-Utama-Rak-Gudang-Berkualitas",
+  },
+
+  {
     title: "Rak Gudang",
-    date: "20 / 01 / 2025",
-    views: 380,
+    date: "01 / 03 / 2025",
+    views: 500,
     description:
       "Dalam dunia logistik dan pergudangan, rak gudang merupakan salah satu komponen penting yang tidak bisa diabaikan...",
     image:
-      "https://cdn.perkasaracking.co.id/images/artikel/rak-gudang/rak-gudang.webp",
+      "/images/artikel/rak-gudang/rak-gudang.webp",
     lazy_image:
-      "https://cdn.perkasaracking.co.id/images/artikel/rak-gudang/rak-gudang-lz.webp",
+      "/images/artikel/rak-gudang/rak-gudang-lz.webp",
     link: "/article/rak-gudang",
   },
 ];
@@ -144,7 +146,7 @@ useSeoMeta({
   ogDescription:
     "Temukan berbagai jenis rak gudang berkualitas untuk kebutuhan industri dan penyimpanan dengan harga terbaik.",
   ogImage:
-    "https://cdn.perkasaracking.co.id/images/projek/mezzanine-racking-steel-shelving/PT-HWASEUNG-JEPARA-Project-TAP-og.webp",
+    "/images/projek/mezzanine-racking-steel-shelving/PT-HWASEUNG-JEPARA-Project-TAP-og.webp",
   twitterCard: "summary_large_image",
   robots: "index, follow",
 });

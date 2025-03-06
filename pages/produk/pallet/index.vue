@@ -6,7 +6,7 @@
     <v-row>
       <v-col cols="12" md="9" class="px-4">
         <breadcrumbs />
-        <h1 class="barlow text-h2">Pallet Rack</h1>
+        <h1 class="barlow text-h2">Rak Gudang Pallet</h1>
 
         <v-divider
           :width="$vuetify.display.smAndUp ? '400' : '300'"
@@ -81,8 +81,8 @@ definePageMeta({
 });
 
 const banner = ref({
-  judul: "HEAVY DUTY",
-  alttext: "Rak Gudang Heavy Duty",
+  judul: "PALLET",
+  alttext: "Rak Gudang Pallet",
 });
 
 const data = reactive({
@@ -91,9 +91,9 @@ const data = reactive({
       judul: "Pallet Kayu",
       desc: "Pallet Kayu adalah solusi penyimpanan dan transportasi yang kokoh, ekonomis, dan ramah lingkungan, banyak digunakan dalam industri logistik dan pergudangan...",
       image:
-        "https://cdn.perkasaracking.co.id/images/produk/pallet/kayu/pallet-kayu_1.webp",
+        "/images/produk/pallet/kayu/pallet-kayu_1.webp",
       lazysrc:
-        "https://cdn.perkasaracking.co.id/images/produk/pallet/kayu/pallet-kayu_2.webp",
+        "/images/produk/pallet/kayu/pallet-kayu_2.webp",
       alttext: "TAP - Rak Gudang - Pallet - Pallet Kayu",
       to: "/produk/pallet/wooden",
     },
@@ -102,9 +102,9 @@ const data = reactive({
       judul: "Pallet Plastik",
       desc: "Pallet Plastik adalah solusi penyimpanan dan transportasi yang kuat, ringan, dan tahan lama, dirancang untuk meningkatkan efisiensi logistik dan manajemen gudang...",
       image:
-        "https://cdn.perkasaracking.co.id/images/produk/pallet/plastik/pallet-plastik_1.webp",
+        "/images/produk/pallet/plastik/pallet-plastik_1.webp",
       lazysrc:
-        "https://cdn.perkasaracking.co.id/images/produk/pallet/plastik/pallet-plastik_2.webp",
+        "/images/produk/pallet/plastik/pallet-plastik_2.webp",
       alttext: "TAP - Rak Gudang - Pallet - Pallet Plastic",
       to: "/produk/pallet/plastic",
     },
@@ -113,9 +113,9 @@ const data = reactive({
       judul: "Pallet Mesh",
       desc: "Pallet Mesh adalah sistem rak penyimpanan inovatif yang dirancang untuk menyimpan berbagai jenis barang dengan aman dan terorganisir. Menggunakan struktur palet...",
       image:
-        "https://cdn.perkasaracking.co.id/images/produk/pallet/mesh/pallet-mesh_1.webp",
+        "/images/produk/pallet/mesh/pallet-mesh_1.webp",
       lazysrc:
-        "https://cdn.perkasaracking.co.id/images/produk/pallet/mesh/pallet-mesh_2.webp",
+        "/images/produk/pallet/mesh/pallet-mesh_2.webp",
       alttext: "TAP - Rak - Gudang - Pallet - Pallet Mesh",
       to: "/produk/pallet/mesh",
     },
@@ -124,9 +124,9 @@ const data = reactive({
       judul: "Stacking System",
       desc: "Stacking System adalah sistem penyimpanan yang dirancang untuk menumpuk palet secara vertikal guna memaksimalkan kapasitas ruang penyimpanan...",
       image:
-        "https://cdn.perkasaracking.co.id/images/produk/pallet/stacking/stacking-system_1.webp",
+        "/images/produk/pallet/stacking/stacking-system_1.webp",
       lazysrc:
-        "https://cdn.perkasaracking.co.id/images/produk/pallet/stacking/stacking-system_2.webp",
+        "/images/produk/pallet/stacking/stacking-system_2.webp",
       alttext: "TAP - Rak - Gudang - Pallet - Stacking System",
       to: "/produk/pallet/stacking-system",
     },
@@ -135,9 +135,9 @@ const data = reactive({
       judul: "Nesting Rack System",
       desc: "Nesting Rack System adalah sistem penyimpanan yang dirancang untuk memberikan fleksibilitas dalam pengelolaan ruang dengan rak yang dapat dilipat...",
       image:
-        "https://cdn.perkasaracking.co.id/images/produk/pallet/nesting/nesting-rack_1.webp",
+        "/images/produk/pallet/nesting/nesting-rack_1.webp",
       lazysrc:
-        "https://cdn.perkasaracking.co.id/images/produk/pallet/nesting/nesting-rak_2.webp",
+        "/images/produk/pallet/nesting/nesting-rak_2.webp",
       alttext: "TAP - Rak - Gudang - Pallet - Nesting Rak Sistem",
       to: "/produk/pallet/nesting-rack",
     },
@@ -154,12 +154,12 @@ useSeoMeta({
   keywords:
     "rak pallet, rak pallet heavy duty, jual rak pallet, harga rak pallet, rak pallet gudang, rak gudang pallet, sistem rak pallet, rak penyimpanan pallet, selective pallet, drive-in rack, double deep rack, rak industri, warehouse racking",
   ogImage:
-    "https://cdn.perkasaracking.co.id/images/produk/pallet/rak-pallet-heavy-duty-TAP.webp",
+    "/images/produk/pallet/nesting/nesting-rack_og.webp",
   twitterCard: "summary_large_image",
   ogType: "product",
-  ogUrl: "https://www.perkasaracking.co.id/produk/pallet",
+  ogUrl: "https://www.aresa-digital.com/produk/pallet",
   robots: "index, follow, max-image-preview:large, max-snippet:-1",
-  canonical: "https://www.perkasaracking.co.id/produk/pallet",
+  canonical: "https://www.aresa-digital.com/produk/pallet",
 });
 
 </script>

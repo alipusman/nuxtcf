@@ -6,14 +6,13 @@
     <v-row>
       <v-col cols="12" md="6">
         <v-img
-          src="https://cdn.perkasaracking.co.id/images/produk/heavy-duty/drive-in/drive-in-racking-TAP_3.webp"
-          lazy-img="https://cdn.perkasaracking.co.id/images/produk/heavy-duty/drive-in/drive-in-racking-TAP_4.webp"
+          src="/images/produk/heavy-duty/drive-in/drive-in-racking-TAP_3.webp"
+          lazy-img="/images/produk/heavy-duty/drive-in/drive-in-racking-TAP_4.webp"
           alt="Rak Drive In"
           class="rounded-lg"
           cover
           width="100%"
           height="100%"
-          style="aspect-ratio: 650 / 600"
         />
       </v-col>
 
@@ -31,105 +30,6 @@
         </p>
         <br />
 
-        <h2 class="barlow2">Karakteristik Drive-In Racking:</h2>
-
-        <ol class="ml-6">
-          <li class="mt-3 barlow2">
-            <span class="barlow">Struktur:</span>
-            Rak terdiri dari dua tingkat palet yang disusun secara berjajar,
-            sehingga memungkinkan penyimpanan dua kali lebih banyak dalam satu
-            lorong.
-          </li>
-
-          <li class="mt-3 barlow2">
-            <span class="barlow">Sistem LIFO (Last In, First Out):</span>
-            Biasanya, palet yang terakhir disimpan akan diambil terlebih dahulu,
-            karena palet di depan menghalangi akses ke palet di belakang.
-          </li>
-
-          <li class="mt-3 barlow2">
-            <span class="barlow">Kepadatan Penyimpanan Tinggi: </span>
-            Dengan menghilangkan lorong antar rak, sistem ini memaksimalkan
-            penggunaan ruang vertikal dan horizontal.
-          </li>
-
-          <li class="mt-3 barlow2">
-            <span class="barlow">Penggunaan Forklift:</span>
-            Memerlukan forklift untuk memasuki lorong rak, sehingga operator
-            forklift harus terampil dan hati-hati.
-          </li>
-        </ol>
-      </v-col>
-    </v-row>
-
-    <v-row>
-      <v-col cols="12" sm="6" class="px-4">
-        <h2 class="barlow2">Keuntungan Drive-In Racking:</h2>
-
-        <ol class="ml-6 text-justify barlow2">
-          <li class="my-3">
-            <span class="barlow">Kepadatan Penyimpanan Lebih Tinggi: </span>
-            Menghilangkan lorong antar rak memungkinkan penyimpanan lebih banyak
-            palet dalam area yang sama, sehingga ideal untuk gudang dengan ruang
-            terbatas.
-          </li>
-
-          <li class="my-3">
-            <span class="barlow">Efisiensi Ruang: </span>
-            Maksimalisasi penggunaan ruang vertikal dan horizontal membuat
-            sistem ini sangat efisien untuk penyimpanan stok massal.
-          </li>
-
-          <li>
-            <span class="barlow">Biaya Ruang Lebih Rendah: </span>
-            Mengurangi kebutuhan ruang lantai, yang dapat menurunkan biaya sewa
-            atau konstruksi gudang.
-          </li>
-
-          <li>
-            <span class="barlow">Cocok untuk Stok Massal: </span>
-            Ideal untuk produk dengan rotasi stok rendah atau stok yang disimpan
-            dalam jumlah besar untuk jangka waktu panjang.
-          </li>
-        </ol>
-      </v-col>
-
-      <v-col cols="12" sm="6" class="px-4">
-        <h2 class="barlow2">Tantangan Drive-In Racking:</h2>
-
-        <ol class="ml-6 text-justify barlow2">
-          <li class="my-3">
-            <span class="barlow">Akses Terbatas: </span>
-            Hanya palet di bagian depan yang dapat diakses langsung, sementara
-            palet di belakang hanya dapat diambil setelah palet depan
-            dipindahkan. Ini membuat sistem ini kurang fleksibel untuk operasi
-            dengan rotasi stok tinggi.
-          </li>
-
-          <li class="my-3">
-            <span class="barlow">Risiko Kerusakan: </span>
-            Forklift yang masuk ke dalam lorong rak berisiko menyebabkan
-            kerusakan pada rak atau palet jika tidak dioperasikan dengan
-            hati-hati.
-          </li>
-
-          <li>
-            <span class="barlow">Kebutuhan Forklift Khusus: </span>
-            Memerlukan forklift dengan kemampuan manuver yang baik dan operator
-            yang terampil.
-          </li>
-
-          <li>
-            <span class="barlow">Tidak Cocok untuk Semua Produk:</span>
-            Kurang ideal untuk produk dengan tanggal kedaluwarsa atau yang
-            memerlukan rotasi stok tinggi (FIFO).
-          </li>
-        </ol>
-      </v-col>
-    </v-row>
-
-    <v-row>
-      <v-col cols="12" class="px-4">
         <h2 class="barlow2">Aplikasi di Industri:</h2>
 
         <p class="barlow2 mt-3 text-justify">
@@ -164,8 +64,76 @@
           </li>
         </ol>
       </v-col>
+    </v-row>
 
-      <v-col cols="12" class="px-4">
+    <v-row>
+      <v-col cols="12" sm="6" class="px-4">
+        <h2 class="barlow2">Keuntungan Drive-In Racking:</h2>
+
+        <ol class="ml-6 text-justify barlow2">
+          <li class="my-3">
+            <span class="barlow">Kepadatan Penyimpanan Lebih Tinggi: </span>
+            Menghilangkan lorong antar rak memungkinkan penyimpanan lebih banyak
+            palet dalam area yang sama, sehingga ideal untuk gudang dengan ruang
+            terbatas.
+          </li>
+
+          <li class="my-3">
+            <span class="barlow">Efisiensi Ruang: </span>
+            Maksimalisasi penggunaan ruang vertikal dan horizontal membuat
+            sistem ini sangat efisien untuk penyimpanan stok massal.
+          </li>
+
+          <li>
+            <span class="barlow">Biaya Ruang Lebih Rendah: </span>
+            Mengurangi kebutuhan ruang lantai, yang dapat menurunkan biaya sewa
+            atau konstruksi gudang.
+          </li>
+
+          <li class="mt-3">
+            <span class="barlow">Cocok untuk Stok Massal: </span>
+            Ideal untuk produk dengan rotasi stok rendah atau stok yang disimpan
+            dalam jumlah besar untuk jangka waktu panjang.
+          </li>
+        </ol>
+      </v-col>
+
+      <v-col cols="12" sm="6" class="px-4">
+        <h2 class="barlow2">Tantangan Drive-In Racking:</h2>
+
+        <ol class="ml-6 text-justify barlow2">
+          <li class="my-3">
+            <span class="barlow">Akses Terbatas: </span>
+            Hanya palet di bagian depan yang dapat diakses langsung, sementara
+            palet di belakang hanya dapat diambil setelah palet depan
+            dipindahkan. Ini membuat sistem ini kurang fleksibel untuk operasi
+            dengan rotasi stok tinggi.
+          </li>
+
+          <li class="my-3">
+            <span class="barlow">Risiko Kerusakan: </span>
+            Forklift yang masuk ke dalam lorong rak berisiko menyebabkan
+            kerusakan pada rak atau palet jika tidak dioperasikan dengan
+            hati-hati.
+          </li>
+
+          <li>
+            <span class="barlow">Kebutuhan Forklift Khusus: </span>
+            Memerlukan forklift dengan kemampuan manuver yang baik dan operator
+            yang terampil.
+          </li>
+
+          <li class="mt-3">
+            <span class="barlow">Tidak Cocok untuk Semua Produk:</span>
+            Kurang ideal untuk produk dengan tanggal kedaluwarsa atau yang
+            memerlukan rotasi stok tinggi (FIFO).
+          </li>
+        </ol>
+      </v-col>
+    </v-row>
+
+    <v-row>
+      <v-col class="px-4">
         <v-divider thickness="3" color="#FF3A3A" class="mb-3 opacity-100" />
         <h1 class="barlow">Kesimpulan</h1>
 
@@ -189,7 +157,6 @@
 <script setup>
 const banner = {
   judul: "DETAIL PRODUK",
-  alttext: "Rak Drive In",
 };
 
 useSeoMeta({
@@ -202,12 +169,12 @@ useSeoMeta({
   keywords:
     "rak gudang, heavy duty rack, drive in rack, rak penyimpanan, rak industri, warehouse shelving, storage rack, pallet rack",
   ogImage:
-    "https://cdn.perkasaracking.co.id/images/produk/heavy-duty/drive-in/drive-in-racking-TAP_og.webp",
+    "/images/produk/heavy-duty/drive-in/drive-in-racking-TAP_og.webp",
   twitterCard: "summary_large_image",
   ogType: "product",
-  ogUrl: "https://www.perkasaracking.co.id/produk/heavy-duty/drive-in",
+  ogUrl: "https://www.aresa-digital.com/produk/heavy-duty/drive-in",
   robots: "index, follow",
-  canonical: "https://www.perkasaracking.co.id/produk/heavy-duty/drive-in",
+  canonical: "https://www.aresa-digital.com/produk/heavy-duty/drive-in",
 });
 </script>
 

@@ -141,7 +141,7 @@
 
           <v-col cols="12" sm="5" class="mt-7">
             <v-img
-              src="https://cdn.perkasaracking.co.id/images/produk/cantilever/rak-gudang-cantilever-TAP_1.webp"
+              src="/images/produk/cantilever/rak-gudang-cantilever-TAP_1.webp"
               alt="Rak Gudang Cantilever"
               width="100%"
               height="100%"
@@ -188,7 +188,6 @@ definePageMeta({
 
 const banner = {
   judul: "CANTILEVER",
-  alttext: "Rak Gudang Cantilever",
 };
 
 useSeoMeta({
@@ -201,14 +200,14 @@ useSeoMeta({
   keywords:
     "rak gudang cantilever, jual rak cantilever, harga rak cantilever, rak besi heavy duty, rak untuk barang panjang, rak gudang industri, rak beban berat, rak besi modular, sistem racking warehouse, rak untuk pipa dan kayu, rak besi tahan beban berat",
   ogImage:
-    "https://cdn.perkasaracking.co.id/images/produk/cantilever/rak-gudang-cantilever-TAP_og.webp",
+    "/images/produk/cantilever/rak-gudang-cantilever-TAP_og.webp",
   twitterCard: "summary_large_image",
   ogType: "product",
   ogUrl:
-    "https://www.perkasaracking.co.id/produk/type-rack/heavy-duty/cantilever",
+    "https://www.aresa-digital.com/produk/type-rack/heavy-duty/cantilever",
   robots: "index, follow, max-image-preview:large, max-snippet:-1",
   canonical:
-    "https://www.perkasaracking.co.id/produk/type-rack/heavy-duty/cantilever",
+    "https://www.aresa-digital.com/produk/type-rack/heavy-duty/cantilever",
 });
 </script>
 

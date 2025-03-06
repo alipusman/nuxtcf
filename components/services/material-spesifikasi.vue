@@ -3,7 +3,7 @@
     <v-row justify="center">
       <v-col cols="12" md="9">
         <v-row align="center">
-          <v-col cols="12" md="6" class="px-7">
+          <v-col cols="12" sm="6" md="6" class="px-7">
             <h2 class="barlow">Spesifikasi Material</h2>
 
             <v-divider
@@ -46,10 +46,10 @@
             </p>
           </v-col>
 
-          <v-col cols="12" md="6" class="px-7">
+          <v-col cols="12" sm="6" md="6" class="px-7">
             <v-img
-              src="https://cdn.perkasaracking.co.id/images/layanan-dukungan/material/material_1.webp"
-              lazy-src="https://cdn.perkasaracking.co.id/images/layanan-dukungan/material/material_1.webp"
+              src="/images/layanan-dukungan/material/material_1.webp"
+              lazy-src="/images/layanan-dukungan/material/material_1.webp"
               alt="Material Spesifikasi Rak Gudang TAP"
               class="rounded-lg"
               cover

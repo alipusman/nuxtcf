@@ -1,9 +1,9 @@
 <template>
   <v-card>
     <v-img
-      src="https://cdn.perkasaracking.co.id/images/dukungan-TAP_1.webp"
+      src="/images/dukungan-TAP_1.webp"
       alt="Layanan & Dukungan"
-      lazy-src="https://cdn.perkasaracking.co.id/images/dukungan-TAP_2.webp"
+      lazy-src="/images/dukungan-TAP_2.webp"
       height="500"
       cover
     >

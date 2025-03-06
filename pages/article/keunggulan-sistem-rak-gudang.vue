@@ -21,8 +21,8 @@
         />
 
         <v-img
-          src="https://cdn.perkasaracking.co.id/images/produk/heavy-duty/Rak-Gudang-Heavy-Duty_TAP_1.webp"
-          lazy_src="https://cdn.perkasaracking.co.id/images/produk/heavy-duty/Rak-Gudang-Heavy-Duty_TAP_2.webp"
+          src="/images/produk/heavy-duty/Rak-Gudang-Heavy-Duty_TAP_1.webp"
+          lazy_src="/images/produk/heavy-duty/Rak-Gudang-Heavy-Duty_TAP_2.webp"
           alt="Keunggulan Sistem Rak Gudang - Artikel TAP"
           height="450"
           class="my-5"
@@ -118,7 +118,6 @@
 <script setup>
 const banner = {
   judul: "DETAIL ARTIKEL",
-  alttext: "Keunggulan Sistem Rak Gudang",
 };
 
 useSeoMeta({
@@ -129,14 +128,14 @@ useSeoMeta({
   ogDescription:
     "Pelajari keunggulan sistem rak gudang yang dapat meningkatkan efisiensi dan efektivitas manajemen pergudangan Anda.",
   ogImage:
-    "https://cdn.perkasaracking.co.id/images/produk/heavy-duty/Rak-Gudang-Heavy-Duty_TAP_og.webp",
+    "/images/produk/heavy-duty/Rak-Gudang-Heavy-Duty_TAP_og.webp",
   twitterCard: "summary_large_image",
   keywords:
     "sistem rak gudang, keunggulan rak gudang, manajemen gudang, efisiensi pergudangan",
   canonical:
-    "https://www.perkasaracking.co.id/article/keunggulan-sistem-rak-gudang",
+    "https://www.aresa-digital.com/article/keunggulan-sistem-rak-gudang",
   ogurl:
-    "https://www.perkasaracking.co.id/article/keunggulan-sistem-rak-gudang",
+    "https://www.aresa-digital.com/article/keunggulan-sistem-rak-gudang",
 });
 </script>
 

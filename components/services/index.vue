@@ -26,7 +26,13 @@
       </v-row>
 
       <v-row class="mt-10">
-        <v-col v-for="(item, index) in items" :key="index" cols="12" sm="4">
+        <v-col
+          v-for="(item, index) in items"
+          :key="index"
+          cols="12"
+          sm="6"
+          md="4"
+        >
           <v-card class="hover-effect rounded-lg" flat>
             <v-img
               :lazy-src="item.lazy_img"
@@ -35,7 +41,6 @@
               height="300"
               cover
             />
-      
 
             <div class="corner-triangle" />
 
@@ -52,13 +57,13 @@
                   </div>
                 </v-col>
 
-                <v-col cols="10" class="text-left pa-10">
+                <v-col cols="11" class="text-left ml-16 pa-10">
                   <h2 class="barlow">{{ item.title }}</h2>
 
                   <p class="barlow2 text-body-1 my-5">{{ item.description }}</p>
 
                   <tombol
-                  aria-label="Service Kami"
+                    aria-label="Service Kami"
                     :operandata="{
                       teks: 'Lihat Selengkapnya',
                       variant: 'flat',
@@ -82,12 +87,12 @@ const items = [
     description:
       "Temukan berbagai pilihan rak industri dengan spesifikasi lengkap dan sesuai kebutuhan Anda.",
     image:
-      "https://cdn.perkasaracking.co.id/images/layanan-dukungan/katalog/katalog_1.webp",
+      "/images/layanan-dukungan/katalog/katalog_1.webp",
     lazy_img:
-      "https://cdn.perkasaracking.co.id/images/layanan-dukungan/katalog/katalog_2.webp",
+      "/images/layanan-dukungan/katalog/katalog_2.webp",
     icon: "mdi-view-grid-outline",
     to: "/produk",
-    alttext: "Heavy Duty TAP"
+    alttext: "Heavy Duty TAP",
   },
 
   {
@@ -95,12 +100,12 @@ const items = [
     description:
       "Dapatkan estimasi harga cepat dan akurat untuk solusi penyimpanan industri yang efisien.",
     image:
-      "https://cdn.perkasaracking.co.id/images/layanan-dukungan/penawaran/penawaran_1.webp",
+      "/images/layanan-dukungan/penawaran/penawaran_1.webp",
     lazy_img:
-      "https://cdn.perkasaracking.co.id/images/layanan-dukungan/penawaran/penawaran_2.webp",
+      "/images/layanan-dukungan/penawaran/penawaran_2.webp",
     icon: "mdi-file-document-outline",
     to: "/contact",
-    alttext: "Heavy Duty TAP"
+    alttext: "Heavy Duty TAP",
   },
 
   {
@@ -108,12 +113,12 @@ const items = [
     description:
       "Pesan rak yang disesuaikan dengan kebutuhan spesifik industri untuk penyimpanan optimal.",
     image:
-      "https://cdn.perkasaracking.co.id/images/layanan-dukungan/rak-custom/kustom_1.webp",
+      "/images/layanan-dukungan/rak-custom/kustom_1.webp",
     lazy_img:
-      "https://cdn.perkasaracking.co.id/images/layanan-dukungan/rak-custom/kustom_1.webp",
+      "/images/layanan-dukungan/rak-custom/kustom_1.webp",
     icon: "mdi-pencil-ruler",
     to: "/contact",
-    alttext: "Heavy Duty TAP"
+    alttext: "Heavy Duty TAP",
   },
 ];
 </script>
@@ -134,7 +139,7 @@ const items = [
   left: 0;
   bottom: 37%;
   width: 25%;
-  height: 70px;
+  height: 80px;
   display: flex;
   align-items: center;
   justify-content: center;

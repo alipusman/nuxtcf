@@ -81,7 +81,7 @@ const props = defineProps<{
 //   {
 //     name: "Muhammad Noval",
 //     avatar:
-//       "https://cdn.perkasaracking.co.id/images/artikel/review-profile.png",
+//       "/images/artikel/review-profile.png",
 //     date: "03 Januari, 2025",
 //     rating: 5,
 //     comment:
@@ -91,7 +91,7 @@ const props = defineProps<{
 
 const newReview = ref({
   name: "Guest",
-  avatar: "https://cdn.perkasaracking.co.id/images/artikel/review-profile.png",
+  avatar: "/images/artikel/review-profile.png",
   rating: 0,
   comment: "",
 });

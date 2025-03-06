@@ -12,10 +12,10 @@
     <v-carousel-item>
       <div class="carousel-wrapper">
         <v-img
-          src="https://cdn.perkasaracking.co.id/images/banner.webp"
+          src="/images/banner.webp"
           alt="Jual Rak Gudang Heavy Duty"
           class="cover-image"
-          lazy-src="https://cdn.perkasaracking.co.id/images/banner-small.webp"
+          lazy-src="/images/banner-small.webp"
           cover
         />
 
@@ -103,7 +103,7 @@ useHead({
     {
       rel: "preload",
       as: "image",
-      href: "https://cdn.perkasaracking.co.id/images/banner.webp"
+      href: "/images/banner.webp"
     }
   ]
 });

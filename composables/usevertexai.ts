@@ -130,7 +130,7 @@ Total Harga Penyimpanan: Rp ${harga.toLocaleString('id-ID')}
 //     const vertexAI = getVertexAI();
 //     const model = getGenerativeModel(vertexAI, { model: "gemini-2.0-flash-001" });
 //     const systemInstruction = `
-//       PT. Tangguh Adi Perkasa TAP,
+//       Aresa Digital TAP,
 //       mitra terpercaya dalam solusi penyimpanan gudang yang canggih dan berkualitas.
 //       Dengan pengalaman lebih dari 17 tahun, kami berkomitmen untuk menghadirkan 
 //       sistem rak gudang yang optimal bagi berbagai industri...
@@ -142,7 +142,7 @@ Total Harga Penyimpanan: Rp ${harga.toLocaleString('id-ID')}
 //         role: "model",
 //         parts: [
 //           {
-//             text: "Selamat siang! Ada yang bisa saya bantu? Apakah Anda ingin mengetahui lebih lanjut tentang PT. Tangguh Adi Perkasa (TAP) atau solusi penyimpanan gudang yang kami tawarkan?",
+//             text: "Selamat siang! Ada yang bisa saya bantu? Apakah Anda ingin mengetahui lebih lanjut tentang Aresa Digital (TAP) atau solusi penyimpanan gudang yang kami tawarkan?",
 //           },
 //         ],
 //       },
@@ -244,22 +244,22 @@ export const hitungPalletDanHarga = async (lebarPallet : number, panjangPallet :
     console.log({lebarPallet, panjangPallet,tinggiPallet, lebarRuangan, panjangRuangan, tinggiRuangan})
     // Hitung jumlah pallet dalam setiap arah
     const arahLebar = lebarRuangan / (1650 + lebarPallet);
-    const arahPanjang = panjangRuangan / (1650 + panjangPallet);
+    const arahPanjang = panjangRuangan / ( (lebarPallet *2 )+400);
     const levelPallet = Math.floor(tinggiRuangan / (tinggiPallet + 250)); // Harus integer
-
+    console.log({arahLebar,arahPanjang, levelPallet})
     // Total jumlah pallet
-    const totalPallet = Math.ceil(arahLebar) * Math.floor(arahPanjang) * levelPallet * 2;
-
+    const totalPallet = Math.floor(arahLebar) * Math.floor(arahPanjang) * levelPallet * 2;
+    console.log({totalPallet})
     // Harga per pallet berdasarkan ukuran
     const hargaPallet = {
-        1000: 600000, // Rp600.000 untuk ukuran pallet 1000 mm
-        1100: 700000, // Rp700.000 untuk ukuran pallet 1100 mm
-        1200: 800000  // Rp800.000 untuk ukuran pallet 1200 mm
+        '1000': 600000, // Rp600.000 untuk ukuran pallet 1000 mm
+        '1100': 700000, // Rp700.000 untuk ukuran pallet 1100 mm
+        '1200': 800000  // Rp800.000 untuk ukuran pallet 1200 mm
     };
 
     // Ambil harga sesuai ukuran pallet yang digunakan
-    const hargaPerPallet = hargaPallet[lebarPallet] || 0;
-    console.log(hargaPallet)
+    const hargaPerPallet = hargaPallet[_.toString(lebarPallet)] || 0;
+    console.log({hargaPerPallet})
     // Hitung estimasi harga
     const estimasiHarga = totalPallet * hargaPerPallet;
     const ppn = estimasiHarga * 0.11; // Pajak 11%

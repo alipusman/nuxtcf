@@ -46,8 +46,8 @@
         <br />
 
         <v-img
-          src="https://cdn.perkasaracking.co.id/images/projek/mezzanine-racking-steel-shelving/PT-HWASEUNG-JEPARA-Project-TAP.webp"
-          lazy-src="https://cdn.perkasaracking.co.id/images/projek/mezzanine-racking-steel-shelving/PT-HWASEUNG-JEPARA-project-TAP_2.webp"
+          src="/images/projek/mezzanine-racking-steel-shelving/PT-HWASEUNG-JEPARA-Project-TAP.webp"
+          lazy-src="/images/projek/mezzanine-racking-steel-shelving/PT-HWASEUNG-JEPARA-project-TAP_2.webp"
           alt="Rak Gudang Jakarta - Artikel TAP"
           height="450"
           cover
@@ -158,8 +158,8 @@
 
             <v-img
               max-height="400"
-              src="https://cdn.perkasaracking.co.id/images/artikel/instalasi-rak-Gudang-TAP_1.webp"
-              lazy-src="https://cdn.perkasaracking.co.id/images/artikel/instalasi-rak-Gudang-TAP_2.webp"
+              src="/images/artikel/instalasi-rak-Gudang-TAP_1.webp"
+              lazy-src="/images/artikel/instalasi-rak-Gudang-TAP_2.webp"
               alt="Instalasi Rak Gudang Jakarta"
             />
 
@@ -190,7 +190,6 @@
 <script setup>
 const banner = {
   judul: "DETAIL ARTIKEL",
-  alttext: "Banner Detail Artikel",
 };
 
 useSeoMeta({
@@ -201,12 +200,12 @@ useSeoMeta({
   ogDescription:
     "Temukan berbagai jenis rak gudang di Jakarta dengan kualitas terbaik dan harga bersaing.",
   ogImage:
-    "https://cdn.perkasaracking.co.id/images/projek/mezzanine-racking-steel-shelving/PT-HWASEUNG-JEPARA-Project-TAP-og.webp",
+    "/images/projek/mezzanine-racking-steel-shelving/PT-HWASEUNG-JEPARA-Project-TAP-og.webp",
   twitterCard: "summary_large_image",
   keywords:
     "rak gudang jakarta, jual rak gudang, harga rak gudang, rak gudang terbaik",
-  ogurl: "https://www.perkasaracking.co.id/article/rak-gudang-jakarta",
-  canonical: "https://www.perkasaracking.co.id/article/rak-gudang-jakarta",
+  ogurl: "https://www.aresa-digital.com/article/rak-gudang-jakarta",
+  canonical: "https://www.aresa-digital.com/article/rak-gudang-jakarta",
 });
 </script>
 

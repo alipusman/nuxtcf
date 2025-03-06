@@ -9,21 +9,21 @@
       <v-img
         max-height="30"
         aspect-ratio="16/9"
-        src="https://cdn.perkasaracking.co.id/images/logo/TAP2.webp"
+        src="/images/logo/TAP2.webp"
         alt="Logo TAP"
       />
 
       <v-img
         max-height="40"
         aspect-ratio="16/9"
-        src="https://cdn.perkasaracking.co.id/images/logo/iso.webp"
+        src="/images/logo/iso.webp"
         alt="Sertifikat-ISO-TAP"
       />
 
       <v-img
         max-height="40"
         aspect-ratio="16/9"
-        src="https://cdn.perkasaracking.co.id/images/logo/bppt.webp"
+        src="/images/logo/bppt.webp"
         alt="Sertifikat-BPPT-TAP"
       />
     </div>
@@ -75,21 +75,21 @@
           aspect-ratio="16/9"
           :src="
             isScrolled
-              ? 'https://cdn.perkasaracking.co.id/images/logo/TAP2.webp'
-              : 'https://cdn.perkasaracking.co.id/images/logo/TAP.webp'
+              ? '/images/logo/TAP2.webp'
+              : '/images/logo/TAP.webp'
           "
           alt="TAP-LOGO"
         />
 
         <v-img
-          src="https://cdn.perkasaracking.co.id/images/logo/iso.webp"
+          src="/images/logo/iso.webp"
           alt="Sertifikat-ISO-TAP"
           class="mx-3"
           width="30"
         />
 
         <v-img
-          src="https://cdn.perkasaracking.co.id/images/logo/bppt.webp"
+          src="/images/logo/bppt.webp"
           alt="Sertifikat-BPPT-TAP"
           width="40"
         />
@@ -117,22 +117,22 @@
         <v-img
           :src="
             isScrolled
-              ? 'https://cdn.perkasaracking.co.id/images/logo/TAP2.webp '
-              : '/images/logo/TAP2.png'
+              ? '/images/logo/TAP2.webp '
+              : '/images/logo/TAP.webp'
           "
           alt="TAP-LOGO"
           height="50"
         />
 
         <v-img
-          src="https://cdn.perkasaracking.co.id/images/logo/iso.webp"
+          src="/images/logo/iso.webp"
           alt="Sertifikat-ISO-TAP"
           height="50"
           style="margin-left: -25%"
         />
 
         <v-img
-          src="https://cdn.perkasaracking.co.id/images/logo/bppt.webp"
+          src="/images/logo/bppt.webp"
           alt="Sertifikat-BPPT-TAP"
           height="40"
           style="margin-left: -35%"
@@ -176,7 +176,7 @@
                     aria-haspopup="true"
                     aria-expanded="false"
                   >
-                    EN
+                    ID
                   </v-btn>
                 </template>
 
@@ -254,7 +254,7 @@
                     </v-list-item>
 
                     <v-list-item to="/produk/mezzanine" role="menuitem">
-                      <h4 class="barlow" style="color: #8e8e8e">MEZANINE</h4>
+                      <h4 class="barlow" style="color: #8e8e8e">MEZZANINE</h4>
                     </v-list-item>
                   </v-col>
 
@@ -270,7 +270,7 @@
                     <v-img
                       rounded="small"
                       width="270"
-                      src="https://cdn.perkasaracking.co.id/images/layanan-dukungan/support-gudang/support-gudang-TAP_1.webp"
+                      src="/images/layanan-dukungan/support-gudang/support-gudang-TAP_1.webp"
                       alt="Dukungan Racking Gudang TAP"
                     />
 
@@ -354,7 +354,7 @@ const data = reactive({
   drawer: false,
   menuOpen: false,
   listmenu: [
-    { title: "BERANDA", status: true, to: "/" },
+    { title: "BERANDA1", status: true, to: "/" },
     { title: "PRODUK", status: false, to: "/produk" },
     { title: "TENTANG KAMI", status: false, to: "/aboutus" },
     { title: "LAYANAN", status: false, to: "/services-support" },

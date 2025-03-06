@@ -7,14 +7,13 @@
     <v-row>
       <v-col cols="12" md="6">
         <v-img
-          src="https://cdn.perkasaracking.co.id/images/produk/heavy-duty/vna/vna-racking-system-TAP_3.webp"
-          lazy-img="https://cdn.perkasaracking.co.id/images/produk/heavy-duty/vna/vna-racking-system-TAP_4.webp"
+          src="/images/produk/heavy-duty/vna/vna-racking-system-TAP_3.webp"
+          lazy-img="/images/produk/heavy-duty/vna/vna-racking-system-TAP_4.webp"
           alt="Rak VNA"
           class="rounded-lg"
           cover
           width="100%"
           height="100%"
-          style="aspect-ratio: 650 / 600"
         />
       </v-col>
 
@@ -73,7 +72,7 @@
       </v-col>
     </v-row>
 
-    <v-row class="mt-5">
+    <v-row>
       <v-col cols="12" sm="6" class="px-4">
         <h2 class="barlow2">Keuntungan VNA Racking</h2>
 
@@ -166,7 +165,6 @@
 <script setup>
 const banner = {
   judul: "DETAIL PRODUK",
-  alttext: "Rak VNA / Very Narrow Aisle Racking",
 };
 
 useSeoMeta({
@@ -179,14 +177,14 @@ useSeoMeta({
   keywords:
     "rak gudang, heavy duty rack, very narrow aisle rack, rak penyimpanan, rak industri, warehouse shelving, storage rack, pallet rack, rack sempit",
   ogImage:
-    "https://cdn.perkasaracking.co.id/images/produk/heavy-duty/vna/vna-racking-system-TAP_og.webp",
+    "/images/produk/heavy-duty/vna/vna-racking-system-TAP_og.webp",
   twitterCard: "summary_large_image",
   ogType: "product",
   ogUrl:
-    "https://www.perkasaracking.co.id/produk/heavy-duty/verry-narrow-aisle",
+    "https://www.aresa-digital.com/produk/heavy-duty/verry-narrow-aisle",
   robots: "index, follow",
   canonical:
-    "https://www.perkasaracking.co.id/produk/heavy-duty/verry-narrow-aisle",
+    "https://www.aresa-digital.com/produk/heavy-duty/verry-narrow-aisle",
 });
 </script>
 

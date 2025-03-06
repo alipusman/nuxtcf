@@ -15,7 +15,7 @@
 
           <v-icon color="white">mdi-email-outline</v-icon>
           <span class="barlow2 text-white ml-3">
-            marketing@perkasaracking.co.id
+            marketing@aresa-digital.com
           </span>
           <br />
 
@@ -52,13 +52,13 @@
                   <v-icon color="white" size="25">mdi-instagram</v-icon>
                 </v-btn>
               </template>
-            </v-tooltip>
+            </v-tooltip> 
           </div>
         </v-col>
 
         <v-col cols="12" md="9">
           <v-row :style="{ marginLeft: $vuetify.display.mdAndUp ? '15%' : '' }">
-            <v-col cols="12" sm="3">
+            <v-col cols="6" sm="3">
               <p class="font-weight-bold text-h6 barlow">PRODUK</p>
 
               <ul class="footer-links mt-2">
@@ -94,13 +94,13 @@
                     href="/produk/mezzanine"
                     class="text-body-1 text-white barlow2"
                   >
-                    Mezzanines
+                    Mezzanine
                   </a>
                 </li>
               </ul>
             </v-col>
 
-            <v-col cols="12" sm="4">
+            <v-col cols="6" sm="4">
               <p class="font-weight-bold text-h6 barlow">TENTANG KAMI</p>
 
               <ul class="footer-links mt-2">
@@ -127,7 +127,7 @@
             <v-col cols="12" sm="5">
               <v-img
                 width="100"
-                src="https://cdn.perkasaracking.co.id/images/logo/TAP3.webp"
+                src="/images/logo/TAP3.webp"
                 />
               
               <p class="text-h3 barlow mt-9">

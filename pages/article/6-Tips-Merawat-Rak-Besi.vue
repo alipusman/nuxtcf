@@ -45,8 +45,8 @@
             <v-img
               class="animated-image"
               width="140"
-              lazy-src="https://cdn.perkasaracking.co.id/images/artikel/tips-merawat-besi/helpful-tips-TAP_1.webp"
-              src="https://cdn.perkasaracking.co.id/images/artikel/tips-merawat-besi/helpful-tips-TAP_2.webp"
+              lazy-src="/images/artikel/tips-merawat-besi/helpful-tips-TAP_1.webp"
+              src="/images/artikel/tips-merawat-besi/helpful-tips-TAP_2.webp"
               alt="Tips Merawat Rak Gudang TAP"
             />
           </v-col>
@@ -62,8 +62,8 @@
         </p>
 
         <v-img
-          src="https://cdn.perkasaracking.co.id/images/artikel/tips-merawat-besi/Artikel-6-Tips-Merawat-Rak-Besi-Agar-Lebih-Awet_1.webp"
-          lazy_src="https://cdn.perkasaracking.co.id/images/artikel/tips-merawat-besi/Artikel-6-Tips-Merawat-Rak-Besi-Agar-Lebih-Awet_2.webp"
+          src="/images/artikel/tips-merawat-besi/Artikel-6-Tips-Merawat-Rak-Besi-Agar-Lebih-Awet_1.webp"
+          lazy_src="/images/artikel/tips-merawat-besi/Artikel-6-Tips-Merawat-Rak-Besi-Agar-Lebih-Awet_2.webp"
           alt="Tips Merawat Rak Besi - Artikel TAP"
           height="450"
           cover
@@ -182,7 +182,6 @@
 <script setup>
 const banner = {
   judul: "DETAIL ARTIKEL",
-  alttext: "Banner Detail Artikel",
 };
 
 useSeoMeta({
@@ -193,12 +192,12 @@ useSeoMeta({
   ogDescription:
     "Temukan 6 tips merawat rak besi agar lebih awet dan terjaga kualitasnya. Pelajari cara perawatan dan pencegahan kerusakan secara mudah dan efektif.",
   ogImage:
-    "https://cdn.perkasaracking.co.id/images/artikel/tips-merawat-besi/Artikel-6-Tips-Merawat-Rak-Besi-Agar-Lebih-Awet_og.webp",
+    "/images/artikel/tips-merawat-besi/Artikel-6-Tips-Merawat-Rak-Besi-Agar-Lebih-Awet_og.webp",
   twitterCard: "summary_large_image",
   keywords:
     "rak besi, tips merawat rak besi, perawatan rak besi, awet rak besi, panduan rak besi",
-  ogurl: "https://www.perkasaracking.co.id/article/6-tips-merawat-rak-besi",
-  canonical: "https://www.perkasaracking.co.id/article/6-tips-merawat-rak-besi",
+  ogurl: "https://www.aresa-digital.com/article/6-tips-merawat-rak-besi",
+  canonical: "https://www.aresa-digital.com/article/6-tips-merawat-rak-besi",
 });
 </script>
 

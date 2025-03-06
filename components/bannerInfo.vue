@@ -3,9 +3,9 @@
     <v-row>
       <v-col cols="12" sm="6">
         <v-img
-          src="https://cdn.perkasaracking.co.id/images/manajemen-rak-TAP_1.webp"
+          src="/images/manajemen-rak-TAP_1.webp"
           alt="Banner Info TAP Rack"
-          lazy-src="https://cdn.perkasaracking.co.id/images/manajemen-rak-TAP_2.webp"
+          lazy-src="/images/manajemen-rak-TAP_2.webp"
           height="500"
           cover
         >
@@ -35,7 +35,7 @@
                 : 'my-5 barlow2 text-body-2 text-justify'
             "
           >
-            Selamat datang di Perkasa Racking | PT. Tangguh Adi Perkasa (TAP),
+            Selamat datang di Perkasa Racking | Aresa Digital (TAP),
             mitra terpercaya Anda dalam solusi penyimpanan industri. Dengan
             pengalaman lebih dari 16 tahun sejak 2007, kami berkomitmen
             menyediakan rak gudang berkualitas tinggi yang dirancang untuk

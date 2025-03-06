@@ -54,8 +54,8 @@
         <br />
 
         <v-img
-          src="https://cdn.perkasaracking.co.id/images/artikel/rak-gudang-murah/rak-gudang-murah-berkualitas-TAP_1.webp"
-          lazy-src="https://cdn.perkasaracking.co.id/images/artikel/rak-gudang-murah/rak-gudang-murah-berkualitas-TAP_2.webp"
+          src="/images/artikel/rak-gudang-murah/rak-gudang-murah-berkualitas-TAP_1.webp"
+          lazy-src="/images/artikel/rak-gudang-murah/rak-gudang-murah-berkualitas-TAP_2.webp"
           alt="Rak Gudang Murah Berkualitas"
           height="450"
         />
@@ -112,7 +112,6 @@
 <script setup>
 const banner = {
   judul: "DETAIL ARTIKEL",
-  alttext: "Banner Detail Artikel",
 };
 
 useSeoMeta({
@@ -125,14 +124,14 @@ useSeoMeta({
   ogDescription:
     "Temukan berbagai jenis rak gudang di Jakarta dengan kualitas terbaik dan harga bersaing.",
   ogImage:
-    "https://cdn.perkasaracking.co.id/images/artikel/rak-gudang-murah/rak-gudang-murah-berkualitas-TAP_og.webp",
+    "/images/artikel/rak-gudang-murah/rak-gudang-murah-berkualitas-TAP_og.webp",
   twitterCard: "summary_large_image",
   keywords:
     "rak gudang murah, rak gudang berkualitas, harga rak gudang, rak gudang heavy duty",
   canonical:
-    "https://www.perkasaracking.co.id/article/rak-gudang-murah-berkualitas",
+    "https://www.aresa-digital.com/article/rak-gudang-murah-berkualitas",
   ogurl:
-    "https://www.perkasaracking.co.id/article/rak-gudang-murah-berkualitas",
+    "https://www.aresa-digital.com/article/rak-gudang-murah-berkualitas",
 });
 </script>
 

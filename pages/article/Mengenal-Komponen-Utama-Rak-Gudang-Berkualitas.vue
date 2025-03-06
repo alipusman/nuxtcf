@@ -21,8 +21,8 @@
         />
 
         <v-img
-          src="https://cdn.perkasaracking.co.id/images/projek/dies-racking/pt-sgs-cikarang/PT-SGS-Cikarang-project-TAP_1.webp"
-          lazy_src="https://cdn.perkasaracking.co.id/images/projek/dies-racking/pt-sgs-cikarang/PT-SGS-Cikarang-project-TAP_2.webp"
+          src="/images/projek/dies-racking/pt-sgs-cikarang/PT-SGS-Cikarang-project-TAP_1.webp"
+          lazy_src="/images/projek/dies-racking/pt-sgs-cikarang/PT-SGS-Cikarang-project-TAP_2.webp"
           alt="TAP-artikel-memahami-komponen-rak-gudang"
           :height="$vuetify.display.smAndUp ? '850' : '350'"
           :class="$vuetify.display.smAndUp ? 'my-7' : 'my-5'"
@@ -42,8 +42,8 @@
           <v-col cols="12" sm="3">
             <v-img
               width="180"
-              lazy-src="https://cdn.perkasaracking.co.id/images/komponen-rak/upframe/upframe_2.webp"
-              src="https://cdn.perkasaracking.co.id/images/komponen-rak/upframe/upframe_1.webp"
+              lazy-src="/images/komponen-rak/upframe/upframe_2.webp"
+              src="/images/komponen-rak/upframe/upframe_1.webp"
             />
           </v-col>
 
@@ -70,8 +70,8 @@
           <v-col cols="12" sm="3">
             <v-img
               width="180"
-              lazy-src="https://cdn.perkasaracking.co.id/images/komponen-rak/beam/beam_2.webp"
-              src="https://cdn.perkasaracking.co.id/images/komponen-rak/beam/beam_1.webp"
+              lazy-src="/images/komponen-rak/beam/beam_2.webp"
+              src="/images/komponen-rak/beam/beam_1.webp"
             />
           </v-col>
 
@@ -98,8 +98,8 @@
           <v-col cols="12" sm="3">
             <v-img
               width="150"
-              lazy-src="https://cdn.perkasaracking.co.id/images/komponen-rak/bracing/bracing_2.webp"
-              src="https://cdn.perkasaracking.co.id/images/komponen-rak/bracing/bracing_1.webp"
+              lazy-src="/images/komponen-rak/bracing/bracing_2.webp"
+              src="/images/komponen-rak/bracing/bracing_1.webp"
             />
           </v-col>
 
@@ -127,8 +127,8 @@
           <v-col cols="12" sm="3">
             <v-img
               width="180"
-              lazy-src="https://cdn.perkasaracking.co.id/images/komponen-rak/baseplate/baseplate_2.webp"
-              src="https://cdn.perkasaracking.co.id/images/komponen-rak/baseplate/baseplate_1.webp"
+              lazy-src="/images/komponen-rak/baseplate/baseplate_2.webp"
+              src="/images/komponen-rak/baseplate/baseplate_1.webp"
             />
           </v-col>
 
@@ -156,8 +156,8 @@
           <v-col cols="12" sm="3">
             <v-img
               width="150"
-              lazy-src="https://cdn.perkasaracking.co.id/images/komponen-rak/anchor-bolt/anchor-bolt_2.webp"
-              src="https://cdn.perkasaracking.co.id/images/komponen-rak/anchor-bolt/anchor-bolt_1.webp"
+              lazy-src="/images/komponen-rak/anchor-bolt/anchor-bolt_2.webp"
+              src="/images/komponen-rak/anchor-bolt/anchor-bolt_1.webp"
             />
           </v-col>
 
@@ -186,8 +186,8 @@
           <v-col cols="12" sm="3">
             <v-img
               width="180"
-              lazy-src="https://cdn.perkasaracking.co.id/images/komponen-rak/beam-2/beam-2_2.webp"
-              src="https://cdn.perkasaracking.co.id/images/komponen-rak/beam-2/beam-2_1.webp"
+              lazy-src="/images/komponen-rak/beam-2/beam-2_2.webp"
+              src="/images/komponen-rak/beam-2/beam-2_1.webp"
             />
           </v-col>
 
@@ -242,7 +242,6 @@
 <script setup>
 const banner = {
   judul: "DETAIL ARTTIKEL",
-  alttext: "Banner Detail Artikel",
 };
 
 useSeoMeta({
@@ -253,20 +252,20 @@ useSeoMeta({
   ogDescription:
     "Pelajari lebih lanjut tentang berbagai komponen rak gudang berkualitas untuk penyimpanan yang lebih efisien dan tahan lama.",
   ogImage:
-    "https://cdn.perkasaracking.co.id/images/projek/dies-racking/pt-sgs-cikarang/PT-SGS-Cikarang-project-TAP_og.webp",
+    "/images/projek/dies-racking/pt-sgs-cikarang/PT-SGS-Cikarang-project-TAP_og.webp",
   ogType: "article",
   twitterTitle: "Mengenal Lebih Jelas Komponen-Komponen Rak Gudang Berkualitas",
   twitterDescription:
     "Pelajari lebih lanjut tentang berbagai komponen rak gudang berkualitas untuk penyimpanan yang lebih efisien dan tahan lama.",
   twitterImage:
-    "https://cdn.perkasaracking.co.id/images/projek/dies-racking/pt-sgs-cikarang/PT-SGS-Cikarang-project-TAP_og.webp",
+    "/images/projek/dies-racking/pt-sgs-cikarang/PT-SGS-Cikarang-project-TAP_og.webp",
   twitterCard: "summary_large_image",
   keywords:
     "komponen rak gudang, rak gudang berkualitas, sistem penyimpanan, rak besi, tiang penyangga, beam, bracing, baseplate, anchor bolt",
   ogUrl:
-    "https://www.perkasaracking.co.id/article/mengenal-komponen-utama-rak-gudang-berkualitas",
+    "https://www.aresa-digital.com/article/mengenal-komponen-utama-rak-gudang-berkualitas",
   canonical:
-    "https://www.perkasaracking.co.id/article/mengenal-komponen-utama-rak-gudang-berkualitas",
+    "https://www.aresa-digital.com/article/mengenal-komponen-utama-rak-gudang-berkualitas",
 });
 </script>
 

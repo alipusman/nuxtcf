@@ -5,27 +5,15 @@
     <v-row>
       <v-col cols="12" md="9" class="px-7">
         <breadcrumbs />
-        <h1
-          class="barlow"
-          :style="{ fontSize: $vuetify.display.mdAndUp ? '60px' : '23px' }"
-        >
-          Jual Rak Gudang Light Duty -
-        </h1>
+        <h1 class="barlow" style="font-size: 60px">Rak Gudang Light Duty</h1>
 
         <v-divider
-          :width="$vuetify.display.smAndUp ? '550' : '300'"
+          :width="$vuetify.display.smAndUp ? '400' : '300'"
           thickness="8"
           style="margin-top: -1%"
           color="#FF3A3A"
           class="opacity-100"
         />
-
-        <h2
-          class="barlow"
-          :style="{ fontSize: $vuetify.display.mdAndUp ? '60px' : '23px' }"
-        >
-          Solusi Penyimpanan Ekonomis
-        </h2>
         <br />
 
         <p class="text-body-1 text-justify mb-3 barlow2">
@@ -48,13 +36,12 @@
         </p>
 
         <v-img
-          src="https://cdn.perkasaracking.co.id/images/produk/light-duty/Rak-Gudang-Light-Duty_TAP_1.webp"
+          src="/images/produk/light-duty/Rak-Gudang-Light-Duty_TAP_1.webp"
           alt="Rak Gudang Medium Duty"
           width="100%"
           height="700px"
+          class="my-5"
           cover
-          class="my-7"
-          style="aspect-ratio: 600 / 400"
         />
 
         <v-row>
@@ -294,7 +281,6 @@ definePageMeta({
 
 const banner = {
   judul: "LIGHT DUTY",
-  alttext: "Rak Gudang - Light Duty - TAP",
 };
 
 useSeoMeta({
@@ -307,14 +293,14 @@ useSeoMeta({
   keywords:
     "jual rak gudang murah, rak light duty berkualitas, rak besi ringan, rak gudang kantor, rak toko retail, rak penyimpanan ekonomis, supplier rak gudang jakarta, harga rak gudang light duty",
   ogImage:
-    "https://cdn.perkasaracking.co.id/images/produk/light-duty/Rak-Gudang-Light-Duty_TAP_og.webp",
+    "/images/produk/light-duty/Rak-Gudang-Light-Duty_TAP_og.webp",
   twitterCard: "summary_large_image",
   ogType: "product",
-  ogUrl: "https://www.perkasaracking.co.id/produk/light-duty",
+  ogUrl: "https://www.aresa-digital.com/produk/light-duty",
   robots: "index, follow",
   author: "TAP Racking System",
   language: "id-ID",
-  canonical: "https://www.perkasaracking.co.id/produk/light-duty",
+  canonical: "https://www.aresa-digital.com/produk/light-duty",
 });
 </script>
 

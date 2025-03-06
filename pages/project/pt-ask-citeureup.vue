@@ -6,11 +6,11 @@
     <v-row>
       <v-col cols="12" md="6" class="px-4">
         <v-img
-          src="https://cdn.perkasaracking.co.id/images/projek/dies-racking/pt-aski-citeureup/PT-ASKI-Citeureup-project-TAP_1.webp"
-          lazy-src="https://cdn.perkasaracking.co.id/images/projek/dies-racking/pt-aski-citeureup/PT-ASKI-Citeureup-project-TAP_2.webp"
+          src="/images/projek/dies-racking/pt-aski-citeureup/PT-ASKI-Citeureup-project-TAP_1.webp"
+          lazy-src="/images/projek/dies-racking/pt-aski-citeureup/PT-ASKI-Citeureup-project-TAP_2.webp"
           alt="TAP-Project-PT.ASKI - Citeureup"
           class="rounded-lg"
-          height="55%"
+          height="550px"
           width="100%"
           cover
         />
@@ -79,7 +79,6 @@
 <script setup>
 const banner = {
   judul: "DETAIL PROJECT",
-  alttext: "Banner Project PT ASKI - Citeureup",
 };
 
 useSeoMeta({
@@ -93,11 +92,11 @@ useSeoMeta({
   keywords:
     "projek PT ASKI, Citeureup, sistem racking, solusi logistik, penyimpanan gudang, pallet rack, distribusi barang",
   ogImage:
-    "https://cdn.perkasaracking.co.id/images/projek/dies-racking/pt-aski-citeureup/PT-ASKI-Citeureup-project-TAP_og.webp",
+    "/images/projek/dies-racking/pt-aski-citeureup/PT-ASKI-Citeureup-project-TAP_og.webp",
   twitterCard: "summary_large_image",
-  ogUrl: "https://www.perkasaracking.co.id/project/pt-ask-citeureup",
+  ogUrl: "https://www.aresa-digital.com/project/pt-ask-citeureup",
   robots: "index, follow",
-  canonical: "https://www.perkasaracking.co.id/project/pt-ask-citeureup",
+  canonical: "https://www.aresa-digital.com/project/pt-ask-citeureup",
 });
 </script>
 

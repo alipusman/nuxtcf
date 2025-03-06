@@ -2,9 +2,9 @@ export default defineEventHandler(() => {
   return [
     {
       image:
-        "https://cdn.perkasaracking.co.id/images/produk/pallet/kayu/pallet-kayu.webp",
+        "/images/produk/pallet/kayu/pallet-kayu.webp",
       lazy_image:
-        "https://cdn.perkasaracking.co.id/images/produk/pallet/kayu/pallet-kayu-lz.webp",
+        "/images/produk/pallet/kayu/pallet-kayu-lz.webp",
       title: "Pallet Kayu",
       pengertian:
         "Pallet Kayu adalah solusi penyimpanan dan transportasi yang kokoh, ekonomis, dan ramah lingkungan, banyak digunakan dalam industri logistik dan pergudangan. Terbuat dari bahan kayu berkualitas, pallet ini memiliki daya tahan tinggi dan mampu menahan beban berat. Dengan desain yang fleksibel, Pallet Kayu dapat digunakan untuk berbagai keperluan, mulai dari penyimpanan hingga pengiriman barang. Selain itu, pallet kayu mudah diperbaiki dan dapat didaur ulang, menjadikannya pilihan berkelanjutan bagi bisnis yang peduli terhadap lingkungan. Cocok untuk industri manufaktur, pergudangan, dan distribusi yang membutuhkan solusi penyimpanan yang kuat dan efisien.",

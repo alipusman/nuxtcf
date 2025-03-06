@@ -26,16 +26,15 @@ useSeoMeta({
   keywords:
     "jual rak gudang, rak heavy duty, rak besi kuat, rak industri, rak gudang besar, rak penyimpanan berat, jual rak warehouse",
   ogImage:
-    "https://cdn.perkasaracking.co.id/images/produk/heavy-duty/Rak-Gudang-Heavy-Duty_TAP_og.webp",
+    "/images/produk/heavy-duty/Rak-Gudang-Heavy-Duty_TAP_og.webp",
   twitterCard: "summary_large_image",
   ogType: "product",
-  ogUrl: "https://www.perkasaracking.co.id/produk/heavy-duty",
+  ogUrl: "https://www.aresa-digital.com/produk/heavy-duty",
   robots: "index, follow",
-  canonical: "https://www.perkasaracking.co.id/produk/heavy-duty",
+  canonical: "https://www.aresa-digital.com/produk/heavy-duty",
 });
 
 const banner = {
   judul: "PRODUK",
-  alttext: "Rak Gudang TAP",
 };
 </script>

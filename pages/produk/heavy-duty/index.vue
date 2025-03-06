@@ -24,14 +24,15 @@
           seperti Selective Pallet Rack, Drive-In System, dan Double Deep Rack
           untuk memenuhi kebutuhan industri dan warehouse modern.
         </p>
+        <br />
 
         <v-img
-          :src="productImage.src"
-          :alt="productImage.alt"
+          src="/images/produk/heavy-duty/Rak-Gudang-Heavy-Duty_TAP_1.webp"
+          lazy-src="/images/produk/heavy-duty/Rak-Gudang-Heavy-Duty_TAP_2.webp"
+          alt="Rak Heavy Duty - Sistem Penyimpanan Industri Beban Berat"
           width="100%"
           height="500px"
           cover
-          eager
         />
 
         <v-row class="mt-5">
@@ -143,7 +144,6 @@ definePageMeta({
 
 const banner = ref({
   judul: "HEAVY DUTY",
-  alttext: "Rak Gudang Heavy Duty",
 });
 
 const benefits = ref([
@@ -225,17 +225,9 @@ const applications = ref([
   },
 ]);
 
-const productImage = ref({
-  src: "https://cdn.perkasaracking.co.id/images/produk/heavy-duty/Rak-Gudang-Heavy-Duty_TAP_1.webp",
-  lazySrc:
-    "https://cdn.perkasaracking.co.id/images/produk/heavy-duty/Rak-Gudang-Heavy-Duty_TAP_2.webp",
-  alt: "Rak Heavy Duty - Sistem Penyimpanan Industri Beban Berat",
-  title: "Rak Heavy Duty untuk Warehouse dan Industri",
-});
-
 useSeoMeta({
   title: "Rak Gudang Heavy Duty",
-  ogTitle: "Jual Rak Heavy Duty",
+  ogTitle: "Rak Gudang Heavy Duty",
   description:
     "Rak gudang heavy duty adalah sistem penyimpanan kuat untuk menampung barang besar atau berat di warehouse pabrik, ideal untuk kebutuhan industri dan logistik.",
   ogDescription:
@@ -243,12 +235,12 @@ useSeoMeta({
   keywords:
     "rak heavy duty, jual rak heavy duty, harga rak heavy duty, rak gudang heavy duty, rak pallet heavy duty, rak industri berat, sistem rak warehouse, rak beban berat, rak selective pallet, rak drive in, double deep rack, rak gudang industri, rak penyimpanan berat",
   ogImage:
-    "https://cdn.perkasaracking.co.id/images/produk/heavy-duty/Rak-Gudang-Heavy-Duty_TAP_og.webp",
+    "/images/produk/heavy-duty/Rak-Gudang-Heavy-Duty_TAP_og.webp",
   twitterCard: "summary_large_image",
   ogType: "product",
-  ogUrl: "https://www.perkasaracking.co.id/produk/heavy-duty",
+  ogUrl: "https://www.aresa-digital.com/produk/heavy-duty",
   robots: "index, follow, max-image-preview:large, max-snippet:-1",
-  canonical: "https://www.perkasaracking.co.id/produk/heavy-duty",
+  canonical: "https://www.aresa-digital.com/produk/heavy-duty",
 });
 </script>
 

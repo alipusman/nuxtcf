@@ -34,5 +34,5 @@ User-agent: *
 Allow: /gtag/js
 Allow: /gtm.js
 
-Sitemap: https://www.perkasaracking.co.id/sitemap.xml
+Sitemap: https://www.aresa-digital.com/sitemap.xml
 # END nuxt-simple-robots

@@ -7,19 +7,15 @@
     <v-row>
       <v-col cols="12" md="6">
         <v-img
-          src="https://cdn.perkasaracking.co.id/images/produk/heavy-duty/double-deep/double-deep-pallet-racking-TAP_3.webp"
-          lazy-img="https://cdn.perkasaracking.co.id/images/produk/heavy-duty/double-deep/double-deep-pallet-rack-TAP_4.webp"
+          src="/images/produk/heavy-duty/double-deep/double-deep-pallet-racking-TAP_3.webp"
+          lazy-img="/images/produk/heavy-duty/double-deep/double-deep-pallet-rack-TAP_4.webp"
           alt="Rak Double Deep"
           class="rounded-lg"
           cover
           eager
           width="100%"
           height="100%"
-          style="aspect-ratio: 650 / 600"
-          ><template v-slot:placeholder>
-            <v-skeleton-loader type="image"></v-skeleton-loader>
-          </template>
-        </v-img>
+        />
       </v-col>
 
       <v-col cols="12" md="6">
@@ -197,7 +193,6 @@
 <script setup>
 const banner = {
   judul: "DETAIL PRODUK",
-  alttext: "Rak Double Deep",
 };
 
 useSeoMeta({
@@ -210,12 +205,12 @@ useSeoMeta({
   keywords:
     "rak gudang, heavy duty rack, double deep rack, rak penyimpanan, rak industri, warehouse shelving, storage rack, pallet rack",
   ogImage:
-    "https://cdn.perkasaracking.co.id/images/produk/heavy-duty/double-deep/double-deep-pallet-racking-TAP_og.webp",
+    "/images/produk/heavy-duty/double-deep/double-deep-pallet-racking-TAP_og.webp",
   twitterCard: "summary_large_image",
   ogType: "product",
-  ogUrl: "https://www.perkasaracking.co.id/produk/heavy-duty/double-deep",
+  ogUrl: "https://www.aresa-digital.com/produk/heavy-duty/double-deep",
   robots: "index, follow",
-  canonical: "https://www.perkasaracking.co.id/produk/heavy-duty/double-deep",
+  canonical: "https://www.aresa-digital.com/produk/heavy-duty/double-deep",
 });
 </script>
 

@@ -6,8 +6,8 @@
     <v-row>
       <v-col cols="12" md="6" class="px-4">
         <v-img
-          src="https://cdn.perkasaracking.co.id/images/produk/equipment/electric-stracker/electric-stacker.webp"
-          lazy-src="https://cdn.perkasaracking.co.id/images/produk/equipment/electric-stracker/electric-stacker-lz.webp"
+          src="/images/produk/equipment/electric-stracker/electric-stacker_1.webp"
+          lazy-src="/images/produk/equipment/electric-stracker/electric-stacker_2.webp"
           alt="Electric Stacker - Solusi Efisien untuk Penumpukan Barang di Gudang"
           height="100%"
           width="100%"
@@ -17,21 +17,12 @@
       </v-col>
 
       <v-col cols="12" md="6" class="px-4">
-        <p class="text-body-2 text-grey barlow">
-          TAP - PERALATAN LOGISTIK - ELECTRIC EQUIPMENT
-        </p>
+        <h1 class="barlow">ELECTRIC STACKER</h1>
 
-        <h3 class="barlow">ELECTRIC STACKER</h3>
-
-        <v-divider
-          width="50"
-          thickness="3"
-          color="#FF3A3A"
-          class="my-4 opacity-100"
-        />
-
-        <p class="mb-1 text-body-1 text-justify barlow2">
-          Electric Stacker adalah solusi modern untuk penumpukan barang di
+        <v-divider thickness="3" color="#FF3A3A" class="mb-3 opacity-100" />
+        <p class="text-body-1 barlow2 text-justify">
+          <span class="barlow">Electric Stacker</span>
+          adalah solusi modern untuk penumpukan barang di
           gudang dengan tenaga listrik. Alat ini mampu mengangkat hingga 2.000
           kg dan mencapai ketinggian 6 meter, membuatnya ideal untuk pergudangan
           dan distribusi. Ditenagai oleh baterai lithium berkapasitas tinggi,
@@ -42,56 +33,48 @@
         </p>
         <br />
 
-        <h2 class="barlow2">Aplikasi Electric Stacker di Industri</h2>
+        <h2 class="barlow2">Aplikasi di Industri</h2>
 
-        <ul class="ml-6 text-justify">
-          <li class="mt-3 barlow2">
+        <ol class="ml-6 text-justify barlow2">
+          <li class="my-3">
             <span class="barlow">Gudang dan Logistik:</span>
             Electric Stacker banyak digunakan di gudang untuk memindahkan palet,
             menata barang, dan mengoptimalkan ruang penyimpanan.
           </li>
 
-          <li class="mt-3 barlow2">
+          <li>
             <span class="barlow">Industri Manufaktur:</span>
             Alat ini digunakan untuk memindahkan bahan baku, komponen, atau
             produk jadi di lantai produksi.
           </li>
 
-          <li class="mt-3 barlow2">
+          <li>
             <span class="barlow">Ritel dan Distribusi: </span>
             Electric Stacker membantu dalam penataan dan pemindahan barang di
             pusat distribusi atau toko ritel besar.
           </li>
 
-          <li class="mt-3 barlow2">
+          <li>
             <span class="barlow">Industri Makanan dan Minuman:</span>
             Karena tidak menghasilkan emisi, Electric Stacker cocok digunakan di
             lingkungan yang memerlukan kebersihan tinggi, seperti industri
             makanan dan minuman.
           </li>
 
-          <li class="mt-3 barlow2">
+          <li class="mt-3">
             <span class="barlow">Rumah Sakit dan Fasilitas Kesehatan:</span>
             Alat ini digunakan untuk memindahkan peralatan medis atau pasokan
             tanpa menimbulkan kebisingan atau polusi udara.
           </li>
-        </ul>
+        </ol>
       </v-col>
     </v-row>
-
-    <v-divider class="my-7" />
 
     <v-row>
       <v-col cols="12" sm="6" class="px-4">
         <h2 class="barlow2">Keuntungan Electric Stacker</h2>
-        <v-divider
-          width="200"
-          thickness="3"
-          color="#FF3A3A"
-          class="opacity-100"
-        />
 
-        <ul class="ml-6 text-justify">
+        <ol class="ml-6">
           <li class="mt-3 barlow2">
             <span class="barlow">Ramah Lingkungan:</span>
             Karena menggunakan tenaga listrik, Electric Stacker tidak
@@ -129,20 +112,13 @@
             Karena tidak menghasilkan emisi, Electric Stacker dapat digunakan di
             area tertutup tanpa memerlukan sistem ventilasi khusus.
           </li>
-        </ul>
+        </ol>
       </v-col>
 
       <v-col cols="12" sm="6" class="px-4">
         <h2 class="barlow2">Tantangan Electric Stacker</h2>
 
-        <v-divider
-          width="200"
-          thickness="3"
-          color="#FF3A3A"
-          class="opacity-100"
-        />
-
-        <ul class="ml-6 text-justify barlow2">
+        <ol class="ml-6 text-justify barlow2">
           <li class="my-3">
             <span class="barlow">Biaya Awal Tinggi: </span>
             Harga pembelian Electric Stacker umumnya lebih tinggi dibandingkan
@@ -169,19 +145,14 @@
             Baterai memerlukan perawatan rutin dan memiliki masa pakai tertentu,
             yang dapat menambah biaya operasional.
           </li>
-        </ul>
+        </ol>
       </v-col>
     </v-row>
 
     <v-row>
       <v-col class="px-4">
+        <v-divider thickness="3" color="#FF3A3A" class="mb-3 opacity-100" />
         <h1 class="barlow">Kesimpulan</h1>
-        <v-divider
-          width="100"
-          thickness="3"
-          color="#FF3A3A"
-          class="opacity-100"
-        />
 
         <p class="barlow2 text-h6 mt-3 text-justify">
           <span class="barlow">Electric Stacker </span>
@@ -213,14 +184,14 @@ useSeoMeta({
     "Electric Stacker untuk rak gudang, solusi efisien untuk mengangkat dan memindahkan pallet dengan mudah dan aman.",
   keywords:
     "rak gudang, electric stacker, alat angkut pallet, material handling, peralatan gudang, forklift, solusi gudang",
-  ogImage: "https://cdn.perkasaracking.co.id/images/produk/equipment/electric-stracker/electric-stacker_og.webp",
+  ogImage: "/images/produk/equipment/electric-stracker/electric-stacker_og.webp",
   twitterCard: "summary_large_image",
   ogType: "product",
   ogUrl:
-    "https://www.perkasaracking.co.id/produk/equipment/electric-stacker",
+    "https://www.aresa-digital.com/produk/equipment/electric-stacker",
   robots: "index, follow",
   canonical:
-    "https://www.perkasaracking.co.id/produk/equipment/electric-stacker",
+    "https://www.aresa-digital.com/produk/equipment/electric-stacker",
 });
 </script>
 

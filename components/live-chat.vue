@@ -6,16 +6,19 @@
           flat
           color="#f4f4f4"
           v-bind="props"
-          class="float2 pulse-button2 text-caption"
+          class="float2 pulse-button2 text-caption barlow2"
           @click="klikwa"
         >
           Butuh Bantuan?
-          <span class="font-weight-bold ml-1">Hubungi Kami Sekarang</span>
-          <v-icon @click="shuffle" class="mt-2 float pulse-button">mdi-whatsapp</v-icon>
+          <span class="barlow ml-1">Hubungi Kami Sekarang</span>
+          <v-icon class="mt-2 float pulse-button">mdi-whatsapp</v-icon>
         </v-btn>
       </template>
 
-      <v-card class="custom-card" :width="$vuetify.display.smAndUp ? '450' : '350'">
+      <v-card
+        class="custom-card"
+        :width="$vuetify.display.smAndUp ? '450' : '350'"
+      >
         <v-card-title class="pa-3">
           <v-row>
             <v-col cols="2" sm="2">
@@ -57,7 +60,11 @@
 
         <v-carousel
           v-if="!isAreaSelected"
-          :class="$vuetify.display.smAndUp ? 'custom-carousel' : 'custom-carousel-mobile'"
+          :class="
+            $vuetify.display.smAndUp
+              ? 'custom-carousel'
+              : 'custom-carousel-mobile'
+          "
           cycle
           hide-delimiter-background
           :interval="3000"
@@ -65,26 +72,26 @@
         >
           <v-card-text>
             <!-- <v-carousel-item v-for="sales in data.safelist" :key="sales.nama"> -->
-              <v-card @click="selectSales(data.safelist[0])">
-                <v-card-text>
-                  <v-row align="center">
-                    <v-col cols="2">
-                      <v-avatar size="large">
-                        <v-img :src="data.safelist[1].img" />
-                      </v-avatar>
-                    </v-col>
-                    <v-col cols="6" class="ml-3">
-                      <p class="barlow text-black">Marketing</p>
-                      <p class="barlow2 text-caption">perkasaracking</p>
-                    </v-col>
-                    <v-col cols="3">
-                      <p class="barlow text-caption text-green mt-1">
-                        <span class="zoom-text">🟢</span> Online
-                      </p>
-                    </v-col>
-                  </v-row>
-                </v-card-text>
-              </v-card>
+            <v-card @click="selectSales(data.safelist[0])">
+              <v-card-text>
+                <v-row align="center">
+                  <v-col cols="2">
+                    <v-avatar size="large">
+                      <v-img :src="data.safelist[1].img" />
+                    </v-avatar>
+                  </v-col>
+                  <v-col cols="6" class="ml-3">
+                    <p class="barlow text-black">Marketing</p>
+                    <p class="barlow2 text-caption">perkasaracking</p>
+                  </v-col>
+                  <v-col cols="3">
+                    <p class="barlow text-caption text-green mt-1">
+                      <span class="zoom-text">🟢</span> Online
+                    </p>
+                  </v-col>
+                </v-row>
+              </v-card-text>
+            </v-card>
             <!-- </v-carousel-item> -->
           </v-card-text>
         </v-carousel>
@@ -103,7 +110,7 @@ interface salesM {
   nama: string;
   jabatan: string;
   img: string;
-  phone:string
+  phone: string;
 }
 // State
 const isAreaSelected = ref(false);
@@ -116,50 +123,52 @@ const customerData = reactive({
 });
 
 // Daftar Sales
-const data = reactive({safelist : [
-  {
+const data = reactive({
+  safelist: [
+    {
       nama: "Aria Wardana",
       jabatan: "Sales 2",
-      img: "https://cdn.perkasaracking.co.id/images/live-chat/2.png",
+      img: "/images/live-chat/2.png",
       phone: "6287775434777",
     },
     {
       nama: "Ahmad Fathoni",
       jabatan: "Sales 3",
-      img: "https://cdn.perkasaracking.co.id/images/live-chat/3.png",
+      img: "/images/live-chat/3.png",
       phone: "628999967932",
     },
     {
       nama: "Dwi Purnanto Jati",
       jabatan: "Sales 4",
-      img: "https://cdn.perkasaracking.co.id/images/live-chat/4.png",
+      img: "/images/live-chat/4.png",
       phone: "628561510011",
     },
     {
       nama: "Sigit Djuhartono",
       jabatan: "Sales 5",
-      img: "https://cdn.perkasaracking.co.id/images/live-chat/5.png",
+      img: "/images/live-chat/5.png",
       phone: "6281295966673",
     },
     {
       nama: "Anggoro Widyatmoko",
       jabatan: "Sales 6",
-      img: "https://cdn.perkasaracking.co.id/images/live-chat/6.png",
+      img: "/images/live-chat/6.png",
       phone: "6281932226292",
     },
     {
       nama: "Sutarti",
       jabatan: "Sales 7",
-      img: "https://cdn.perkasaracking.co.id/images/live-chat/7.png",
+      img: "/images/live-chat/7.png",
       phone: "6285892600347",
     },
-]});
+  ],
+});
 
 function getRandomNumber() {
   return Math.floor(Math.random() * 7);
 }
 // Fungsi memilih sales
-const selectSales = async (sales : salesM) => {
+const selectSales = async (sales: salesM) => {
   selectedSales.value = sales;
   try {
     await cekwa();
@@ -167,7 +176,7 @@ const selectSales = async (sales : salesM) => {
 
     const chatUrl = `https://api.whatsapp.com/send?phone=${
       data.safelist[getRandomNumber()].phone
-    }&text=Hallo saya mau tanya seputar Rackgudang, boleh dibantu informasinya dari perkasaracking.co.id?`;
+    }&text=Hallo saya mau tanya seputar Rackgudang, boleh dibantu informasinya dari aresa-digital.com?`;
     window.open(chatUrl, "_blank");
 
     customerData.nama_customer = "";
@@ -180,15 +189,19 @@ const selectSales = async (sales : salesM) => {
 
 // Reset menu
 const klikwa = () => {
-  console.log('klik wa')
-  data.safelist = _.shuffle(data.safelist)
+  console.log("klik wa");
+  data.safelist = _.shuffle(data.safelist);
   isAreaSelected.value = false;
   selectedSales.value = null;
 };
 
 // Simpan chat ke WhatsApp
 async function saveChat() {
-  if (!selectedSales.value || !customerData.nama_customer || !customerData.no_telfon) {
+  if (
+    !selectedSales.value ||
+    !customerData.nama_customer ||
+    !customerData.no_telfon
+  ) {
     alert("Harap isi semua kolom!");
     return;
   }
@@ -197,7 +210,7 @@ async function saveChat() {
     await cekwa();
     customerData.created_at = moment().unix();
 
-    const chatUrl = `https://api.whatsapp.com/send?phone=${selectedSales.value.phone}&text=Hallo saya ${customerData.nama_customer}, mau tanya seputar Rackgudang, boleh dibantu informasinya dari perkasaracking.co.id?`;
+    const chatUrl = `https://api.whatsapp.com/send?phone=${selectedSales.value.phone}&text=Hallo saya ${customerData.nama_customer}, mau tanya seputar Rackgudang, boleh dibantu informasinya dari aresa-digital.com?`;
     window.open(chatUrl, "_blank");
 
     customerData.nama_customer = "";

@@ -3,10 +3,10 @@
     <v-row justify="center">
       <v-col cols="12" md="9">
         <v-row align="center">
-          <v-col cols="12" md="6" class="px-7">
+          <v-col cols="12" sm="6" md="6" class="px-7">
             <v-img
-              src="https://cdn.perkasaracking.co.id/images/layanan-dukungan/gudang/gudang_1.webp"
-              lazy-src="https://cdn.perkasaracking.co.id/images/layanan-dukungan/gudang/gudang_1.webp"
+              src="/images/layanan-dukungan/gudang/gudang_1.webp"
+              lazy-src="/images/layanan-dukungan/gudang/gudang_1.webp"
               alt="Spesifikasi Rack Gudang - TAP"
               class="rounded-lg"
               height="280"
@@ -14,7 +14,7 @@
             />
           </v-col>
 
-          <v-col cols="12" md="6" class="px-7">
+          <v-col cols="12" sm="6" md="6" class="px-7">
             <h2 class="barlow">Spesifikasi Gudang</h2>
 
             <v-divider

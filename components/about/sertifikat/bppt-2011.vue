@@ -35,13 +35,13 @@
     <v-row justify="center">
       <v-col cols="12" md="9">
         <v-row align="center">
-          <v-col cols="12" md="6" class="px-7">
+          <v-col cols="12" sm="6" md="6" class="px-7">
             <v-card class="custom-card" flat>
               <v-card-text class="card-border">
                 <v-img
                   :src="data.images[0]"
                   alt="Sertifikat BPPT/2011"
-                  lazy-src="https://cdn.perkasaracking.co.id/images/sertifikat/bppt-2011/Report-Racking-Testing-BPPT-2011_page-01_10x10.webp"
+                  lazy-src="/images/tentang-kami/sertifikat/bppt-2011/Report-Racking-Testing-BPPT-2011_page-01_10x10.webp"
                   class="rounded-lg image"
                   height="350"
                 >
@@ -59,7 +59,7 @@
             </v-card>
           </v-col>
 
-          <v-col cols="12" md="6" class="px-7">
+          <v-col cols="12" sm="6" md="6" class="px-7">
             <h2 class="barlow">Setifikat BPPT/2011</h2>
             <h3 class="barlow">(Badan Pengkajian dan Penerapan Teknologi)</h3>
 
@@ -72,7 +72,8 @@
 
             <p class="barlow2 text-body-1 text-justify">
               Dengan penuh komitmen terhadap kualitas dan inovasi, TAP Tangguh
-                Adi Perkasa telah resmi memperoleh Sertifikasi <span class="font-weight-bold">BPPT tahun 2011</span> 
+              Adi Perkasa telah resmi memperoleh Sertifikasi
+              <span class="font-weight-bold">BPPT tahun 2011</span>
               untuk standar industri rak gudang. Pencapaian ini menegaskan
               dedikasi kami dalam menghadirkan solusi terbaik dengan teknologi
               yang teruji dan terpercaya.
@@ -93,11 +94,11 @@ const data = reactive({
   dialogfoto: false,
   currentIndex: 0,
   images: [
-    "https://cdn.perkasaracking.co.id/images/tentang-kami/sertifikat/bppt-2011/Report-Racking-Testing-BPPT-2011_page-1.webp",
-    "https://cdn.perkasaracking.co.id/images/tentang-kami/sertifikat/bppt-2011/Report-Racking-Testing-BPPT-2011_page-2.webp",
-    "https://cdn.perkasaracking.co.id/images/tentang-kami/sertifikat/bppt-2011/Report-Racking-Testing-BPPT-2011_page-3.webp",
-    "https://cdn.perkasaracking.co.id/images/tentang-kami/sertifikat/bppt-2011/Report-Racking-Testing-BPPT-2011_page-4.webp",
-    "https://cdn.perkasaracking.co.id/images/tentang-kami/sertifikat/bppt-2011/Report-Racking-Testing-BPPT-2011_page-5.webp",
+    "/images/tentang-kami/sertifikat/bppt-2011/Report-Racking-Testing-BPPT-2011_page-1.webp",
+    "/images/tentang-kami/sertifikat/bppt-2011/Report-Racking-Testing-BPPT-2011_page-2.webp",
+    "/images/tentang-kami/sertifikat/bppt-2011/Report-Racking-Testing-BPPT-2011_page-3.webp",
+    "/images/tentang-kami/sertifikat/bppt-2011/Report-Racking-Testing-BPPT-2011_page-4.webp",
+    "/images/tentang-kami/sertifikat/bppt-2011/Report-Racking-Testing-BPPT-2011_page-5.webp",
   ],
 });
 

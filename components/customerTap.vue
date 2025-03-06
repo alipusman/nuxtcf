@@ -14,7 +14,7 @@
       <v-card-text>
         <v-row>
           <v-col cols="6" sm="3">
-            <v-img src="https://cdn.perkasaracking.co.id/images/customer.png" />
+            <v-img src="/images/customer.png" />
           </v-col>
 
           <v-col style="margin-top: 10%">
@@ -36,7 +36,7 @@
 
           <v-col cols="6" sm="3">
             <v-img
-              src="https://cdn.perkasaracking.co.id/images/warehouse.png"
+              src="/images/warehouse.png"
             />
           </v-col>
 

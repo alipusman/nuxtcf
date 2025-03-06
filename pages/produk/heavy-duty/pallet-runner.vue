@@ -5,14 +5,13 @@
     <v-row>
       <v-col cols="12" md="6">
         <v-img
-          src="https://cdn.perkasaracking.co.id/images/produk/heavy-duty/pallet-runner/pallet-runner-TAP_3.webp"
-          lazy-src="https://cdn.perkasaracking.co.id/images/produk/heavy-duty/pallet-runner/pallet-runner-TAP_4.webp"
+          src="/images/produk/heavy-duty/pallet-runner/pallet-runner-TAP_3.webp"
+          lazy-src="/images/produk/heavy-duty/pallet-runner/pallet-runner-TAP_4.webp"
           alt="Pallet Runner"
           class="rounded-lg"
           cover
           width="100%"
           height="100%"
-          style="aspect-ratio: 650 / 600"
         />
       </v-col>
 
@@ -156,7 +155,6 @@
 <script setup>
 const banner = {
   judul: "DETAIL PRODUK",
-  alttext: "Pallet Runner",
 };
 
 useSeoMeta({
@@ -169,12 +167,12 @@ useSeoMeta({
   keywords:
     "rak gudang, heavy duty rack, pallet runner rack, rak penyimpanan, rak industri, warehouse shelving, storage rack, pallet rack",
   ogImage:
-    "https://cdn.perkasaracking.co.id/images/produk/heavy-duty/pallet-runner/pallet-runner-TAP_og.webp",
+    "/images/produk/heavy-duty/pallet-runner/pallet-runner-TAP_og.webp",
   twitterCard: "summary_large_image",
   ogType: "product",
-  ogUrl: "https://www.perkasaracking.co.id/produk/heavy-duty/pallet-runner",
+  ogUrl: "https://www.aresa-digital.com/produk/heavy-duty/pallet-runner",
   robots: "index, follow",
-  canonical: "https://www.perkasaracking.co.id/produk/heavy-duty/pallet-runner",
+  canonical: "https://www.aresa-digital.com/produk/heavy-duty/pallet-runner",
 });
 </script>
 

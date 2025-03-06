@@ -1,0 +1,7 @@
+name = "my-nuxt-worker"
+type = "javascript"
+account_id = "f2319d4f6983664d821f658bf715c57a"
+workers_dev = true
+compatibility_date = "2024-03-04"
+main = ".output/public/index.mjs"
+

@@ -69,7 +69,6 @@
 <script setup>
 const banner = {
   judul: "PROJEK KAMI",
-  alttext: "Projek Rak Gudang - TAP",
 };
 
 const projects = [
@@ -77,9 +76,9 @@ const projects = [
     title: "PT HWASEUNG, JEPARA",
     subtitle: "Mezzanine Racking Steel Shelving",
     image:
-      "https://cdn.perkasaracking.co.id/images/projek/mezzanine-racking-steel-shelving/PT-HWASEUNG-JEPARA-Project-TAP.webp",
+      "/images/projek/mezzanine-racking-steel-shelving/PT-HWASEUNG-JEPARA-Project-TAP.webp",
     lazy_image:
-      "https://cdn.perkasaracking.co.id/images/projek/mezzanine-racking-steel-shelving/PT-HWASEUNG-JEPARA-project-TAP_2.webp",
+      "/images/projek/mezzanine-racking-steel-shelving/PT-HWASEUNG-JEPARA-project-TAP_2.webp",
     to: "/project/pt-hwaseung-jepara",
     alttext: "TAP-Project-PT.HWASEUNG,JEPARA",
   },
@@ -88,9 +87,9 @@ const projects = [
     title: "PT.ASKI, Citeureup",
     subtitle: "Dies Racking",
     image:
-      "https://cdn.perkasaracking.co.id/images/projek/dies-racking/pt-aski-citeureup/PT-ASKI-Citeureup-project-TAP_1.webp",
+      "/images/projek/dies-racking/pt-aski-citeureup/PT-ASKI-Citeureup-project-TAP_1.webp",
     lazy_image:
-      "https://cdn.perkasaracking.co.id/images/projek/dies-racking/pt-aski-citeureup/PT-ASKI-Citeureup-project-TAP_2.webp",
+      "/images/projek/dies-racking/pt-aski-citeureup/PT-ASKI-Citeureup-project-TAP_2.webp",
     alttext: "TAP-Project-PT.ASKI–Citeureup",
     to: "/project/pt-ask-citeureup",
   },
@@ -99,35 +98,35 @@ const projects = [
     title: "PT SGS, Cikarang",
     subtitle: "Dies Racking",
     lazy_image:
-      "https://cdn.perkasaracking.co.id/images/projek/dies-racking/pt-sgs-cikarang/PT-SGS-Cikarang-project-TAP_2.webp",
+      "/images/projek/dies-racking/pt-sgs-cikarang/PT-SGS-Cikarang-project-TAP_2.webp",
     image:
-      "https://cdn.perkasaracking.co.id/images/projek/dies-racking/pt-sgs-cikarang/PT-SGS-Cikarang-project-TAP_1.webp",
+      "/images/projek/dies-racking/pt-sgs-cikarang/PT-SGS-Cikarang-project-TAP_1.webp",
     alttext: "TAP-Project-PT. SGS, Cikarang",
     to: "/project/pt-sgs-cikarang",
   },
 ];
 
 useSeoMeta({
-  title: "Project Kami - PT. Tangguh Adi Perkasa",
+  title: "Project Kami - Aresa Digital",
   description:
-    "Lihat berbagai proyek pembuatan rack gudang dari PT. Tangguh Adi Perkasa, solusi penyimpanan terbaik untuk industri dan pergudangan.",
+    "Lihat berbagai proyek pembuatan rack gudang dari Aresa Digital, solusi penyimpanan terbaik untuk industri dan pergudangan.",
   keywords:
-    "rak inovatif, projek rack gudang, rak besi, sistem penyimpanan gudang, rak heavy duty, shelving system, PT. Tangguh Adi Perkasa, instalasi rak gudang, warehouse storage",
-  ogTitle: "Project Kami - PT. Tangguh Adi Perkasa",
+    "rak inovatif, projek rack gudang, rak besi, sistem penyimpanan gudang, rak heavy duty, shelving system, Aresa Digital, instalasi rak gudang, warehouse storage",
+  ogTitle: "Project Kami - Aresa Digital",
   ogDescription:
     "Jelajahi proyek-proyek rack gudang berkualitas tinggi yang telah kami selesaikan untuk berbagai industri.",
   ogImage:
-    "https://cdn.perkasaracking.co.id/images/projek/mezzanine-racking-steel-shelving/PT-HWASEUNG-JEPARA-Project-TAP.webp", // Ganti dengan gambar proyek yang relevan
+    "/images/projek/mezzanine-racking-steel-shelving/PT-HWASEUNG-JEPARA-Project-TAP.webp", // Ganti dengan gambar proyek yang relevan
   ogType: "website",
   twitterCard: "summary_large_image",
-  twitterTitle: "Project Kami - PT. Tangguh Adi Perkasa",
+  twitterTitle: "Project Kami - Aresa Digital",
   twitterDescription:
     "Dokumentasi proyek-proyek rack gudang yang telah kami kerjakan, menghadirkan solusi penyimpanan terbaik.",
   twitterImage:
-    "https://cdn.perkasaracking.co.id/images/projek/mezzanine-racking-steel-shelving/PT-HWASEUNG-JEPARA-Project-TAP.webp",
+    "/images/projek/mezzanine-racking-steel-shelving/PT-HWASEUNG-JEPARA-Project-TAP.webp",
   robots: "index, follow",
-  canonical: "https://www.perkasaracking.co.id/project",
-  ogUrl: "https://www.perkasaracking.co.id/project",
+  canonical: "https://www.aresa-digital.com/project",
+  ogUrl: "https://www.aresa-digital.com/project",
 });
 </script>
 

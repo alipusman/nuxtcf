@@ -6,28 +6,19 @@
     <v-row>
       <v-col cols="12" md="6" class="px-4">
         <v-img
-          src="https://cdn.perkasaracking.co.id/images/produk/pallet/plastik/pallet-plastik.webp"
-          alt="Pallet - Pallet Plastic"
-          lazy-src="https://cdn.perkasaracking.co.id/images/produk/pallet/plastik/pallet-plastik-lz.webp"
+          src="/images/produk/pallet/plastik/pallet-plastik_1.webp"
+          alt="Pallet Plastic"
+          lazy-src="/images/produk/pallet/plastik/pallet-plastik_2.webp"
           class="rounded-lg"
           height="65%"
           width="100%"
           cover
-          style="aspect-ratio: 650 / 600;"
         />
       </v-col>
 
       <v-col cols="12" md="6" class="px-4">
-        <h5 class="text-grey barlow">TAP - RACKING - PALLET</h5>
-
-        <h2 class="barlow">PALLET PLASTIK</h2>
-
-        <v-divider
-          width="50"
-          thickness="3"
-          color="#FF3A3A"
-          class="mb-3 opacity-100"
-        />
+        <h1 class="barlow">PALLET PLASTIK</h1>
+        <v-divider thickness="3" color="#FF3A3A" class="mb-3 opacity-100" />
 
         <p class="text-body-1 barlow2 text-justify">
           Pallet Plastic adalah solusi penyimpanan dan transportasi yang kuat,
@@ -43,175 +34,113 @@
           gudang, manufaktur, dan distribusi yang membutuhkan solusi penyimpanan
           yang praktis dan berkelanjutan.
         </p>
+        <br />
 
-        <v-row class="mt-3">
-          <h2 class="barlow2 ml-3">Komponen Utama Pallet plastic</h2>
-          <v-col cols="12" sm="6">
-            <p class="text-body-1 barlow2">Material Plastik (HDPE/PP)</p>
-            <h4 class="barlow">
-              Bahan utama yang memberikan daya tahan terhadap kelembaban, bahan
-              kimia, dan benturan.
-            </h4>
-            <br />
+        <h2 class="barlow2">Aplikasi di industri</h2>
 
-            <p class="text-body-1 barlow2">Struktur Dasar (Base Pallet)</p>
-            <h4 class="barlow">
-              Bagian bawah yang menopang beban dan bisa berbentuk rata (flat)
-              atau memiliki kaki/runners untuk memudahkan penanganan dengan
-              forklift.
-            </h4>
-            <br />
-          </v-col>
+        <ol class="ml-6 text-justify barlow2">
+          <li class="my-3">
+            <span class="barlow">Pergudangan & Logistik:</span>
+            Digunakan untuk penyimpanan dan distribusi barang dengan efisiensi
+            tinggi.
+          </li>
 
-          <v-col cols="12" sm="6">
-            <p class="text-body-1 barlow2">Deck Surface (Permukaan Atas)</p>
-            <h4 class="barlow">
-              Bisa berbentuk solid (rata) atau berlubang (ventilated/slotted)
-              untuk berbagai jenis aplikasi.
-            </h4>
-            <br />
+          <li>
+            <span class="barlow">Manufaktur:</span>
+            Memudahkan pemindahan bahan baku dan produk jadi di area produksi.
+          </li>
 
-            <p class="text-body-1 barlow2">Pegangan atau Lubang Forklift</p>
-            <h4 class="barlow">
-              Desain yang mempermudah pengangkatan dan pemindahan menggunakan
-              alat berat seperti forklift atau hand pallet.
-            </h4>
-            <br />
-          </v-col>
-        </v-row>
+          <li class="my-3">
+            <span class="barlow">Industri Makanan & Minuman :</span>
+            Karena higienis dan mudah dibersihkan, pallet plastik cocok untuk
+            produk makanan dan minuman.
+          </li>
+
+          <li>
+            <span class="barlow">Farmasi & Medis :</span>
+            Banyak digunakan untuk menyimpan obat dan peralatan medis karena
+            tidak menyerap kotoran atau bakteri.
+          </li>
+
+          <li class="mt-3">
+            <span class="barlow">Ekspor & Transportasi Internasional :</span>
+            Tidak memerlukan fumigasi seperti pallet kayu, sehingga lebih
+            efisien dalam pengiriman ke luar negeri.
+          </li>
+        </ol>
       </v-col>
     </v-row>
 
     <v-row>
       <v-col cols="12" sm="6">
         <h2 class="barlow2">Keuntungan Pallet plastic</h2>
-        <v-divider
-          width="200"
-          thickness="3"
-          color="#FF3A3A"
-          class="mb-3 opacity-100"
-        />
-        <ul class="ml-6 text-justify">
-          <li class="mt-3 barlow2">
-            <span class="font-weight-bold"
-              >Tahan Lama & Tidak Mudah Rusak:</span
-            >
+
+        <ol class="ml-6 barlow2 text-justify">
+          <li class="my-3">
+            <span class="barlow">Tahan Lama & Tidak Mudah Rusak:</span>
             Lebih awet dibandingkan pallet kayu karena tidak mudah lapuk atau
             pecah.
           </li>
 
-          <li class="mt-3 barlow2">
-            <span class="font-weight-bold">Tahan Air & Anti-Kelembaban:</span>
+          <li>
+            <span class="barlow">Tahan Air & Anti-Kelembaban:</span>
             Tidak menyerap air sehingga tidak mudah berjamur atau membusuk.
           </li>
 
-          <li class="mt-3 barlow2">
-            <span class="font-weight-bold">Bebas Serangga & Hama :</span>
+          <li class="my-3">
+            <span class="barlow">Bebas Serangga & Hama :</span>
             Tidak perlu perlakuan khusus seperti fumigasi sebelum digunakan
             untuk ekspor.
           </li>
 
-          <li class="mt-3 barlow2">
-            <span class="font-weight-bold">Ringan & Mudah Dipindahkan</span>
+          <li>
+            <span class="barlow">Ringan & Mudah Dipindahkan</span>
             Lebih ringan dibandingkan pallet kayu atau logam, memudahkan
             pemindahan dengan alat bantu seperti forklift.
           </li>
 
-          <li class="mt-3 barlow2">
-            <span class="font-weight-bold">Ramah Lingkungan :</span>
+          <li class="mt-3">
+            <span class="barlow">Ramah Lingkungan :</span>
             Dapat didaur ulang setelah masa pakai habis.
           </li>
-        </ul>
+        </ol>
       </v-col>
 
       <v-col>
         <h2 class="barlow2">Tantangan Pallet plastic</h2>
-        <v-divider
-          width="200"
-          thickness="3"
-          color="#FF3A3A"
-          class="mb-3 opacity-100"
-        />
-        <ul class="ml-6 text-justify">
-          <li class="mt-3 barlow2">
-            <span class="font-weight-bold">Harga Lebih Mahal:</span>
+
+        <ol class="ml-6 barlow2 text-justify">
+          <li class="my-3">
+            <span class="barlow">Harga Lebih Mahal:</span>
             Biaya awal lebih tinggi dibandingkan pallet kayu.
           </li>
 
-          <li class="mt-3 barlow2">
-            <span class="font-weight-bold">Tidak Mudah Diperbaiki :</span>
+          <li>
+            <span class="barlow">Tidak Mudah Diperbaiki :</span>
             Jika rusak, pallet plastik sulit diperbaiki dibandingkan pallet kayu
             yang bisa diperbaiki dengan cara sederhana.
           </li>
 
-          <li class="mt-3 barlow2">
-            <span class="font-weight-bold"
-              >Kurang Kuat untuk Beban Sangat Berat :</span
-            >
+          <li class="my-3">
+            <span class="barlow">Kurang Kuat untuk Beban Sangat Berat :</span>
             Tidak sekuat pallet logam dalam menahan beban berat secara statis
             atau dinamis.
           </li>
 
-          <li class="mt-3 barlow2">
-            <span class="font-weight-bold">Kurang Tahan Panas Ekstrem :</span>
+          <li>
+            <span class="barlow">Kurang Tahan Panas Ekstrem :</span>
             Plastik bisa mengalami deformasi jika terkena suhu sangat tinggi.
           </li>
-        </ul>
+        </ol>
       </v-col>
     </v-row>
 
     <v-row>
-      <v-col cols="12">
-        <h2 class="barlow2">Aplikasi di industri</h2>
-        <v-divider
-          width="200"
-          thickness="3"
-          color="#FF3A3A"
-          class="mb-3 opacity-100"
-        />
-        <ul class="ml-6 text-justify">
-          <li class="mt-3 barlow2">
-            <span class="font-weight-bold">Pergudangan & Logistik:</span>
-            Digunakan untuk penyimpanan dan distribusi barang dengan efisiensi
-            tinggi.
-          </li>
+      <v-col class="px-4">
+        <v-divider thickness="3" color="#FF3A3A" class="mb-3 opacity-100" />
+        <h1 class="barlow">Kesimpulan</h1>
 
-          <li class="mt-3 barlow2">
-            <span class="font-weight-bold">Manufaktur:</span>
-            Memudahkan pemindahan bahan baku dan produk jadi di area produksi.
-          </li>
-
-          <li class="mt-3 barlow2">
-            <span class="font-weight-bold">Industri Makanan & Minuman :</span>
-            Karena higienis dan mudah dibersihkan, pallet plastik cocok untuk
-            produk makanan dan minuman.
-          </li>
-
-          <li class="mt-3 barlow2">
-            <span class="font-weight-bold">Farmasi & Medis :</span>
-            Banyak digunakan untuk menyimpan obat dan peralatan medis karena
-            tidak menyerap kotoran atau bakteri.
-          </li>
-
-          <li class="mt-3 barlow2">
-            <span class="font-weight-bold"
-              >Ekspor & Transportasi Internasional :</span
-            >
-            Tidak memerlukan fumigasi seperti pallet kayu, sehingga lebih
-            efisien dalam pengiriman ke luar negeri.
-          </li>
-        </ul>
-      </v-col>
-
-      <v-col>
-        <h1 class="barlow2">Kesimpulan</h1>
-        <v-divider
-          width="200"
-          thickness="3"
-          color="#FF3A3A"
-          class="mb-3 opacity-100"
-        />
-        <p class="text-justify barlow2 text-h6">
+        <p class="barlow2 text-h6 mt-3 text-justify">
           <span class="barlow"> Pallet plastic</span> adalah alternatif modern
           yang lebih higienis, tahan lama, dan ramah lingkungan dibandingkan
           pallet kayu. Dengan keunggulan seperti tahan air, bebas hama, dan
@@ -231,7 +160,6 @@
 <script setup>
 const banner = {
   judul: "DETAIL PRODUK",
-  alttext: "Rak Gudang - Pallet - Pallet Plastik - TAP",
 };
 
 useSeoMeta({
@@ -244,10 +172,11 @@ useSeoMeta({
   keywords:
     "pallet plastik, pallet gudang, pallet tahan lama, penyimpanan plastik, transportasi logistik, pallet industri, pallet higienis",
   ogImage:
-    "https://cdn.perkasaracking.co.id/images/produk/pallet/plastik/pallet-plastik_og.webp",
-  ogUrl: "https://www.perkasaracking.co.id/produk/pallet/plastic",
+    "/images/produk/pallet/plastik/pallet-plastik_og.webp",
+  ogType: "product",
+  ogUrl: "https://www.aresa-digital.com/produk/pallet/plastic",
   twitterCard: "summary_large_image",
-  canonical: "https://www.perkasaracking.co.id/produk/pallet/plastic",
+  canonical: "https://www.aresa-digital.com/produk/pallet/plastic",
 });
 </script>
 

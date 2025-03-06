@@ -5,14 +5,13 @@
     <v-row>
       <v-col cols="12" md="6">
         <v-img
-          src="https://cdn.perkasaracking.co.id/images/produk/medium-duty/steel/steel-shelving.webp"
-          lazy-img="https://cdn.perkasaracking.co.id/images/produk/medium-duty/steel/steel-shelving-lz.webp"
+          src="/images/produk/medium-duty/steel/steel-shelving.webp"
+          lazy-img="/images/produk/medium-duty/steel/steel-shelving-lz.webp"
           alt="Steel Shelving"
           class="rounded-lg"
           cover
           width="100%"
           height="100%"
-          style="aspect-ratio: 650 / 600"
         />
       </v-col>
 
@@ -237,7 +236,6 @@
 <script setup>
 const banner = {
   judul: "DETAIL PRODUK",
-  alttext: "Steel Shelving",
 };
 
 useSeoMeta({
@@ -250,13 +248,13 @@ useSeoMeta({
   keywords:
     "rak gudang, medium duty rack, steel shelving, rak penyimpanan, rak industri, rak baja, storage rack, shelving unit",
   ogImage:
-    "https://cdn.perkasaracking.co.id/images/produk/medium-duty/steel/steel-shelving-og.webp",
+    "/images/produk/medium-duty/steel/steel-shelving-og.webp",
   twitterCard: "summary_large_image",
   ogType: "product",
-  ogUrl: "https://www.perkasaracking.co.id/produk/medium-duty/steel-shelving",
+  ogUrl: "https://www.aresa-digital.com/produk/medium-duty/steel-shelving",
   robots: "index, follow",
   canonical:
-    "https://www.perkasaracking.co.id/produk/medium-duty/steel-shelving",
+    "https://www.aresa-digital.com/produk/medium-duty/steel-shelving",
 });
 </script>
 

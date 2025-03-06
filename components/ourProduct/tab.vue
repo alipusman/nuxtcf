@@ -128,8 +128,8 @@
               to="/produk/mezzanine"
             >
               <v-img
-                src="https://cdn.perkasaracking.co.id/images/produk/mezzanine/rak-gudang-mezzanine_TAP_1.webp"
-                lazy-src="https://cdn.perkasaracking.co.id/images/produk/mezzanine/rak-gudang-mezzanine_TAP_2.webp"
+                src="/images/produk/mezzanine/rak-gudang-mezzanine_TAP_1.webp"
+                lazy-src="/images/produk/mezzanine/rak-gudang-mezzanine_TAP_2.webp"
                 height="300"
                 cover
                 alt="Rak Gudang Mezzanine TAP"
@@ -169,8 +169,8 @@
               to="/produk/cantilever"
             >
               <v-img
-                src="https://cdn.perkasaracking.co.id/images/produk/cantilever/rak-gudang-cantilever-TAP_1.webp"
-                lazy-src="https://cdn.perkasaracking.co.id/images/produk/cantilever/rak-gudang-cantilever-TAP_2.webp"
+                src="/images/produk/cantilever/rak-gudang-cantilever-TAP_1.webp"
+                lazy-src="/images/produk/cantilever/rak-gudang-cantilever-TAP_2.webp"
                 height="300"
                 cover
                 alt="Rak Gudang Cantilever TAP"
@@ -295,9 +295,9 @@ const data = reactive({
       judul: "Selective Pallet Rack",
       desc: "Selective Pallet Racking adalah salah satu sistem penyimpanan palet yang paling umum digunakan di gudang dan fasilitas logistik....",
       image:
-        "https://cdn.perkasaracking.co.id/images/produk/heavy-duty/selective/selective-pallet-rack-TAP_3.webp",
+        "/images/produk/heavy-duty/selective/selective-pallet-rack-TAP_3.webp",
       lazysrc:
-        "https://cdn.perkasaracking.co.id/images/produk/heavy-duty/selective/selective-pallet-rack-TAP_4.webp",
+        "/images/produk/heavy-duty/selective/selective-pallet-rack-TAP_4.webp",
       alttext: "TAP - Rak Gudang - Heavy Duty - Selective Pallet",
       to: "/produk/heavy-duty/selective-pallet-rack",
     },
@@ -306,9 +306,9 @@ const data = reactive({
       judul: "Double Deep Pallet Racking",
       desc: "Double Deep Racking sistem penyimpanan palet yang dirancang untuk meningkatkan kepadatan penyimpanan dengan menyusun palet dua tingkat....",
       image:
-        "https://cdn.perkasaracking.co.id/images/produk/heavy-duty/double-deep/double-deep-pallet-racking-TAP_3.webp",
+        "/images/produk/heavy-duty/double-deep/double-deep-pallet-racking-TAP_3.webp",
       lazysrc:
-        "https://cdn.perkasaracking.co.id/images/produk/heavy-duty/double-deep/double-deep-pallet-rack-TAP_4.webp",
+        "/images/produk/heavy-duty/double-deep/double-deep-pallet-rack-TAP_4.webp",
       alttext: "TAP - Rak Gudang - Heavy Duty - Double Deep",
       to: "/produk/heavy-duty/double-deep",
     },
@@ -317,9 +317,9 @@ const data = reactive({
       judul: "Drive In Racking",
       desc: "Drive-In Racking adalah sistem penyimpanan palet yang dirancang untuk memaksimalkan kepadatan penyimpanan dengan menghilangkan lorong (aisle)....",
       image:
-        "https://cdn.perkasaracking.co.id/images/produk/heavy-duty/drive-in/drive-in-racking-TAP_3.webp",
+        "/images/produk/heavy-duty/drive-in/drive-in-racking-TAP_3.webp",
       lazysrc:
-        "https://cdn.perkasaracking.co.id/images/produk/heavy-duty/drive-in/drive-in-racking-TAP_4.webp",
+        "/images/produk/heavy-duty/drive-in/drive-in-racking-TAP_4.webp",
       alttext: "TAP - Rak Gudang - Heavy Duty - Drive In",
       to: "/produk/heavy-duty/drive-in",
     },
@@ -328,9 +328,9 @@ const data = reactive({
       judul: "VNA Racking System",
       desc: "Verry Narrow Aisle (VNA) Racking adalah sistem penyimpanan palet yang dirancang untuk memaksimalkan penggunaan ruang gudang dengan meminimalkan jarak....",
       image:
-        "https://cdn.perkasaracking.co.id/images/produk/heavy-duty/vna/vna-racking-system-TAP_3.webp",
+        "/images/produk/heavy-duty/vna/vna-racking-system-TAP_3.webp",
       lazysrc:
-        "https://cdn.perkasaracking.co.id/images/produk/heavy-duty/vna/vna-racking-system-TAP-4.webp",
+        "/images/produk/heavy-duty/vna/vna-racking-system-TAP-4.webp",
       alttext: "TAP - Rak Gudang - Heavy Duty - Narrow Aisle",
       to: "/produk/heavy-duty/verry-narrow-aisle",
     },
@@ -339,9 +339,9 @@ const data = reactive({
       judul: "Pushback Racking System",
       desc: "Pushback Racking adalah sistem penyimpanan palet yang dirancang untuk meningkatkan kepadatan penyimpanan dengan memanfaatkan kedalaman rak...",
       image:
-        "https://cdn.perkasaracking.co.id/images/produk/heavy-duty/pushback/pushback-racking-system-TAP_3.webp",
+        "/images/produk/heavy-duty/pushback/pushback-racking-system-TAP_3.webp",
       lazysrc:
-        "https://cdn.perkasaracking.co.id/images/produk/heavy-duty/pushback/pushback-racking-system-TAP_4.webp",
+        "/images/produk/heavy-duty/pushback/pushback-racking-system-TAP_4.webp",
       alttext: "TAP - Rak Gudang - Heavy Duty - Pushback",
       to: "/produk/heavy-duty/pushback",
     },
@@ -350,9 +350,9 @@ const data = reactive({
       judul: "Gravity Roller Racking",
       desc: "Pallet Flow atau Live Storage Racking adalah sistem penyimpanan palet yang dirancang untuk memaksimalkan efisiensi ruang gudang dengan memanfaatkan...",
       image:
-        "https://cdn.perkasaracking.co.id/images/produk/heavy-duty/gravity-roller-racking/flow-racking-TAP_3.webp",
+        "/images/produk/heavy-duty/gravity-roller-racking/flow-racking-TAP_3.webp",
       lazysrc:
-        "https://cdn.perkasaracking.co.id/images/produk/heavy-duty/gravity-roller-racking/flow-racking-TAP_4.webp",
+        "/images/produk/heavy-duty/gravity-roller-racking/flow-racking-TAP_4.webp",
       alttext: "TAP - Rak Gudang - Heavy Duty - Pallet Flow / Live Storage",
       to: "/produk/heavy-duty/flow-racking",
     },
@@ -361,9 +361,9 @@ const data = reactive({
       judul: "Pallet Runner",
       desc: "Pallet Runner Racking adalah sistem penyimpanan palet yang dirancang untuk meningkatkan efisiensi ruang gudang dengan memanfaatkan sistem...",
       image:
-        "https://cdn.perkasaracking.co.id/images/produk/heavy-duty/pallet-runner/pallet-runner-TAP_3.webp",
+        "/images/produk/heavy-duty/pallet-runner/pallet-runner-TAP_3.webp",
       lazysrc:
-        "https://cdn.perkasaracking.co.id/images/produk/heavy-duty/pallet-runner/pallet-runner-TAP_4.webp",
+        "/images/produk/heavy-duty/pallet-runner/pallet-runner-TAP_4.webp",
       alttext: "TAP - Rak Gudang - Heavy Duty - Pallet Runner",
       to: "/produk/heavy-duty/pallet-runner",
     },
@@ -372,9 +372,9 @@ const data = reactive({
       judul: "AS/RS",
       desc: "AS/RS (Automated Storage and Retrieval System) adalah sistem penyimpanan dan pengambilan barang yang terotomatisasi, yang menggunakan peralatan...",
       image:
-        "https://cdn.perkasaracking.co.id/images/produk/heavy-duty/asrs/asrs-racking-system-TAP_3.webp",
+        "/images/produk/heavy-duty/asrs/asrs-racking-system-TAP_3.webp",
       lazysrc:
-        "https://cdn.perkasaracking.co.id/images/produk/heavy-duty/asrs/asrs-racking-system-TAP_4.webp",
+        "/images/produk/heavy-duty/asrs/asrs-racking-system-TAP_4.webp",
       alttext: "TAP - Rak Gudang - Heavy Duty - AS/RS",
       to: "/produk/heavy-duty/as-rs",
     },
@@ -385,22 +385,22 @@ const data = reactive({
       judul: "Steel Shelving",
       desc: "Steel shelving adalah sistem rak yang terbuat dari baja, dirancang untuk menyimpan berbagai jenis barang di industri, gudang, toko ritel, atau bahkan di rumah...",
       image:
-        "https://cdn.perkasaracking.co.id/images/produk/medium-duty/steel/steel-shelving.webp",
+        "/images/produk/medium-duty/steel/steel-shelving.webp",
       alttext: "Rak Gudang Medium Duty - Steel Shelving",
       to: "/produk/medium-duty/steel-shelving",
       lazysrc:
-        "https://cdn.perkasaracking.co.id/images/produk/medium-duty/steel/steel-shelving-lz.webp",
+        "/images/produk/medium-duty/steel/steel-shelving-lz.webp",
     },
 
     {
       judul: "Plywood Shelving",
       desc: "material yang terdiri dari beberapa lapisan kayu tipis (veneer) yang direkatkan bersama dengan pola serat yang bersilangan, sehingga menghasilkan kekuatan...",
       image:
-        "https://cdn.perkasaracking.co.id/images/produk/medium-duty/plywood/plywood-shelving.webp",
+        "/images/produk/medium-duty/plywood/plywood-shelving.webp",
       alttext: "Rak Gudang Medium Duty - Plywood Shelving",
       to: "/produk/medium-duty/plywood-shelving",
       lazysrc:
-        "https://cdn.perkasaracking.co.id/images/produk/medium-duty/plywood/plywood-shelving-lz.webp",
+        "/images/produk/medium-duty/plywood/plywood-shelving-lz.webp",
     },
   ],
 
@@ -409,9 +409,9 @@ const data = reactive({
       judul: "Pallet Kayu",
       desc: "Pallet Kayu adalah solusi penyimpanan dan transportasi yang kokoh, ekonomis, dan ramah lingkungan, banyak digunakan dalam industri logistik dan pergudangan...",
       image:
-        "https://cdn.perkasaracking.co.id/images/produk/pallet/kayu/pallet-kayu.webp",
+        "/images/produk/pallet/kayu/pallet-kayu_1.webp",
       lazysrc:
-        "https://cdn.perkasaracking.co.id/images/produk/pallet/kayu/pallet-kayu-lz.webp",
+        "/images/produk/pallet/kayu/pallet-kayu_2.webp",
       alttext: "TAP - Rak Gudang - Pallet - Pallet Kayu",
       to: "/produk/pallet/wooden",
     },
@@ -420,9 +420,9 @@ const data = reactive({
       judul: "Pallet Plastik",
       desc: "Pallet Plastik adalah solusi penyimpanan dan transportasi yang kuat, ringan, dan tahan lama, dirancang untuk meningkatkan efisiensi logistik dan manajemen gudang...",
       image:
-        "https://cdn.perkasaracking.co.id/images/produk/pallet/plastik/pallet-plastik.webp",
+        "/images/produk/pallet/plastik/pallet-plastik_1.webp",
       lazysrc:
-        "https://cdn.perkasaracking.co.id/images/produk/pallet/plastik/pallet-plastik-lz.webp",
+        "/images/produk/pallet/plastik/pallet-plastik_2.webp",
       alttext: "TAP - Rak Gudang - Pallet - Pallet Plastic",
       to: "/produk/pallet/plastic",
     },
@@ -431,9 +431,9 @@ const data = reactive({
       judul: "Pallet Mesh",
       desc: "Pallet Mesh adalah sistem rak penyimpanan inovatif yang dirancang untuk menyimpan berbagai jenis barang dengan aman dan terorganisir. Menggunakan struktur palet...",
       image:
-        "https://cdn.perkasaracking.co.id/images/produk/pallet/mesh/pallet-mesh.webp",
+        "/images/produk/pallet/mesh/pallet-mesh_1.webp",
       lazysrc:
-        "https://cdn.perkasaracking.co.id/images/produk/pallet/mesh/pallet-mesh-lz.webp",
+        "/images/produk/pallet/mesh/pallet-mesh_2.webp",
       alttext: "TAP - Rak - Gudang - Pallet - Pallet Mesh",
       to: "/produk/pallet/mesh",
     },
@@ -442,9 +442,9 @@ const data = reactive({
       judul: "Stacking System",
       desc: "Stacking System adalah sistem penyimpanan yang dirancang untuk menumpuk palet secara vertikal guna memaksimalkan kapasitas ruang penyimpanan...",
       image:
-        "https://cdn.perkasaracking.co.id/images/produk/pallet/stacking/stacking-system.webp",
+        "/images/produk/pallet/stacking/stacking-system_1.webp",
       lazysrc:
-        "https://cdn.perkasaracking.co.id/images/produk/pallet/stacking/stacking-system-lz.webp",
+        "/images/produk/pallet/stacking/stacking-system_2.webp",
       alttext: "TAP - Rak - Gudang - Pallet - Stacking System",
       to: "/produk/pallet/stacking-system",
     },
@@ -453,9 +453,9 @@ const data = reactive({
       judul: "Nesting Rack System",
       desc: "Nesting Rack System adalah sistem penyimpanan yang dirancang untuk memberikan fleksibilitas dalam pengelolaan ruang dengan rak yang dapat dilipat...",
       image:
-        "https://cdn.perkasaracking.co.id/images/produk/pallet/nesting/nesting-rack.webp",
+        "/images/produk/pallet/nesting/nesting-rack_1.webp",
       lazysrc:
-        "https://cdn.perkasaracking.co.id/images/produk/pallet/nesting/nesting-rak-lz.webp",
+        "/images/produk/pallet/nesting/nesting-rak_2.webp",
       alttext: "TAP - Rak - Gudang - Pallet - Nesting Rak Sistem",
       to: "/produk/pallet/nesting-rack",
     },
@@ -466,70 +466,70 @@ const data = reactive({
       judul: "Electric Pallet Truck",
       desc: "Electric Pallet Truck adalah kendaraan listrik yang didesain untuk memindahkan palet dengan efisiensi tinggi, mengurangi kerja manual, serta meningkatkan produktivitas operasional gudang.",
       image:
-        "https://cdn.perkasaracking.co.id/images/produk/equipment/electric-pallet-truck/electric-pallet-truck.webp",
+        "/images/produk/equipment/electric-pallet-truck/electric-pallet-truck_1.webp",
       to: "/produk/equipment/electric-pallet-truck",
       lazysrc:
-        "https://cdn.perkasaracking.co.id/images/produk/equipment/electric-pallet-truck/electric-pallet-truck-lz.webp",
+        "/images/produk/equipment/electric-pallet-truck/electric-pallet-truck_2.webp",
     },
 
     {
       judul: "Electric Stacker",
       desc: "Electric Stacker merupakan truk angkat listrik yang kompak, didesain untuk mengangkat palet secara mudah, serta meningkatkan efisiensi penyimpanan dan pengambilan barang gudang.",
       image:
-        "https://cdn.perkasaracking.co.id/images/produk/equipment/electric-stracker/electric-stacker.webp",
+        "/images/produk/equipment/electric-stracker/electric-stacker_1.webp",
       to: "/produk/equipment/electric-stacker",
       lazysrc:
-        "https://cdn.perkasaracking.co.id/images/produk/equipment/electric-stracker/electric-stacker-lz.webp",
+        "/images/produk/equipment/electric-stracker/electric-stacker_2.webp",
     },
 
     {
       judul: "Electric Tow Tractor",
       desc: "Electric Tow Tractor adalah kendaraan serbaguna yang menarik beban berat serta mengambil barang dari rak tinggi, mendukung efisiensi gudang.",
       image:
-        "https://cdn.perkasaracking.co.id/images/produk/equipment/electric-tow-tracktor/electric-tow-tractor.webp",
+        "/images/produk/equipment/electric-tow-tracktor/electric-tow-tractor_1.webp",
       to: "/produk/equipment/electric-tow-tractor-order-picker",
       lazysrc:
-        "https://cdn.perkasaracking.co.id/images/produk/equipment/electric-tow-tracktor/electric-tow-tractor-lz.webp",
+        "/images/produk/equipment/electric-tow-tracktor/electric-tow-tractor_2.webp",
     },
 
     {
       judul: "Three Wheel Electric Forklift",
       desc: "Three-Wheel Electric Forklift adalah forklift listrik tiga roda yang ringkas dan mudah bermanuver, ideal untuk operasi ruang sempit dengan kinerja yang efisien.",
       image:
-        "https://cdn.perkasaracking.co.id/images/produk/equipment/three-wheel-electric-forklift/three-wheel-electric-forklift.webp",
+        "/images/produk/equipment/three-wheel-electric-forklift/three-wheel-electric-forklift_1.webp",
       to: "/produk/equipment/three-wheel-electric-forklift",
       lazysrc:
-        "https://cdn.perkasaracking.co.id/images/produk/equipment/three-wheel-electric-forklift/three-wheel-electric-forklift-lz.webp",
+        "/images/produk/equipment/three-wheel-electric-forklift/three-wheel-electric-forklift_2.webp",
     },
 
     {
       judul: "Four-Wheel Electric Forklift",
       desc: "Four-Wheel Electric Forklift adalah forklift listrik empat roda yang stabil dan bertenaga, dirancang untuk pengangkatan berat di luar ruangan dengan kapasitas tinggi.",
       image:
-        "https://cdn.perkasaracking.co.id/images/produk/equipment/four-wheel-electric-forklift/four-wheel-electric-forklift.webp",
+        "/images/produk/equipment/four-wheel-electric-forklift/four-wheel-electric-forklift_1.webp",
       to: "/produk/equipment/four-wheel-electric-forklift",
       lazysrc:
-        "https://cdn.perkasaracking.co.id/images/produk/equipment/four-wheel-electric-forklift/four-wheel-electric-forklift-lz.webp",
+        "/images/produk/equipment/four-wheel-electric-forklift/four-wheel-electric-forklift_2.webp",
     },
 
     {
       judul: "Forklift Diesel",
       desc: "Forklift Diesel adalah forklift diesel yang dirancang untuk mengangkat beban berat di luar ruangan dengan daya tahan dan kinerja yang sangat handal.",
       image:
-        "https://cdn.perkasaracking.co.id/images/produk/equipment/forklift-diesel/forklift-diesel.webp",
+        "/images/produk/equipment/forklift-diesel/forklift-diesel_1.webp",
       to: "/produk/equipment/diesel-forklift",
       lazysrc:
-        "https://cdn.perkasaracking.co.id/images/produk/equipment/forklift-diesel/forklift-diesel-lz.webp",
+        "/images/produk/equipment/forklift-diesel/forklift-diesel_2.webp",
     },
 
     {
       judul: "Forklift LPG / Gasoline",
       desc: "Forklift LPG / Gasoline adalah forklift bensin/LPG yang dirancang untuk penggunaan dalam dan luar ruangan, dengan kemampuan angkat yang kuat serta kinerja yang konsisten.",
       image:
-        "https://cdn.perkasaracking.co.id/images/produk/equipment/gasoline-lpg-forklift/gasoline-lpg-forklift.webp",
+        "/images/produk/equipment/gasoline-lpg-forklift/gasoline-lpg-forklift_1.webp",
       to: "/produk/equipment/gasoline-lpg-forklift",
       lazysrc:
-        "https://cdn.perkasaracking.co.id/images/produk/equipment/gasoline-lpg-forklift/gasoline-lpg-forklift-lz.webp",
+        "/images/produk/equipment/gasoline-lpg-forklift/gasoline-lpg-forklift_2.webp",
     },
   ],
 });

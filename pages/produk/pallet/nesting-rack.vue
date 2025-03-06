@@ -6,28 +6,19 @@
     <v-row>
       <v-col cols="12" md="6" class="px-4">
         <v-img
-          src="https://cdn.perkasaracking.co.id/images/produk/pallet/nesting/nesting-rack.webp"
-          lazy-src="https://cdn.perkasaracking.co.id/images/produk/pallet/nesting/nesting-rak-lz.webp"
-          alt="Pallet - Nesting Rack System"
+          src="/images/produk/pallet/nesting/nesting-rack_1.webp"
+          lazy-src="/images/produk/pallet/nesting/nesting-rak_2.webp"
+          alt="Nesting Rack System"
           class="rounded-lg"
           height="100%"
           width="100%"
           cover
-          style="aspect-ratio: 650 / 600;"
         />
       </v-col>
 
       <v-col cols="12" md="6" class="px-4">
-        <h5 class="text-grey barlow">TAP - RACKING - PALLET</h5>
-
-        <h2 class="barlow">NESTING RACK SYSTEM</h2>
-
-        <v-divider
-          width="50"
-          thickness="3"
-          color="#FF3A3A"
-          class="mb-3 opacity-100"
-        />
+        <h1 class="barlow">STACKING SYSTEM</h1>
+        <v-divider thickness="3" color="#FF3A3A" class="mb-3 opacity-100" />
 
         <p class="text-body-1 barlow2 text-justify">
           Nesting Rack System adalah sistem penyimpanan yang dirancang untuk
@@ -40,176 +31,117 @@
           ideal untuk sektor logistik, manufaktur, dan ritel yang membutuhkan
           penyimpanan yang fleksibel dan hemat ruang.
         </p>
+        <br />
 
-        <v-row class="mt-3">
-          <h2 class="barlow2 ml-3">Komponen Utama Nesting Rack</h2>
-          <v-col cols="12" sm="6">
-            <p class="text-body-1 barlow2">Frame Rak</p>
-            <h4 class="barlow">
-              Struktur utama yang biasanya terbuat dari baja atau besi untuk
-              menahan beban barang.
-            </h4>
-            <br />
+        <h2 class="barlow2">Aplikasi di industri</h2>
 
-            <p class="text-body-1 barlow2">Support Bars (Batang Penopang)</p>
-            <h4 class="barlow">
-              Digunakan untuk memberikan stabilitas saat rak ditumpuk.
-            </h4>
-            <br />
-          </v-col>
+        <ol class="ml-6 barlow2 text-justify">
+          <li class="my-3">
+            <span class="barlow">Pergudangan & Logistik:</span>
+            Digunakan untuk penyimpanan barang yang fleksibel dan dapat diatur
+            ulang sesuai kebutuhan.
+          </li>
 
-          <v-col cols="12" sm="6">
-            <p class="text-body-1 barlow2">
-              Folding Mechanism (Engsel atau Slot Pengunci)
-            </p>
-            <h4 class="barlow">
-              Memungkinkan rak untuk dilipat saat tidak digunakan.
-            </h4>
-            <br />
+          <li>
+            <span class="barlow">Manufaktur:</span>
+            Untuk menyimpan bahan baku atau produk setengah jadi sebelum masuk
+            ke tahap produksi berikutnya.
+          </li>
 
-            <p class="text-body-1 barlow2">Locking System</p>
-            <h4 class="barlow">
-              Pengunci atau stopper untuk menjaga agar rak tetap kokoh dan aman
-              saat ditumpuk.
-            </h4>
-            <br />
-          </v-col>
-        </v-row>
+          <li class="my-3">
+            <span class="barlow">Industri Retail:</span>
+            Menyediakan solusi penyimpanan sementara untuk stok barang dalam
+            jumlah besar.
+          </li>
+
+          <li>
+            <span class="barlow">E-commerce & Distribusi:</span>
+            Membantu mengatur barang yang sering berpindah tempat tanpa memakan
+            banyak ruang saat kosong.
+          </li>
+
+          <li class="mt-3">
+            <span class="barlow">Industri Otomotif :</span>
+            Menyimpan suku cadang kendaraan dengan aman dan efisien.
+          </li>
+        </ol>
       </v-col>
     </v-row>
 
     <v-row>
       <v-col cols="12" sm="6">
         <h2 class="barlow2">Keuntungan Nesting Rack</h2>
-        <v-divider
-          width="200"
-          thickness="3"
-          color="#FF3A3A"
-          class="mb-3 opacity-100"
-        />
-        <ul class="ml-6 text-justify">
-          <li class="mt-3 barlow2">
-            <span class="font-weight-bold">Menghemat Ruang:</span>
+
+        <ol class="ml-6 text-justify">
+          <li class="my-3">
+            <span class="barlow">Menghemat Ruang:</span>
             Rak dapat dilipat atau disusun saat kosong, sehingga mengurangi
             kebutuhan area penyimpanan.
           </li>
 
-          <li class="mt-3 barlow2">
-            <span class="font-weight-bold">Fleksibel & Mudah Dipindahkan:</span>
+          <li>
+            <span class="barlow">Fleksibel & Mudah Dipindahkan:</span>
             Dapat dengan mudah disesuaikan dengan kebutuhan operasional dan
             dipindahkan menggunakan forklift.
           </li>
 
-          <li class="mt-3 barlow2">
-            <span class="font-weight-bold"
-              >Meningkatkan Efisiensi Penyimpanan:</span
-            >
+          <li class="my-3">
+            <span class="barlow">Meningkatkan Efisiensi Penyimpanan:</span>
             Memungkinkan penumpukan vertikal yang lebih aman dibandingkan
             stacking langsung tanpa rak.
           </li>
 
-          <li class="mt-3 barlow2">
-            <span class="font-weight-bold">Melindungi Barang:</span>
+          <li>
+            <span class="barlow">Melindungi Barang:</span>
             Mencegah barang dari kerusakan akibat tekanan berlebih saat
             ditumpuk.
           </li>
 
-          <li class="mt-3 barlow2">
-            <span class="font-weight-bold">Dapat Digunakan Kembali:</span>
+          <li class="mt-3">
+            <span class="barlow">Dapat Digunakan Kembali:</span>
             Terbuat dari material tahan lama seperti baja, membuatnya lebih
             ekonomis dalam jangka panjang.
           </li>
-        </ul>
+        </ol>
       </v-col>
 
       <v-col>
         <h2 class="barlow2">Tantangan Nesting Rack</h2>
-        <v-divider
-          width="200"
-          thickness="3"
-          color="#FF3A3A"
-          class="mb-3 opacity-100"
-        />
-        <ul class="ml-6 text-justify">
-          <li class="mt-3 barlow2">
-            <span class="font-weight-bold">Harga Relatif Mahal:</span>
+
+        <ol class="ml-6 text-justify barlow2">
+          <li class="my-3">
+            <span class="barlow">Harga Relatif Mahal:</span>
             Biaya awal pembelian lebih tinggi dibandingkan rak statis
             konvensional.
           </li>
 
-          <li class="mt-3 barlow2">
-            <span class="font-weight-bold"
-              >Memerlukan Ruang Saat Digunakan:</span
-            >
+          <li>
+            <span class="barlow">Memerlukan Ruang Saat Digunakan:</span>
             Saat rak dalam keadaan terisi penuh, ruang yang dibutuhkan tetap
             cukup besar.
           </li>
 
-          <li class="mt-3 barlow2">
-            <span class="font-weight-bold">Perawatan & Perbaikan :</span>
+          <li class="my-3">
+            <span class="barlow">Perawatan & Perbaikan :</span>
             Memerlukan inspeksi berkala untuk memastikan engsel dan struktur
             tetap aman digunakan.
           </li>
 
-          <li class="mt-3 barlow2">
-            <span class="font-weight-bold">Kapasitas Terbatas:</span>
+          <li>
+            <span class="barlow">Kapasitas Terbatas:</span>
             Tergantung pada desain dan materialnya, kapasitas beban yang dapat
             ditampung lebih terbatas dibandingkan rak tetap.
           </li>
-        </ul>
+        </ol>
       </v-col>
     </v-row>
 
     <v-row>
-      <v-col cols="12">
-        <h2 class="barlow2">Aplikasi di industri</h2>
-        <v-divider
-          width="200"
-          thickness="3"
-          color="#FF3A3A"
-          class="mb-3 opacity-100"
-        />
-        <ul class="ml-6 text-justify">
-          <li class="mt-3 barlow2">
-            <span class="font-weight-bold">Pergudangan & Logistik:</span>
-            Digunakan untuk penyimpanan barang yang fleksibel dan dapat diatur
-            ulang sesuai kebutuhan.
-          </li>
+      <v-col class="px-4">
+        <v-divider thickness="3" color="#FF3A3A" class="mb-3 opacity-100" />
+        <h1 class="barlow">Kesimpulan</h1>
 
-          <li class="mt-3 barlow2">
-            <span class="font-weight-bold">Manufaktur:</span>
-            Untuk menyimpan bahan baku atau produk setengah jadi sebelum masuk
-            ke tahap produksi berikutnya.
-          </li>
-
-          <li class="mt-3 barlow2">
-            <span class="font-weight-bold">Industri Retail:</span>
-            Menyediakan solusi penyimpanan sementara untuk stok barang dalam
-            jumlah besar.
-          </li>
-
-          <li class="mt-3 barlow2">
-            <span class="font-weight-bold">E-commerce & Distribusi:</span>
-            Membantu mengatur barang yang sering berpindah tempat tanpa memakan
-            banyak ruang saat kosong.
-          </li>
-
-          <li class="mt-3 barlow2">
-            <span class="font-weight-bold">Industri Otomotif :</span>
-            Menyimpan suku cadang kendaraan dengan aman dan efisien.
-          </li>
-        </ul>
-      </v-col>
-
-      <v-col cols="12">
-        <h1 class="barlow2">Kesimpulan</h1>
-        <v-divider
-          width="200"
-          thickness="3"
-          color="#FF3A3A"
-          class="mb-3 opacity-100"
-        />
-        <p class="text-justify barlow2 text-h6">
+        <p class="barlow2 text-h6 mt-3 text-justify">
           <span class="barlow"> Nesting Rack</span> adalah solusi penyimpanan
           yang efisien, fleksibel, dan dapat menghemat ruang ketika tidak
           digunakan. Sistem ini banyak digunakan di berbagai industri, terutama
@@ -229,7 +161,6 @@
 <script setup>
 const banner = {
   judul: "DETAIL PRODUK",
-  alttext: "Rak Gudang Nesting Rack - TAP",
 };
 
 useSeoMeta({
@@ -242,12 +173,12 @@ useSeoMeta({
   keywords:
     "nesting rack, nesting rack system, rak penyimpanan, sistem penyimpanan pallet, rak fleksibel, storage solution",
   ogImage:
-    "https://cdn.perkasaracking.co.id/images/produk/pallet/nesting/nesting-rack_og.webp",
+    "/images/produk/pallet/nesting/nesting-rack_og.webp",
   twitterCard: "summary_large_image",
   ogType: "product",
-  ogUrl: "https://www.perkasaracking.co.id/produk/pallet/nesting-rack",
+  ogUrl: "https://www.aresa-digital.com/produk/pallet/nesting-rack",
   robots: "index, follow",
-  canonical: "https://www.perkasaracking.co.id/produk/pallet/nesting-rack",
+  canonical: "https://www.aresa-digital.com/produk/pallet/nesting-rack",
 });
 </script>
 

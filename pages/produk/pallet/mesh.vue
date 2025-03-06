@@ -6,28 +6,19 @@
     <v-row>
       <v-col cols="12" md="6" class="px-4">
         <v-img
-          src="https://cdn.perkasaracking.co.id/images/produk/pallet/mesh/pallet-mesh.webp"
-          alt="Pallet - Pallet Mesh"
-          lazy-src="https://cdn.perkasaracking.co.id/images/produk/pallet/mesh/pallet-mesh-lz.webp"
+          src="/images/produk/pallet/mesh/pallet-mesh_1.webp"
+          alt="Pallet Mesh"
+          lazy-src="/images/produk/pallet/mesh/pallet-mesh_2.webp"
           class="rounded-lg"
           height="100%"
           width="100%"
           cover
-          style="aspect-ratio: 650 / 600;"
         />
       </v-col>
 
       <v-col cols="12" md="6" class="px-4">
-        <h5 class="text-grey barlow">TAP - RACKING - PALLET</h5>
-
-        <h2 class="barlow">PALLET MESH</h2>
-
-        <v-divider
-          width="50"
-          thickness="3"
-          color="#FF3A3A"
-          class="mb-3 opacity-100"
-        />
+        <h1 class="barlow">PALLET MESH</h1>
+        <v-divider thickness="3" color="#FF3A3A" class="mb-3 opacity-100" />
 
         <p class="text-body-1 barlow2 text-justify">
           Pallet Mesh adalah sistem rak penyimpanan inovatif yang dirancang
@@ -45,119 +36,102 @@
           berbagai ukuran dan jenis barang sesuai dengan kebutuhan spesifik di
           gudang atau fasilitas logistik Anda.
         </p>
+        <br />
 
-        <v-row class="mt-3">
-          <h2 class="barlow2 ml-3">Komponen Utama Pallet Mesh</h2>
-          <v-col cols="12" sm="6">
-            <p class="text-body-1 barlow2">Rangka Besi atau Baja</p>
-            <h4 class="barlow">
-              Struktur utama yang memberikan kekuatan dan stabilitas.
-            </h4>
-            <br />
+        <h2 class="barlow2">Aplikasi di industri</h2>
 
-            <p class="text-body-1 barlow2">Dinding Mesh (Jaring Logam)</p>
-            <h4 class="barlow">
-              Melindungi barang agar tidak jatuh saat penyimpanan atau
-              transportasi.
-            </h4>
-            <br />
-          </v-col>
+        <ol class="ml-6 text-justify">
+          <li class="my-3">
+            <span class="barlow">Pergudangan & Logistik:</span>
+            Digunakan untuk menyimpan dan mengangkut barang dalam jumlah besar
+            dengan lebih aman.
+          </li>
 
-          <v-col cols="12" sm="6">
-            <p class="text-body-1 barlow2">Engsel atau Mekanisme Lipat</p>
-            <h4 class="barlow">
-              Memungkinkan pallet dilipat saat tidak digunakan untuk menghemat
-              ruang.
-            </h4>
-            <br />
+          <li>
+            <span class="barlow">Manufaktur:</span>
+            Membantu menyimpan bahan baku atau komponen yang mudah tercecer.
+          </li>
 
-            <p class="text-body-1 barlow2">Dasar (Base Pallet)</p>
-            <h4 class="barlow">
-              Biasanya terbuat dari baja solid atau kombinasi jaring yang
-              menopang beban barang.
-            </h4>
-            <br />
-          </v-col>
-        </v-row>
+          <li class="my-3">
+            <span class="barlow">Industri Otomotif :</span>
+            Menyimpan suku cadang seperti baut, mur, atau spare part kendaraan.
+          </li>
+
+          <li>
+            <span class="barlow">Pertanian & Perkebunan :</span>
+            Cocok untuk menyimpan hasil panen seperti buah dan sayuran yang
+            membutuhkan ventilasi udara.
+          </li>
+
+          <li class="mt-3">
+            <span class="barlow">Industri Daur Ulang :</span>
+            Digunakan untuk menyimpan material daur ulang seperti plastik,
+            kertas, atau logam sebelum diproses lebih lanjut.
+          </li>
+        </ol>
       </v-col>
     </v-row>
 
     <v-row>
       <v-col cols="12" sm="6">
         <h2 class="barlow2">Keuntungan Pallet Mesh</h2>
-        <v-divider
-          width="200"
-          thickness="3"
-          color="#FF3A3A"
-          class="mb-3 opacity-100"
-        />
-        <ul class="ml-6 text-justify">
+
+        <ol class="ml-6 text-justify">
           <li class="mt-3 barlow2">
-            <span class="font-weight-bold"
-              >Keamanan & Perlindungan Barang:</span
-            >
+            <span class="barlow">Keamanan & Perlindungan Barang:</span>
             Dinding jaring mencegah barang jatuh atau bergeser saat dipindahkan.
           </li>
 
           <li class="mt-3 barlow2">
-            <span class="font-weight-bold">Sirkulasi Udara yang Baik:</span>
+            <span class="barlow">Sirkulasi Udara yang Baik:</span>
             Cocok untuk barang yang memerlukan ventilasi, seperti produk
             pertanian atau bahan kimia tertentu.
           </li>
 
           <li class="mt-3 barlow2">
-            <span class="font-weight-bold">Tahan Lama & Kuat :</span>
+            <span class="barlow">Tahan Lama & Kuat :</span>
             Dibuat dari baja atau besi yang tahan beban berat dan penggunaan
             jangka panjang.
           </li>
 
           <li class="mt-3 barlow2">
-            <span class="font-weight-bold">Mudah Dilihat & Diakses:</span>
+            <span class="barlow">Mudah Dilihat & Diakses:</span>
             Struktur jaring memungkinkan pekerja melihat isi pallet tanpa perlu
             membuka atau membongkar.
           </li>
 
           <li class="mt-3 barlow2">
-            <span class="font-weight-bold"
-              >Cocok untuk Berbagai Jenis Barang:</span
-            >
+            <span class="barlow">Cocok untuk Berbagai Jenis Barang:</span>
             Bisa digunakan untuk barang kecil, besar, atau tidak beraturan yang
             sulit disimpan di pallet biasa.
           </li>
-        </ul>
+        </ol>
       </v-col>
 
-      <v-col>
+      <v-col cols="12" sm="6">
         <h2 class="barlow2">Tantangan Pallet Mesh</h2>
-        <v-divider
-          width="200"
-          thickness="3"
-          color="#FF3A3A"
-          class="mb-3 opacity-100"
-        />
+
         <ul class="ml-6 text-justify">
           <li class="mt-3 barlow2">
-            <span class="font-weight-bold">Harga Lebih Mahal:</span>
+            <span class="barlow">Harga Lebih Mahal:</span>
             Dibandingkan dengan pallet kayu atau plastik, pallet mesh lebih
             mahal karena materialnya lebih kuat dan tahan lama.
           </li>
 
           <li class="mt-3 barlow2">
-            <span class="font-weight-bold">Bobot Lebih Berat:</span>
+            <span class="barlow">Bobot Lebih Berat:</span>
             Material besi atau baja membuatnya lebih berat, sehingga memerlukan
             alat bantu seperti forklift untuk pemindahan.
           </li>
 
           <li class="mt-3 barlow2">
-            <span class="font-weight-bold"
-              >Bukan untuk Cairan atau Bubuk :</span
-            >
+            <span class="barlow">Bukan untuk Cairan atau Bubuk :</span>
             Karena memiliki celah jaring, pallet ini tidak cocok untuk menyimpan
             bahan cair atau berbentuk bubuk tanpa tambahan wadah.
           </li>
 
           <li class="mt-3 barlow2">
-            <span class="font-weight-bold">Memerlukan Perawatan :</span>
+            <span class="barlow">Memerlukan Perawatan :</span>
             Risiko karat pada material logam jika tidak memiliki lapisan
             anti-korosi atau terkena kelembaban tinggi.
           </li>
@@ -166,54 +140,11 @@
     </v-row>
 
     <v-row>
-      <v-col cols="12">
-        <h2 class="barlow2">Aplikasi di industri</h2>
-        <v-divider
-          width="200"
-          thickness="3"
-          color="#FF3A3A"
-          class="mb-3 opacity-100"
-        />
-        <ul class="ml-6 text-justify">
-          <li class="mt-3 barlow2">
-            <span class="font-weight-bold">Pergudangan & Logistik:</span>
-            Digunakan untuk menyimpan dan mengangkut barang dalam jumlah besar
-            dengan lebih aman.
-          </li>
+      <v-col class="px-4">
+        <v-divider thickness="3" color="#FF3A3A" class="mb-3 opacity-100" />
+        <h1 class="barlow">Kesimpulan</h1>
 
-          <li class="mt-3 barlow2">
-            <span class="font-weight-bold">Manufaktur:</span>
-            Membantu menyimpan bahan baku atau komponen yang mudah tercecer.
-          </li>
-
-          <li class="mt-3 barlow2">
-            <span class="font-weight-bold">Industri Otomotif :</span>
-            Menyimpan suku cadang seperti baut, mur, atau spare part kendaraan.
-          </li>
-
-          <li class="mt-3 barlow2">
-            <span class="font-weight-bold">Pertanian & Perkebunan :</span>
-            Cocok untuk menyimpan hasil panen seperti buah dan sayuran yang
-            membutuhkan ventilasi udara.
-          </li>
-
-          <li class="mt-3 barlow2">
-            <span class="font-weight-bold">Industri Daur Ulang :</span>
-            Digunakan untuk menyimpan material daur ulang seperti plastik,
-            kertas, atau logam sebelum diproses lebih lanjut.
-          </li>
-        </ul>
-      </v-col>
-
-      <v-col cols="12">
-        <h1 class="barlow2">Kesimpulan</h1>
-        <v-divider
-          width="200"
-          thickness="3"
-          color="#FF3A3A"
-          class="mb-3 opacity-100"
-        />
-        <p class="barlow2 text-justify text-h6">
+        <p class="barlow2 text-h6 mt-3 text-justify">
           <span class="barlow"> Pallet Mesh</span> adalah solusi penyimpanan dan
           transportasi yang kuat, aman, dan fleksibel, cocok untuk berbagai
           industri. Dengan desain jaring logam, pallet ini memungkinkan
@@ -235,7 +166,6 @@
 <script setup>
 const banner = {
   judul: "DETAIL PRODUK",
-  alttext: "Pallet Mesh - TAP",
 };
 
 useSeoMeta({
@@ -248,12 +178,12 @@ useSeoMeta({
   keywords:
     "rak gudang, pallet mesh, rak pallet, pallet storage, penyimpanan pallet, mesh rack system, heavy duty storage",
   ogImage:
-    "https://cdn.perkasaracking.co.id/images/produk/pallet/mesh/pallet-mesh_og.webp",
+    "/images/produk/pallet/mesh/pallet-mesh_og.webp",
   twitterCard: "summary_large_image",
   ogType: "product",
-  ogUrl: "https://www.perkasaracking.co.id/produk/pallet/mesh",
+  ogUrl: "https://www.aresa-digital.com/produk/pallet/mesh",
   robots: "index, follow",
-  canonical: "https://www.perkasaracking.co.id/produk/pallet/mesh",
+  canonical: "https://www.aresa-digital.com/produk/pallet/mesh",
 });
 </script>
 

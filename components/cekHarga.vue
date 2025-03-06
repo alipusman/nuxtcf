@@ -171,8 +171,8 @@
       <v-col cols="12" sm="6" class="mb-4">
         <v-img
           cover
-          src="https://cdn.perkasaracking.co.id/images/pallet-TAP_1.webp"
-          lazy-src="https://cdn.perkasaracking.co.id/images/pallet-TAP_2.webp"
+          src="/images/pallet-TAP_1.webp"
+          lazy-src="/images/pallet-TAP_2.webp"
           alt="Pallet Dimensi TAP"
         />
       </v-col>
@@ -478,6 +478,7 @@
 import _ from "lodash";
 import MarkdownIt from "markdown-it";
 import { cekpenawaran } from "~/composables/utils";
+const cekhargastore = usecekhargaStore();
 
 const myform = ref();
 // const aistatus = ref(false);
@@ -518,43 +519,43 @@ const data = reactive({
     // {
     //   nama: "Amanda Khoirunnisa",
     //   jabatan: "Sales 1",
-    //   img: "https://cdn.perkasaracking.co.id/images/live-chat/1.png",
+    //   img: "/images/live-chat/1.png",
     //   phone: "6281511769507",
     // },
     {
       nama: "Aria Wardana",
       jabatan: "Sales 2",
-      img: "https://cdn.perkasaracking.co.id/images/live-chat/2.png",
+      img: "/images/live-chat/2.png",
       phone: "6287775434777",
     },
     {
       nama: "Ahmad Fathoni",
       jabatan: "Sales 3",
-      img: "https://cdn.perkasaracking.co.id/images/live-chat/3.png",
+      img: "/images/live-chat/3.png",
       phone: "628999967932",
     },
     {
       nama: "Dwi Purnanto Jati",
       jabatan: "Sales 4",
-      img: "https://cdn.perkasaracking.co.id/images/live-chat/4.png",
+      img: "/images/live-chat/4.png",
       phone: "628561510011",
     },
     {
       nama: "Sigit Djuhartono",
       jabatan: "Sales 5",
-      img: "https://cdn.perkasaracking.co.id/images/live-chat/5.png",
+      img: "/images/live-chat/5.png",
       phone: "6281295966673",
     },
     {
       nama: "Anggoro Widyatmoko",
       jabatan: "Sales 6",
-      img: "https://cdn.perkasaracking.co.id/images/live-chat/6.png",
+      img: "/images/live-chat/6.png",
       phone: "6281932226292",
     },
     {
       nama: "Sutarti",
       jabatan: "Sales 7",
-      img: "https://cdn.perkasaracking.co.id/images/live-chat/7.png",
+      img: "/images/live-chat/7.png",
       phone: "6285892600347",
     },
   ],
@@ -617,18 +618,21 @@ const calculator = async () => {
     // const b = await hitunggudang(data.panjangpalet, data.lebarpalet,data.tinggipallet,lebargudang,panjanggudang,tinggigudang)
     // return console.log({ b });
     result.value = b;
-    const c = _.assign({Nama: data.nama_customer, NamaPerusahaan : data.nama_perusahaan}, b);
+    const c = _.assign({Nama: data.nama_customer, NamaPerusahaan : data.nama_perusahaan, NomorCustomer : data.wa_customer}, b);
     const madown = await jsonToMarkdown(c);
     console.log({ madown });
     const encodedMessage = encodeURIComponent(
-      `Hallo saya, mau cek harga seputar Rack Gudang, boleh dibantu informasinya dari perkasaracking.co.id?\n\n# Estimasi Harga Rak SPR di web dengan informasi sbb : \n\n# ${madown} `
+      `Hallo saya, mau cek harga seputar Rack Gudang, boleh dibantu informasinya dari aresa-digital.com?\n\n# Estimasi Harga Rak SPR di web dengan informasi sbb : \n\n# ${madown} `
     );
+    // console.log({c})
     // data.dialogresult = true;
     const chatUrl = `https://api.whatsapp.com/send?phone=${
       data.safelist[getRandomNumber()].phone
     }&text=${encodedMessage}\n\n# Marketing kami akan segera menghubungi Bapak/Ibu untuk konfirmasi data lebih lanjut \n\m#.Terima kasih.`;
     window.open(chatUrl, "_blank");
+
     cekpenawaran();
+    cekhargastore.tambahcekhargaact(c);
   } catch (error) {
     useloadingStore().setLoading(false);
   }
@@ -671,7 +675,7 @@ const calculatorai = async () => {
     data.aistatus = true;
 
     const encodedMessage = encodeURIComponent(
-      `Hallo saya, mau cek harga seputar Rack Gudang, boleh dibantu informasinya dari perkasaracking.co.id?\n\n${madown}`
+      `Hallo saya, mau cek harga seputar Rack Gudang, boleh dibantu informasinya dari aresa-digital.com?\n\n${madown}`
     );
     // data.dialogresult = true;
     const chatUrl = `https://api.whatsapp.com/send?phone=${

@@ -3,7 +3,7 @@
     <v-dialog v-model="data.dialogfoto" width="35%">
       <v-card>
         <v-img
-          src="https://cdn.perkasaracking.co.id/images/tentang-kami/sertifikat/iso/sertifikat-pt-tangguh-adi-perkasa-iso-9001-2015_260126_page-1.webp"
+          src="/images/tentang-kami/sertifikat/iso/sertifikat-pt-tangguh-adi-perkasa-iso-9001-2015_260126_page-1.webp"
           alt="Sertifikat ISO 9001:2015"
           cover
         />
@@ -13,7 +13,7 @@
     <v-row justify="center">
       <v-col cols="12" md="9">
         <v-row align="center">
-          <v-col cols="12" md="6" class="px-7">
+          <v-col cols="12" sm="6" md="6" class="px-7">
             <h2 class="barlow">Sertifikat ISO 9001:2015 <br /></h2>
 
             <v-divider
@@ -32,12 +32,12 @@
             </p>
           </v-col>
 
-          <v-col cols="12" md="6" class="px-7">
+          <v-col cols="12" sm="6" md="6" class="px-7">
             <v-card class="custom-card" flat>
               <div class="card-border">
                 <v-img
-                  src="https://cdn.perkasaracking.co.id/images/tentang-kami/sertifikat/iso/sertifikat-pt-tangguh-adi-perkasa-iso-9001-2015_260126_page-1.webp"
-                  lazy-src="https://cdn.perkasaracking.co.id/images/tentang-kami/sertifikat/iso/sertifikat-pt-tangguh-adi-perkasa-iso-9001-2015_260126_page-2.webp"
+                  src="/images/tentang-kami/sertifikat/iso/sertifikat-pt-tangguh-adi-perkasa-iso-9001-2015_260126_page-1.webp"
+                  lazy-src="/images/tentang-kami/sertifikat/iso/sertifikat-pt-tangguh-adi-perkasa-iso-9001-2015_260126_page-2.webp"
                   alt="Sertifikat ISO 9001:2015"
                   class="rounded-lg styled-image"
                   height="350"

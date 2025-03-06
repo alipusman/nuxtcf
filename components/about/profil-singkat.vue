@@ -3,10 +3,10 @@
     <v-row justify="center">
       <v-col cols="12" md="9">
         <v-row align="center">
-          <v-col cols="12" md="6" class="px-7">
+          <v-col cols="12" sm="6" md="6" class="px-7">
             <v-img
-              src="https://cdn.perkasaracking.co.id/images/tentang-kami/profile_singkat-TAP_1.webp"
-              lazy-src="https://cdn.perkasaracking.co.id/images/tentang-kami/profile_singkat-TAP_2.webp"
+              src="/images/tentang-kami/profile_singkat-TAP_1.webp"
+              lazy-src="/images/tentang-kami/profile_singkat-TAP_2.webp"
               alt="Profil Singkat Rak Gudang TAP"
               class="rounded-lg"
               height="100%"
@@ -15,7 +15,7 @@
             />
           </v-col>
 
-          <v-col cols="12" md="6" class="px-7">
+          <v-col cols="12" sm="6" md="6" class="px-7">
             <h2 class="barlow">Profil Singkat TAP</h2>
 
             <v-divider

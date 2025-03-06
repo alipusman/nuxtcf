@@ -3,7 +3,7 @@
     <v-row justify="center">
       <v-col cols="12" md="9">
         <v-row align="center">
-          <v-col cols="12" md="6" class="px-7">
+          <v-col cols="12" sm="6" md="6" class="px-7">
             <h2 class="barlow">Visi & Misi</h2>
 
             <v-divider
@@ -45,10 +45,10 @@
             </ul>
           </v-col>
 
-          <v-col cols="12" md="6" class="px-7">
+          <v-col cols="12" sm="6" md="6" class="px-7">
             <v-img
-              src="https://cdn.perkasaracking.co.id/images/tentang-kami/visi-misi-TAP_1.webp"
-              lazy-src="https://cdn.perkasaracking.co.id/images/tentang-kami/visi-misi-TAP_2.webp"
+              src="/images/tentang-kami/visi-misi-TAP_1.webp"
+              lazy-src="/images/tentang-kami/visi-misi-TAP_2.webp"
               alt="Visi Dan Misi TAP"
               class="rounded-lg"
               height="100%"
