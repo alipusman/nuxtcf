@@ -115,6 +115,7 @@ export default defineNuxtConfig({
   },
 
   nitro: {
+    preset: "cloudflare-pages",
     prerender: {
       routes: [
         '/produk/heavy-duty/double-deep',
@@ -127,13 +128,13 @@ export default defineNuxtConfig({
       failOnError: true
     },
 
-    routeRules: {
-      '/sw.js': { headers: { 'Cache-Control': 'no-cache, no-store, must-revalidate' } },
-      '/workbook-*.js': { headers: { 'Cache-Control': 'no-cache, no-store, must-revalidate' } },
-      '/_nuxt/**': { headers: { 'Cache-Control': 'public, max-age=864000, s-maxage=31536000, immutable' } },
-      '/_payload.json': { headers: { 'Cache-Control': 'public, max-age=864000, s-maxage=31536000, immutable' } },
-      '/**': { headers: { 'Cache-Control': 'public, s-maxage=600, stale-while-revalidate=300' } }
-    },
+    // routeRules: {
+    //   '/sw.js': { headers: { 'Cache-Control': 'no-cache, no-store, must-revalidate' } },
+    //   '/workbook-*.js': { headers: { 'Cache-Control': 'no-cache, no-store, must-revalidate' } },
+    //   '/_nuxt/**': { headers: { 'Cache-Control': 'public, max-age=864000, s-maxage=31536000, immutable' } },
+    //   '/_payload.json': { headers: { 'Cache-Control': 'public, max-age=864000, s-maxage=31536000, immutable' } },
+
+    // },
 
     compressPublicAssets: true
   },
