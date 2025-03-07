@@ -1,5 +1,8 @@
 <template>
+
   <banner-header />
+  <DelayHydration>
+
   <our-product />
   <!-- <customer-tap /> -->
   <chat-ai />
@@ -9,7 +12,10 @@
   <banner-service />
   <latest-project />
   <customer />
+
   <banner-parallax />
+</DelayHydration>
+
 </template>
 
 <script setup>

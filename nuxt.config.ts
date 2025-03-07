@@ -6,7 +6,10 @@ import compression from 'vite-plugin-compression'
 import lightningcss from 'vite-plugin-lightningcss'
 import Inspect from 'vite-plugin-inspect'
 
+
+
 export default defineNuxtConfig({
+  pages: true,
   compatibilityDate: '2025-02-21',
   router: {
     options: {
@@ -26,26 +29,57 @@ export default defineNuxtConfig({
     'nuxt-vitalizer'
   ],
   vuetify: {
-    vuetifyOptions:{
+
+    vuetifyOptions: {
      
+      theme: {
+        defaultTheme: 'light',
+        themes: {
+          light: {
+            dark: false,
+            colors: {
+              primary: '#1976D2',
+              secondary: '#424242',
+              accent: '#82B1FF',
+              error: '#FF5252',
+              info: '#2196F3',
+              success: '#4CAF50',
+              warning: '#FFC107',
+            }
+          },
+          dark: {
+            dark: true,
+            colors: {
+              primary: '#BB86FC',
+              secondary: '#3700B3',
+              accent: '#03DAC6',
+              error: '#CF6679',
+              info: '#2196F3',
+              success: '#4CAF50',
+              warning: '#FFC107',
+            },
+          },
+        }
+      }
     },
-    moduleOptions:{
-      ignoreDirectives: ['ClickOutside','Intersect', 'Mutate', 'Resize', 'Ripple','Scroll','Tooltip'],
-      ssrClientHints: { prefersReducedMotion: true }
-       
+    moduleOptions: {
+      ssrClientHints: { prefersReducedMotion: true },
+      styles:'sass',
+      // importComposables: false
     }
   },
 
 
   vitalizer: {
     // Remove the render-blocking entry CSS
-    disablePrefetchLinks: true,
+    disablePrefetchLinks: 'dynamicImports',
     disableStylesheets: 'entry',
     delayHydration: {
       hydrateOnEvents: ['mousemove', 'scroll', 'keydown', 'click', 'touchstart', 'wheel'],
       idleCallbackTimeout: 8000,
-      postIdleTimeout: 4000
-    }
+      postIdleTimeout: 4000,
+    },
+
   },
   googleFonts: {
     prefetch: true,
@@ -121,13 +155,7 @@ export default defineNuxtConfig({
   nitro: {
     preset: "cloudflare-pages",
     prerender: {
-      // routes: [
-      //   '/produk/heavy-duty/double-deep',
-      //   '/produk/pallet/wooden',
-      //   '/produk/heavy-duty',
-      //   '/produk/medium-duty',
-      //   '/produk/light-duty'
-      // ],
+      routes: [],
       autoSubfolderIndex: true,
       failOnError: true
     },
@@ -145,7 +173,7 @@ export default defineNuxtConfig({
 
   experimental: { payloadExtraction: true },
 
-  css: ['@/assets/css/global.css'],
+  css: ['@/assets/vuetify/settings.scss'],
 
   build: {
     transpile: ['vuetify']
@@ -171,6 +199,14 @@ export default defineNuxtConfig({
   },
 
   vite: {
+    // css:{
+    //   preprocessorOptions:{
+    //     scss:{
+    //       additionalData: `@import "~@/assets/vuetify.scss";`
+    //     }
+    //   }
+    // },
+ 
     plugins: [
       Inspect(),
       compression({ algorithm: 'gzip' }),
@@ -180,6 +216,7 @@ export default defineNuxtConfig({
       WindiCSS()
     ],
     build: {
+      
       cssMinify: 'lightningcss',
       minify: 'terser',
       terserOptions: {
@@ -195,8 +232,8 @@ export default defineNuxtConfig({
   gtm: {
     id: "GTM-WRC7F9WV",
     enabled: true,
-    loadScript : true,
-    defer :true
+    loadScript: true,
+    defer: true
   },
 
   runtimeConfig: {
@@ -212,7 +249,7 @@ export default defineNuxtConfig({
       gtm: {
         id: "GTM-WRC7F9WV",
         enabled: true,
-        loadScript : true
+        loadScript: true
       },
 
     }

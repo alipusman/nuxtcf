@@ -33,6 +33,7 @@
           width="100%"
           height="500px"
           cover
+          eager
         />
 
         <v-row class="mt-5">
