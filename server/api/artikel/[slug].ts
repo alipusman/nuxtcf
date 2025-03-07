@@ -22,22 +22,6 @@ export default defineEventHandler((event) => {
             "author": { "name": "udin Perkasa Racking", "profile_url": "https://perkasaracking.co.id/author/admin" },
             "published_at": "2025-03-07T10:00:00Z"
         },
-        {
-            "id": "double-deep-001",
-            "title": "DOUBLE DEEP RACKING",
-            "slug": "double-deep-racking",
-            "description": "Double Deep Racking adalah sistem penyimpanan palet yang dirancang untuk meningkatkan kapasitas gudang dengan menyusun palet dua tingkat ke dalam lorong.",
-            "content": [
-                { "type": "h2", "text": "Apa Itu Double Deep Racking?" },
-                { "type": "p", "text": "Double Deep Racking adalah sistem penyimpanan yang memungkinkan dua palet disusun berjajar dalam satu lorong (aisle)..." },
-                { "type": "img", "url": "https://cdn.aresa-digital.com/images/produk/heavy-duty/double-deep/double-deep-pallet-racking-TAP_3.webp", "alt": "Rak Double Deep" }
-            ],
-            "published_at": "2025-03-07T10:00:00.000Z",
-            "author": {
-                "name": "Tim Perkasa Racking",
-                "profile_url": "https://cdn.perkasaracking.co.id/author.jpg"
-            }
-        }
     ]
 
     const c = _.find(data, function (f) { return f.slug == slug })
