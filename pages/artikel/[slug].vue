@@ -14,7 +14,7 @@
       </v-card-subtitle>
       <v-card-text>{{ article.description }}</v-card-text>
     </v-card>
-
+    <v-img src="https://cdn.aresa-digital.com/images/produk/heavy-duty/double-deep/double-deep-pallet-racking-TAP_3.webp"></v-img>
     <v-row v-for="(block, index) in article.content" :key="index">
       <v-col :cols="block.cols || 12">
         <h2 v-if="block.type === 'h2'" class="text-h5">{{ block.text }}</h2>
@@ -65,11 +65,11 @@ const slug = computed(() => route.params.slug as string);
 const banner = { judul: "DETAIL PRODUK" };
 
 // Menggunakan useAsyncData untuk fetching dengan SSR support
-const { data: article, pending: loading, error } = useAsyncData(
+const { data: article } = useAsyncData(
   `article-${slug.value}`, 
   () => $fetch(`/api/artikels/?slug=${slug.value}`)
 );
 
-if (error.value) console.error("Error fetching article:", error.value);
+// if (error.value) console.error("Error fetching article:", error.value);
 </script>
 
