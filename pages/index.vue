@@ -23,6 +23,16 @@ definePageMeta({
   layout: "default",
 });
 
+useHead({
+  link: [
+    {
+      rel: "preload",
+      href: "https://cdn.aresa-digital.com/images/banner.webp",
+      as: "image",
+      type: "image/webp",
+    },
+  ],
+});
 
 
 useSeoMeta({

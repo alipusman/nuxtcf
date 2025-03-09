@@ -1,21 +1,17 @@
+// import { visualizer } from 'rollup-plugin-visualizer'
 import { defineLocalBusiness } from 'nuxt-schema-org/schema'
-import WindiCSS from 'vite-plugin-windicss'
-import Components from 'unplugin-vue-components/vite'
-import { VuetifyResolver } from 'unplugin-vue-components/resolvers'
+// import WindiCSS from 'vite-plugin-windicss'
+// import Components from 'unplugin-vue-components/vite'
+// import { VuetifyResolver } from 'unplugin-vue-components/resolvers'
 import compression from 'vite-plugin-compression'
-import lightningcss from 'vite-plugin-lightningcss'
-import Inspect from 'vite-plugin-inspect'
-
-
+// import lightningcss from 'vite-plugin-lightningcss'
+import vuetify, { transformAssetUrls } from 'vite-plugin-vuetify'
+// import Inspect from 'vite-plugin-inspect'
+import { fileURLToPath, URL } from 'node:url'
 
 export default defineNuxtConfig({
-  pages: true,
   compatibilityDate: '2025-02-21',
-  router: {
-    options: {
-      strict: false
-    }
-  },
+
   modules: [
     'vuetify-nuxt-module',
     '@nuxtjs/seo',
@@ -28,58 +24,115 @@ export default defineNuxtConfig({
     '@nuxt/image',
     'nuxt-vitalizer'
   ],
-  vuetify: {
 
+
+  vuetify: {
     vuetifyOptions: {
-     
       theme: {
-        defaultTheme: 'light',
         themes: {
-          light: {
+          customTheme: {
             dark: false,
             colors: {
-              primary: '#1976D2',
-              secondary: '#424242',
-              accent: '#82B1FF',
-              error: '#FF5252',
-              info: '#2196F3',
-              success: '#4CAF50',
-              warning: '#FFC107',
-            }
-          },
-          dark: {
-            dark: true,
-            colors: {
-              primary: '#BB86FC',
-              secondary: '#3700B3',
-              accent: '#03DAC6',
-              error: '#CF6679',
-              info: '#2196F3',
-              success: '#4CAF50',
-              warning: '#FFC107',
+              // Daftar warna yang digunakan saja
+              primary: '#1976D2',    // Warna utama
+              secondary: '#424242',  // Warna sekunder
+              accent: '#82B1FF',     // Warna aksen
+              error: '#FF5252',      // Warna error
+              info: '#2196F3',       // Warna informasi
+              success: '#4CAF50',    // Warna sukses
+              warning: '#FFC107',    // Warna peringatan
             },
           },
         }
-      }
+      },
+      components: [
+        "VLayout",
+        "VApp",
+        "VAppBar",
+        "VMain",
+        "VContainer",
+        "VRow",
+        "VCol",
+        "VSpacer",
+        "VFooter",
+        "VSheet",
+        "VNavigationDrawer",
+        "VList",
+        "VListItem",
+        "VTabs",
+        "VTab",
+        "VToolbar",
+        "VBreadcrumbs",
+        "VBottomNavigation",
+        "VBottomSheet",
+        "VMenu",
+        "VAlert",
+        "VAvatar",
+        "VBadge",
+        "VBanner",
+        "VCard",
+        "VCarousel",
+        "VChip",
+        "VExpansionPanel",
+        "VExpansionPanels",
+        "VImg",
+        "VTimeline",
+        "VTimelineItem",
+        "VForm",
+        "VTextField",
+        "VTextarea",
+        "VSelect",
+        "VAutocomplete",
+        "VCombobox",
+        "VCheckbox",
+        "VRadio",
+        "VSwitch",
+        "VSlider",
+        "VFileInput",
+        // "VDatePicker",
+        // "VColorPicker",
+        "VInput",
+        "VProgressCircular",
+        "VProgressLinear",
+        "VSnackbar",
+        "VDialog",
+        "VTooltip",
+        "VRating",
+        "VHover",
+        "VDivider",
+        "VSpeedDial",
+        "VStepper",
+        "VVirtualScroll",
+        "VSystemBar",]
     },
     moduleOptions: {
-      ssrClientHints: { prefersReducedMotion: true },
-      styles:'sass',
-      // importComposables: false
+      disableModernSassCompiler: true,
+      // disableVuetifyStyles: true
+      disableVuetifyStyles: true,
+      styles: {
+        configFile: './assets/css/components.scss'
+      },
+      ignoreDirectives: ['Touch', 'Mutate', 'Intersect'],
+      ssrClientHints: {
+        prefersReducedMotion: true,
+        // prefersColorScheme: true,
+        // prefersColorSchemeOptions:{
+        //   useBrowserThemeOnly: true
+        // }
+      }
     }
   },
-
-
+  css: ['@/assets/css/globals.scss'],
+  
   vitalizer: {
     // Remove the render-blocking entry CSS
-    disablePrefetchLinks: 'dynamicImports',
+    // disablePrefetchLinks: true,
     disableStylesheets: 'entry',
-    delayHydration: {
-      hydrateOnEvents: ['mousemove', 'scroll', 'keydown', 'click', 'touchstart', 'wheel'],
-      idleCallbackTimeout: 8000,
-      postIdleTimeout: 4000,
-    },
-
+    // delayHydration: {
+    //   hydrateOnEvents: ['mousemove', 'scroll', 'keydown', 'click', 'touchstart', 'wheel'],
+    //   idleCallbackTimeout: 8000,
+    //   postIdleTimeout: 4000
+    // }
   },
   googleFonts: {
     prefetch: true,
@@ -90,7 +143,6 @@ export default defineNuxtConfig({
       'Barlow Semi Condensed': [300, 400, 500, 700, 900]
     }
   },
-  features: { inlineStyles: false },
   app: {
     head: {
       htmlAttrs: { lang: "id" },
@@ -99,8 +151,8 @@ export default defineNuxtConfig({
         { rel: 'dns-prefetch', href: '//www.google-analytics.com' },
         { rel: 'preconnect', href: '//www.googletagmanager.com', crossorigin: 'anonymous' },
         { rel: 'preconnect', href: '//www.google-analytics.com', crossorigin: 'anonymous' },
-        // { rel: 'dns-prefetch', href: '//cdn.aresa-digital.com' },
-        // { rel: 'preconnect', href: '//cdn.aresa-digital.com', crossorigin: 'anonymous' },
+        { rel: 'dns-prefetch', href: '//cdn.perkasaracking.co.id' },
+        { rel: 'preconnect', href: '//cdn.perkasaracking.co.id', crossorigin: 'anonymous' },
         { rel: 'preload', as: 'fetch', href: '/_payload.json', type: 'application/json', crossorigin: 'anonymous' }
       ]
     }
@@ -109,8 +161,8 @@ export default defineNuxtConfig({
   schemaOrg: {
     identity: defineLocalBusiness({
       name: 'Perkasa Racking | TAP',
-      url: 'https://www.aresa-digital.com',
-      logo: '/images/logo/TAP2.webp',
+      url: 'https://www.perkasaracking.co.id',
+      logo: 'https://cdn.perkasaracking.co.id/images/logo/TAP2.webp',
       telephone: '+62 822-1020-3909',
       description: 'Perkasa Racking adalah penyedia rak heavy duty, medium duty, light duty, dan solusi penyimpanan industri berkualitas.',
       address: {
@@ -121,7 +173,7 @@ export default defineNuxtConfig({
       },
       currenciesAccepted: 'IDR',
       priceRange: 'IDR 1.000.000 - IDR 500.000.000',
-      image: ['/images/produk/heavy-duty/selective/selective-pallet-rack-TAP_3.webp'],
+      image: ['https://cdn.perkasaracking.co.id/images/produk/heavy-duty/selective/selective-pallet-rack-TAP_3.webp'],
       openingHoursSpecification: [
         { dayOfWeek: ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday'], opens: '08:00', closes: '17:00' },
         { dayOfWeek: ['Saturday'], opens: '08:00', closes: '12:00' }
@@ -134,7 +186,7 @@ export default defineNuxtConfig({
   },
 
   site: {
-    url: "https://www.aresa-digital.com",
+    url: "https://www.perkasaracking.co.id",
     indexable: true,
     robots: {
       blockNonSeoBots: true,
@@ -149,13 +201,21 @@ export default defineNuxtConfig({
   sitemap: {
     autoLastmod: true,
     enabled: true,
-    discoverImages: true
+    discoverImages: true,
+    // sources:['/api/artikel']
+
   },
 
   nitro: {
-    preset: "cloudflare-pages",
+    preset: 'cloudflare-pages',
     prerender: {
-      routes: [],
+      // routes: [
+      //   '/produk/heavy-duty/double-deep',
+      //   '/produk/pallet/wooden',
+      //   '/produk/heavy-duty',
+      //   '/produk/medium-duty',
+      //   '/produk/light-duty'
+      // ],
       autoSubfolderIndex: true,
       failOnError: true
     },
@@ -165,7 +225,7 @@ export default defineNuxtConfig({
       '/workbook-*.js': { headers: { 'Cache-Control': 'no-cache, no-store, must-revalidate' } },
       '/_nuxt/**': { headers: { 'Cache-Control': 'public, max-age=864000, s-maxage=31536000, immutable' } },
       '/_payload.json': { headers: { 'Cache-Control': 'public, max-age=864000, s-maxage=31536000, immutable' } },
-
+      '/**': { headers: { 'Cache-Control': 'public, s-maxage=600, stale-while-revalidate=300' } }
     },
 
     compressPublicAssets: true
@@ -173,11 +233,10 @@ export default defineNuxtConfig({
 
   experimental: { payloadExtraction: true },
 
-  css: ['@/assets/vuetify/settings.scss'],
-
   build: {
     transpile: ['vuetify']
   },
+  features: { inlineStyles: false },
 
   pwa: {
     registerType: 'autoUpdate',
@@ -195,25 +254,62 @@ export default defineNuxtConfig({
         { src: '/images/logo/tap-512x512.png', sizes: '512x512', type: 'image/png' }
       ]
     },
-
+    workbox: {
+      // swDest: 'public/sw.js',
+      cleanupOutdatedCaches: true,
+      clientsClaim: true, // Pastikan SW langsung aktif
+      skipWaiting: true,
+      globPatterns: ['*/.{js,css,html,png,jpg,webp,svg}'],
+      runtimeCaching: [
+        {
+          urlPattern: /^https:\/\/cdn\.aresa-digital\.com\/images\/.*$/,
+          handler: 'CacheFirst',
+          options: {
+            cacheName: 'cdn-images',
+            expiration: {
+              maxEntries: 100, // Simpan max 100 gambar
+              maxAgeSeconds: 60 * 60 * 24 * 30, // 30 hari
+            },
+          },
+        },
+        {
+          urlPattern: /^https:\/\/aresa-digital\.com\/.*\.(js|css|html|json)$/,
+          handler: 'StaleWhileRevalidate',
+          options: {
+            cacheName: 'site-content',
+            expiration: {
+              maxEntries: 50,
+              maxAgeSeconds: 60 * 60 * 24 * 7, // 7 hari
+            },
+          },
+        },
+        {
+          urlPattern: '/api/.*',
+          handler: 'NetworkFirst',
+          method: 'GET',
+          options: {
+            cacheName: 'site-content',
+            expiration: {
+              maxEntries: 50,
+              maxAgeSeconds: 60 * 60 * 24 * 7, // 7 hari
+            },
+          },
+        }
+      ]
+    }
   },
 
   vite: {
-    // css:{
-    //   preprocessorOptions:{
-    //     scss:{
-    //       additionalData: `@import "~@/assets/vuetify.scss";`
-    //     }
-    //   }
-    // },
- 
+    
+    resolve: {
+      alias: {
+        '@': fileURLToPath(new URL('./', import.meta.url))
+      }
+    },
+
     plugins: [
-      Inspect(),
       compression({ algorithm: 'gzip' }),
       compression({ algorithm: 'brotliCompress' }),
-      Components({ resolvers: [VuetifyResolver()] }),
-      lightningcss({ browserslist: ['> 1%', 'last 2 versions'], minify: true }),
-      WindiCSS()
     ],
     build: {
       
@@ -225,6 +321,7 @@ export default defineNuxtConfig({
       },
       chunkSizeWarningLimit: 1000,
       rollupOptions: {
+        treeshake: true,
         output: { manualChunks: { vuetify: ['vuetify'] } }
       }
     }

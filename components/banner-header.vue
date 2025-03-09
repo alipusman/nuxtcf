@@ -32,7 +32,7 @@
                     marginTop: $vuetify.display.smAndUp ? '19%' : '',
                   }"
                 >
-                  SOLUSI CERDAS
+                  SOLUSI CERDAS 1
                 </h1>
                 <h1
                   class="barlow3 custom-text"
